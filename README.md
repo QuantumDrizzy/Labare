@@ -10,10 +10,15 @@ numbers, or four polynomial coefficients over a finite ring. The hardware
 understands types, not just widths.
 
 ```bash
-cargo test          # 61 tests: 45 unit + 16 integration
+cargo test          # 73 tests, all green (2026-09-26)
 cargo clippy        # clean
 cargo run -- run programs/mandelbrot.uasm
 ```
+
+**Where it is going:** a processor programme, CPU → TPU → QPU. It is simulated and
+bare-metal throughout, with milestones that close or do not, like an aircraft that has to
+fly ([ADR-0001](docs/adr/ADR-0001-processor-programme.md)). What exists today is the first
+milestone, the CPU core.
 
 This is a research emulator, not silicon. There is no RTL and no timing model —
 what it has instead is a cost model and honest measurement. Where something falls
