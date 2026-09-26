@@ -145,8 +145,37 @@ structured state at a depth set by its TT rank, which is the known alternative t
 bucket-brigade memory for data with structure. QRAM would therefore enter as a fifth "=", at
 the loader, with the same kind of gate. It stays parked.
 
+### 10. The full circuit (2026-09-27): QuBLAR = LYTH = QGPU = QPU = Blaze, over RAM
+
+This amends §1 and "Not claimed": **U-QPU returns to the circuit.** It is simulated, but it is
+real as a piece: quantum instructions dispatched to a state-vector simulator on CUDA, gates
+checked against closed forms, and about 30 qubits in complex64 (2³⁰ × 8 B ≈ 8.6 GB of the
+16 GB), as ADR-0001 planned.
+
+| Piece | Role | Its refusal |
+|---|---|---|
+| QuBLAR | motor | what the data do not pay for does not exist |
+| LYTH | compiler | a kernel that cannot say what it costs does not compile |
+| QGPU | the tensor machine (MTLB + sm_120) | what is not bit-exact does not execute |
+| **QPU** | **qubits, simulated: state vector on CUDA** | **a gate that does not match its closed form does not run** |
+| Blaze | compressor, dual-band | if the contract does not pass, it does not compress |
+
+**QGPU = QPU**, the gate between them: an MPS on the QGPU is contracted into a state vector on
+the QPU (for small n), and a state vector is compressed back to an MPS by Blaze. Both
+directions are checked by fidelity. Blaze's MPS → circuit (Phase 5) is also how the q-sample
+of QuBLAR's posterior reaches the QPU as a prepared state (§8).
+
+**RAM, classical, under everything.** Not QRAM. RAM is the bus the whole circuit reads and
+writes:
+- LYTH declares every movement into and out of it (`dram -> reg`), and the cost is checked;
+- the QPU's state vector lives in VRAM, which is its hard wall (2ⁿ × 8 B);
+- Blaze's compression is what keeps the circuit inside RAM.
+
+QRAM stays parked. If it ever comes in, it is a loader gate at Blaze = output (§9), sitting
+on this same RAM.
+
 ## Not claimed
 
 - No quantum speed-up, and no quantum hardware.
 - No GPU throughput for MTLB: it is an emulator with a cost model.
-- QRAM and U-QPU are parked, not dropped.
+- QRAM is parked, not dropped. U-QPU is back in the circuit, simulated (§10).
