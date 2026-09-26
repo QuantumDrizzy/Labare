@@ -70,6 +70,80 @@ gate:
    tolerance, or a declined verdict that QuBLAR handles.
 3. **Two-qubit gates**: the nested split, as its own LYTH ADR.
 4. **Blaze ADR-0005**: the verdict API, so the gate in item 2 has something to check.
+5. **The Hadamard gate on the ghost bits** (§8): H^⊗n on QuBLAR's ROI posterior, core by core in
+   Blaze's TT, run as a LYTH kernel on both targets. Walsh correlations equal to the dense
+   check, and ranks unchanged.
+
+### 6. The pattern: each piece has one refusal
+
+| Piece | Its refusal |
+|---|---|
+| QuBLAR (motor) | **What the data do not pay for does not exist.** The evidence budget: at 2²⁵ muons it declined the void, because the data paid 303 nats against the prior's 421 |
+| LYTH (compiler) | **A kernel that cannot say what it costs does not compile** |
+| Blaze (compressor) | **If the contract does not pass, it does not compress**: it declines, or it is undecided, and it says so |
+| QGPU (machine) | **What is not bit-exact against the oracle does not execute** |
+
+### 7. Where QGPU comes from: QuBLAR × LYTH
+
+QGPU is not designed from hardware down. It is designed **from the workload up**:
+- QGPU's operations are the kernels QuBLAR needs, written in LYTH, measured, and only then
+  mapped to MTLB instructions and to PTX;
+- the kernels are the annealing sweep (local field and flip), the ROI marginal contraction,
+  and the Hadamard layer of §8;
+- LYTH verifies QuBLAR's data path;
+- Blaze is the output: it translates and compresses ghost bits into every form a consumer
+  needs.
+
+```
+QuBLAR ──(ghost bits)──▶ LYTH (verifies the kernels) ──▶ QGPU (runs them: PTX | MTLB)
+                                                               │
+                                                               ▼
+                                               Blaze: translates and compresses (the output)
+```
+
+### 8. "=" as gates: QuBLAR = LYTH = MTLB(QGPU) = Blaze
+
+The connections between the pieces are read as gates. This is a precise statement, not a
+metaphor, because the hand-off object is a tensor over bits (QuBLAR's posterior, stored as a
+TT by Blaze), and two facts hold for it. Both were checked numerically on 2026-09-27 with a
+6-bit posterior.
+
+1. **A Hadamard layer gives the ghost bits' correlations.** For a distribution p over n bits,
+   (H^⊗n p)_s = 2^(−n/2) · E[(−1)^(s·x)]: the Walsh spectrum, which is every parity
+   correlation between groups of voxels. It answers "which hidden voxels are uncertain
+   *together*".
+2. **The layer is free in the compressed form.** A gate on one mode rewrites one TT core and
+   leaves every rank unchanged. So H^⊗n is applied core by core, O(n·χ²), on Blaze's cores
+   and on `ZIPPER2` operands, and never on the 2ⁿ vector. LYTH already expresses the gate:
+   `hadamard.lyth` is bit-exact on PTX and MTLB.
+
+**Correlation is the entanglement analogue.** The TT rank at a cut is the Schmidt rank of that
+bipartition. In the check, two correlated ghost bits gave rank 2 at exactly their cut and
+rank 1 everywhere else, and the Hadamard layer preserved that. On the quantum band, the
+q-sample state |ψ⟩ = Σ √p(x) |x⟩, built from QuBLAR's posterior, is a real quantum state:
+- its entanglement across a cut is the correlation between those voxel groups;
+- Blaze's MPS → circuit synthesis (Phase 5, fidelity 1.0) turns it into a state-preparation
+  circuit;
+- measuring that circuit samples QuBLAR's branches.
+
+The ranks of √p are measured, never assumed equal to those of p.
+
+The gates, one per "=":
+
+| "=" | Gate | Check |
+|---|---|---|
+| QuBLAR = LYTH | contract gate: QuBLAR's kernels in LYTH, with cost declared | intensity matches, bit-exact against the host oracle |
+| LYTH = QGPU | compile gate: one source, two targets | bit-exact on PTX and MTLB |
+| QGPU = Blaze | tensor gate: int8 TT cores as `ZIPPER2` operands; the Hadamard layer applied core by core | matches Blaze's Python reference to the stated tolerance |
+| Blaze = output | dual-band gate: marginals, Walsh correlations, or the q-sample circuit | the verdict and its certificate (Blaze ADR-0005) |
+
+### 9. If QRAM is ever taken up
+
+QRAM's job is to load classical data into superposition. In this system that job already has
+a place: **the Blaze = output gate**. A state-preparation circuit from an MPS loads a
+structured state at a depth set by its TT rank, which is the known alternative to a
+bucket-brigade memory for data with structure. QRAM would therefore enter as a fifth "=", at
+the loader, with the same kind of gate. It stays parked.
 
 ## Not claimed
 
