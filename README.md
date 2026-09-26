@@ -20,6 +20,8 @@ bare-metal throughout, with milestones that close or do not, like an aircraft th
 fly ([ADR-0001](docs/adr/ADR-0001-processor-programme.md)). What exists today is the first
 milestone, the CPU core.
 
+![The processor programme: CPU measured, TPU and QPU planned, QGPU and QRAM hypothetical](docs/img/mtlb_programme.gif)
+
 This is a research emulator, not silicon. There is no RTL and no timing model —
 what it has instead is a cost model and honest measurement. Where something falls
 short it says so, in the code, marked `[KNOWN_LIMIT]`.
