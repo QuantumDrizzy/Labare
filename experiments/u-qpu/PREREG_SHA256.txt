@@ -1,0 +1,5 @@
+sha256=360177f0301c3e0f4c51ff4f0fe5cde7a9d81d89c4d84c278ee8900547d13210
+file=experiments/u-qpu/ADR-0003.prereg-frozen.md
+frozen_at=2026-09-29T01:28:54+02:00
+git_head=514f5cd8f10a7e961b062b7e20d0207bdbca4438
+note=frozen before any phase-1 code was written
