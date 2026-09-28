@@ -534,6 +534,9 @@ pub enum Instruction {
     QReset { q: u8 },                        // measure q and bring it to |0>
     QSeed  { rs: u8 },                       // seed the measurement RNG from lane 0 of rs
     QAmp   { rd: u8, rs: u8 },               // amplitude of basis index rs -> rd as complex (re, im)
+    // QGPU phase 1 (ADR-0004): the same instructions on a tensor backend
+    QMps   { n: u8, chi: u16 },              // fresh MPS register: n qubits, bond cap chi
+    QTrunc { rd: u8 },                       // fidelity bound prod(1 - eps) -> rd (f64); 1 for the state vector
 
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     // SYSTEM

@@ -245,8 +245,9 @@ impl Assembler {
 
         // A qubit index is an immediate in 0..MAX_QUBITS (ADR-0003).
         let qubit = |v: i64| -> Result<u8, String> {
-            if (0..crate::qpu::MAX_QUBITS as i64).contains(&v) { Ok(v as u8) }
-            else { Err(format!("line {}: qubit {} is outside 0..{}", line_no, v, crate::qpu::MAX_QUBITS)) }
+            // The widest backend (the MPS) sets the bound; each backend refuses its own at run time.
+            if (0..crate::mps::MAX_MPS_QUBITS as i64).contains(&v) { Ok(v as u8) }
+            else { Err(format!("line {}: qubit {} is outside 0..{}", line_no, v, crate::mps::MAX_MPS_QUBITS)) }
         };
 
         // Helper for memory operands like `8(sp)` or `0(a0)`
@@ -458,6 +459,16 @@ impl Assembler {
             "qreset" => Ok(Instruction::QReset { q: qubit(parse_imm(0, "qreset")?)? }),
             "qseed"  => Ok(Instruction::QSeed  { rs: parse_reg(0, "qseed")? }),
             "qamp"   => Ok(Instruction::QAmp   { rd: parse_reg(0, "qamp")?, rs: parse_reg(1, "qamp")? }),
+            "qmps" => {
+                let n = parse_imm(0, "qmps")?;
+                let chi = parse_imm(1, "qmps")?;
+                if !(1..=crate::mps::MAX_MPS_QUBITS as i64).contains(&n) || !(1..=crate::mps::MAX_CHI as i64).contains(&chi) {
+                    return Err(format!("line {}: qmps {}, {}: n must be 1..={} and chi 1..={}", line_no, n, chi,
+                        crate::mps::MAX_MPS_QUBITS, crate::mps::MAX_CHI));
+                }
+                Ok(Instruction::QMps { n: n as u8, chi: chi as u16 })
+            }
+            "qtrunc" => Ok(Instruction::QTrunc { rd: parse_reg(0, "qtrunc")? }),
 
             // ─── Post-Quantum Lattice Cryptography ───────────────────────────
             "ntt"     => Ok(Instruction::Ntt     { rd: parse_reg(0, "ntt")?, rs1: parse_reg(1, "ntt")? }),

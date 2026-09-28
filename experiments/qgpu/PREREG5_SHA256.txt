@@ -1,0 +1,4 @@
+sha256=42c242b093e54697b021cc73f9321a1eaafaa84d6b5660971a148b880c7eeeb0
+file=experiments/qgpu/ADR-0005.prereg-frozen.md
+frozen_at=2026-09-29T01:43:15+02:00
+note=frozen after ADR-0004 G3 failed its non-vacuity condition, before this test was written

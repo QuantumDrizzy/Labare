@@ -272,6 +272,8 @@ fn format_instruction(inst: &Instruction, pc: u64, symbols: &HashMap<u64, String
         Instruction::QReset { q }                => format!("qreset   {}", q),
         Instruction::QSeed { rs }                => format!("qseed    {}", reg_name(*rs)),
         Instruction::QAmp { rd, rs }             => format!("qamp     {}, {}", reg_name(*rd), reg_name(*rs)),
+        Instruction::QMps { n, chi }             => format!("qmps     {}, {}", n, chi),
+        Instruction::QTrunc { rd }               => format!("qtrunc   {}", reg_name(*rd)),
 
         Instruction::Ntt { rd, rs1 }             => format!("ntt      {}, {}", reg_name(*rd), reg_name(*rs1)),
         Instruction::InvNtt { rd, rs1 }          => format!("invntt   {}, {}", reg_name(*rd), reg_name(*rs1)),

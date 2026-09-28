@@ -139,7 +139,7 @@ pub struct Cpu {
     /// baseline the BHT/BTB is measured against. See `unibit bench`.
     pub predictor_enabled: bool,
     /// The quantum coprocessor's register, once `qalloc` has run (ADR-0003).
-    pub qpu: Option<crate::qpu::StateVector>,
+    pub qpu: Option<crate::qpu::Backend>,
     /// Seed for the next register's measurement RNG (`qseed`).
     pub qpu_seed: u64,
 }
@@ -168,7 +168,7 @@ impl Cpu {
     }
 
     /// The quantum register, or an error if no `qalloc` has run.
-    fn qpu_mut(&mut self) -> Result<&mut crate::qpu::StateVector, String> {
+    fn qpu_mut(&mut self) -> Result<&mut crate::qpu::Backend, String> {
         self.qpu.as_mut().ok_or_else(|| "quantum instruction before qalloc".to_string())
     }
 
@@ -664,7 +664,7 @@ impl Cpu {
             Instruction::QAlloc { n } => {
                 let mut sv = crate::qpu::StateVector::new(*n as u32)?;
                 sv.rng = crate::qpu::QRng::new(self.qpu_seed);
-                self.qpu = Some(sv);
+                self.qpu = Some(crate::qpu::Backend::StateVector(sv));
                 self.metrics.quantum_ops += 1;
                 self.pc = next_pc;
             }
@@ -700,10 +700,23 @@ impl Cpu {
                 self.metrics.quantum_ops += 1;
                 self.pc = next_pc;
             }
+            Instruction::QMps { n, chi } => {
+                let mut m = crate::mps::Mps::new(*n as u32, *chi as u32)?;
+                m.rng = crate::qpu::QRng::new(self.qpu_seed);
+                self.qpu = Some(crate::qpu::Backend::Mps(m));
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QTrunc { rd } => {
+                let f = self.qpu_mut()?.fid_bound();
+                self.set_reg(*rd, Reg256::from_u64(f.to_bits()));
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
             Instruction::QSeed { rs } => {
                 self.qpu_seed = self.get_reg(*rs).as_u64();
-                if let Some(sv) = self.qpu.as_mut() {
-                    sv.rng = crate::qpu::QRng::new(self.qpu_seed);
+                if let Some(b) = self.qpu.as_mut() {
+                    b.set_rng(crate::qpu::QRng::new(self.qpu_seed));
                 }
                 self.metrics.quantum_ops += 1;
                 self.pc = next_pc;

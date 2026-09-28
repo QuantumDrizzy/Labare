@@ -299,6 +299,67 @@ impl StateVector {
     }
 }
 
+/// The quantum register behind the instructions: the exact state vector
+/// (U-QPU, ADR-0003) or the tensor network (QGPU, ADR-0004). A program does
+/// not change; the allocation instruction picks the backend.
+#[derive(Clone, Debug)]
+pub enum Backend {
+    StateVector(StateVector),
+    Mps(crate::mps::Mps),
+}
+
+impl Backend {
+    pub fn apply1(&mut self, q: u32, m: &Mat2) -> Result<(), String> {
+        match self {
+            Backend::StateVector(s) => s.apply1(q, m),
+            Backend::Mps(s) => s.apply1(q, m),
+        }
+    }
+    pub fn cx(&mut self, c: u32, t: u32) -> Result<(), String> {
+        match self {
+            Backend::StateVector(s) => s.cx(c, t),
+            Backend::Mps(s) => s.cx(c, t),
+        }
+    }
+    pub fn cz(&mut self, a: u32, b: u32) -> Result<(), String> {
+        match self {
+            Backend::StateVector(s) => s.cz(a, b),
+            Backend::Mps(s) => s.cz(a, b),
+        }
+    }
+    pub fn measure(&mut self, q: u32) -> Result<u8, String> {
+        match self {
+            Backend::StateVector(s) => s.measure(q),
+            Backend::Mps(s) => s.measure(q),
+        }
+    }
+    pub fn reset(&mut self, q: u32) -> Result<u8, String> {
+        match self {
+            Backend::StateVector(s) => s.reset(q),
+            Backend::Mps(s) => s.reset(q),
+        }
+    }
+    pub fn amp(&self, index: u64) -> Result<C64, String> {
+        match self {
+            Backend::StateVector(s) => s.amp(index),
+            Backend::Mps(s) => s.amp(index),
+        }
+    }
+    pub fn set_rng(&mut self, rng: QRng) {
+        match self {
+            Backend::StateVector(s) => s.rng = rng,
+            Backend::Mps(s) => s.rng = rng,
+        }
+    }
+    /// The fidelity bound: 1 for the exact backend, prod(1 - eps) for the MPS.
+    pub fn fid_bound(&self) -> f64 {
+        match self {
+            Backend::StateVector(_) => 1.0,
+            Backend::Mps(s) => s.fid_bound,
+        }
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

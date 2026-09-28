@@ -149,6 +149,9 @@ pub mod op {
     pub const QRESET:    u8 = 97;
     pub const QSEED:     u8 = 98;
     pub const QAMP:      u8 = 99;
+    // QGPU phase 1 (ADR-0004)
+    pub const QMPS:      u8 = 100;
+    pub const QTRUNC:    u8 = 101;
     pub const ECALL:     u8 = 75;
     pub const HALT:      u8 = 76;
     pub const NOP:       u8 = 77;
@@ -311,6 +314,8 @@ pub fn encode_instruction(inst: &Instruction) -> [u8; INSTRUCTION_BYTES] {
         Instruction::QReset { q } => Fields { op: op::QRESET, rd: 0, rs1: *q, rs2: 0, aux: 0, imm: 0 },
         Instruction::QSeed { rs } => Fields { op: op::QSEED, rd: 0, rs1: *rs, rs2: 0, aux: 0, imm: 0 },
         Instruction::QAmp { rd, rs } => Fields { op: op::QAMP, rd: *rd, rs1: *rs, rs2: 0, aux: 0, imm: 0 },
+        Instruction::QMps { n, chi } => Fields { op: op::QMPS, rd: 0, rs1: *n, rs2: 0, aux: *chi as u32, imm: 0 },
+        Instruction::QTrunc { rd } => Fields { op: op::QTRUNC, rd: *rd, rs1: 0, rs2: 0, aux: 0, imm: 0 },
         Instruction::CAdd { rd, rs1, rs2 } => Fields { op: op::CADD, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
         Instruction::CSub { rd, rs1, rs2 } => Fields { op: op::CSUB, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
         Instruction::CMul { rd, rs1, rs2 } => Fields { op: op::CMUL, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
@@ -463,6 +468,8 @@ pub fn decode_instruction(bytes: &[u8]) -> Result<Instruction, String> {
         op::QRESET => Instruction::QReset { q: f.rs1 },
         op::QSEED => Instruction::QSeed { rs: f.rs1 },
         op::QAMP => Instruction::QAmp { rd: f.rd, rs: f.rs1 },
+        op::QMPS => Instruction::QMps { n: f.rs1, chi: f.aux as u16 },
+        op::QTRUNC => Instruction::QTrunc { rd: f.rd },
         other => return Err(format!("unknown opcode 0x{:02x}", other)),
     })
 }
