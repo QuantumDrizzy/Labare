@@ -243,6 +243,12 @@ impl Assembler {
                 .and_then(|&s| parse_immediate(s, &self.symbols, current_pc))
         };
 
+        // A qubit index is an immediate in 0..MAX_QUBITS (ADR-0003).
+        let qubit = |v: i64| -> Result<u8, String> {
+            if (0..crate::qpu::MAX_QUBITS as i64).contains(&v) { Ok(v as u8) }
+            else { Err(format!("line {}: qubit {} is outside 0..{}", line_no, v, crate::qpu::MAX_QUBITS)) }
+        };
+
         // Helper for memory operands like `8(sp)` or `0(a0)`
         let parse_mem_op = |idx: usize| -> Result<(u8, i64), String> {
             let s = args.get(idx).ok_or_else(|| format!("line {}: missing memory operand", line_no))?;
@@ -427,6 +433,31 @@ impl Assembler {
             "hamming" => Ok(Instruction::Hamming { rd: parse_reg(0, "hamming")?, rs1: parse_reg(1, "hamming")?, rs2: parse_reg(2, "hamming")? }),
             "popcnt"  => Ok(Instruction::PopCnt  { rd: parse_reg(0, "popcnt")?,  rs1: parse_reg(1, "popcnt")? }),
             "qrand"   => Ok(Instruction::QRand   { rd: parse_reg(0, "qrand")? }),
+
+            // ─── Quantum coprocessor (U-QPU, ADR-0003). Qubits are immediates. ───
+            "qalloc" => {
+                let n = parse_imm(0, "qalloc")?;
+                if !(1..=crate::qpu::MAX_QUBITS as i64).contains(&n) {
+                    return Err(format!("line {}: qalloc: {} qubits is outside 1..={}", line_no, n, crate::qpu::MAX_QUBITS));
+                }
+                Ok(Instruction::QAlloc { n: n as u8 })
+            }
+            m if m.starts_with("qg1.") => {
+                let gate = crate::qpu::QGate::from_name(&m[4..])
+                    .ok_or_else(|| format!("line {}: unknown one-qubit gate `{}`", line_no, &m[4..]))?;
+                Ok(Instruction::QG1 { gate, q: qubit(parse_imm(0, "qg1")?)? })
+            }
+            m if m.starts_with("qrot.") => {
+                let axis = crate::qpu::QAxis::from_name(&m[5..])
+                    .ok_or_else(|| format!("line {}: unknown rotation axis `{}`", line_no, &m[5..]))?;
+                Ok(Instruction::QRot { axis, q: qubit(parse_imm(0, "qrot")?)?, rs: parse_reg(1, "qrot")? })
+            }
+            "qcx"    => Ok(Instruction::QCx    { c: qubit(parse_imm(0, "qcx")?)?, t: qubit(parse_imm(1, "qcx")?)? }),
+            "qcz"    => Ok(Instruction::QCz    { a: qubit(parse_imm(0, "qcz")?)?, b: qubit(parse_imm(1, "qcz")?)? }),
+            "qmeas"  => Ok(Instruction::QMeas  { rd: parse_reg(0, "qmeas")?, q: qubit(parse_imm(1, "qmeas")?)? }),
+            "qreset" => Ok(Instruction::QReset { q: qubit(parse_imm(0, "qreset")?)? }),
+            "qseed"  => Ok(Instruction::QSeed  { rs: parse_reg(0, "qseed")? }),
+            "qamp"   => Ok(Instruction::QAmp   { rd: parse_reg(0, "qamp")?, rs: parse_reg(1, "qamp")? }),
 
             // ─── Post-Quantum Lattice Cryptography ───────────────────────────
             "ntt"     => Ok(Instruction::Ntt     { rd: parse_reg(0, "ntt")?, rs1: parse_reg(1, "ntt")? }),

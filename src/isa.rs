@@ -17,6 +17,8 @@
 
 use std::fmt;
 
+use crate::qpu::{QAxis, QGate};
+
 // ─── Physical Constants (for energy modeling) ────────────────────────────────
 
 /// Boltzmann constant (J/K)
@@ -516,6 +518,22 @@ pub enum Instruction {
     CConj { rd: u8, rs1: u8 },           // complex conjugate (negate imag parts)
     CNorm { rd: u8, rs1: u8 },           // |z|² → real part of each pair
     CMag  { rd: u8, rs1: u8 },           // |z| → real part (sqrt of norm)
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // QUANTUM COPROCESSOR (U-QPU, simulated; ADR-0003)
+    // Qubit indices are immediates. A register of up to 24 qubits lives in the
+    // backend (phase 1: an exact host state vector). Feed-forward is ordinary
+    // control flow: QMEAS writes a register, a branch conditions what follows.
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    QAlloc { n: u8 },                        // fresh n-qubit register in |0..0>
+    QG1    { gate: QGate, q: u8 },           // fixed one-qubit gate on q
+    QRot   { axis: QAxis, q: u8, rs: u8 },   // R_axis(theta) on q, theta = f64 in lane 0 of rs
+    QCx    { c: u8, t: u8 },                 // CNOT
+    QCz    { a: u8, b: u8 },                 // CZ
+    QMeas  { rd: u8, q: u8 },                // Z measurement of q into rd (0/1); collapses
+    QReset { q: u8 },                        // measure q and bring it to |0>
+    QSeed  { rs: u8 },                       // seed the measurement RNG from lane 0 of rs
+    QAmp   { rd: u8, rs: u8 },               // amplitude of basis index rs -> rd as complex (re, im)
 
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     // SYSTEM

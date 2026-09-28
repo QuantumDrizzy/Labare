@@ -85,6 +85,22 @@ The ISA gets a quantum coprocessor, simulated.
   circuit re-run, and that is reported.
 - If F3 fails on arithmetic, that is a backend bug, and phase 2 does not start until it is fixed.
 
-## 6. Results
+## 6. Results (2026-09-29, first run; sections 1–5 unchanged)
 
-(filled after the run)
+All six falsifiers hold.
+
+| | result | bound |
+|---|---|---|
+| **F1** closed forms | 8 fixed gates and 3 axes × 8 angles match hand-typed textbook matrices on both basis states; unitary | 1e-15 |
+| **F2** placement | every gate on every qubit, n = 1..8, equals the dense I⊗…⊗U⊗…⊗I construction; CX and CZ on every ordered pair, n ≤ 5, equal their definitions | 1e-14 |
+| **F3** independent oracle | 200 random circuits (n 1..12, depth 40), **assembled, encoded to the object format and back, run on the CPU, read out through `qamp` + `sq`**: 140,510 amplitudes against Qiskit 2.2.3 `Statevector`, worst \|Δ\| = **1.33e-15** (per-circuit record in `experiments/u-qpu/f3_result.txt`) | 1e-12 |
+| **F4** statistics | Bell pair, 100,000 fresh shots: P(00) = 0.50105 (0.66 σ), P(01) + P(10) = 0; the seed replays the same sequence exactly | 4 σ, exact |
+| **F5** feed-forward | `programs/qpu_teleport.uasm`, `qmeas` and `beq`-conditioned X/Z: 1,000 Haar states, worst \|1 − F\| = **2.9e-15**; all four correction branches taken (285 / 255 / 228 / 232) | 1e-12 |
+| **F6** no regressions | 79/79 tests (73 before + 6), `cargo clippy --all-targets` clean | — |
+
+**Is F3 able to fail? Checked outside the rules.** A mutant with `qcx` control and target
+swapped failed on the first circuit (\|Δ\| = 0.48). The oracle distinguishes a wrong gate.
+
+**Declared once more:** phase 1 is a reference, not a speed claim. It has no noise and no
+timing. Phase 2 (durations and feed-forward latency against coherence, checked on a real
+Heron QPU) needs its own ADR and the user's IBM Quantum account.

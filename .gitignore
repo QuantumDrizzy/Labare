@@ -2,3 +2,7 @@
 **/*.rs.bk
 *.pdb
 *.ubo
+
+# U-QPU F3 oracle states: regenerate with python tools/qpu_oracle.py (ADR-0003)
+experiments/u-qpu/f3_qiskit.json
+experiments/u-qpu/f3_qiskit.txt

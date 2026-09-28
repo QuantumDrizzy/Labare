@@ -10,7 +10,7 @@ numbers, or four polynomial coefficients over a finite ring. The hardware
 understands types, not just widths.
 
 ```bash
-cargo test          # 73 tests, all green (2026-09-26)
+cargo test          # 79 tests, all green (2026-09-29)
 cargo clippy        # clean
 cargo run -- run programs/mandelbrot.uasm
 ```

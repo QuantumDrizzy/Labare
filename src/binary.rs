@@ -139,6 +139,16 @@ pub mod op {
     pub const VFMAX:     u8 = 88;
     pub const VFMIN:     u8 = 89;
     pub const VFREDUCE:  u8 = 90;
+    // U-QPU phase 1 (ADR-0003)
+    pub const QALLOC:    u8 = 91;
+    pub const QG1:       u8 = 92;
+    pub const QROT:      u8 = 93;
+    pub const QCX:       u8 = 94;
+    pub const QCZ:       u8 = 95;
+    pub const QMEAS:     u8 = 96;
+    pub const QRESET:    u8 = 97;
+    pub const QSEED:     u8 = 98;
+    pub const QAMP:      u8 = 99;
     pub const ECALL:     u8 = 75;
     pub const HALT:      u8 = 76;
     pub const NOP:       u8 = 77;
@@ -292,6 +302,15 @@ pub fn encode_instruction(inst: &Instruction) -> [u8; INSTRUCTION_BYTES] {
         Instruction::Hamming { rd, rs1, rs2 } => Fields { op: op::HAMMING, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
         Instruction::PopCnt { rd, rs1 } => Fields { op: op::POPCNT, rd: *rd, rs1: *rs1, rs2: 0, aux: 0, imm: 0 },
         Instruction::QRand { rd } => Fields { op: op::QRAND, rd: *rd, rs1: 0, rs2: 0, aux: 0, imm: 0 },
+        Instruction::QAlloc { n } => Fields { op: op::QALLOC, rd: 0, rs1: 0, rs2: 0, aux: *n as u32, imm: 0 },
+        Instruction::QG1 { gate, q } => Fields { op: op::QG1, rd: 0, rs1: *q, rs2: 0, aux: gate.code() as u32, imm: 0 },
+        Instruction::QRot { axis, q, rs } => Fields { op: op::QROT, rd: 0, rs1: *q, rs2: *rs, aux: axis.code() as u32, imm: 0 },
+        Instruction::QCx { c, t } => Fields { op: op::QCX, rd: 0, rs1: *c, rs2: *t, aux: 0, imm: 0 },
+        Instruction::QCz { a, b } => Fields { op: op::QCZ, rd: 0, rs1: *a, rs2: *b, aux: 0, imm: 0 },
+        Instruction::QMeas { rd, q } => Fields { op: op::QMEAS, rd: *rd, rs1: *q, rs2: 0, aux: 0, imm: 0 },
+        Instruction::QReset { q } => Fields { op: op::QRESET, rd: 0, rs1: *q, rs2: 0, aux: 0, imm: 0 },
+        Instruction::QSeed { rs } => Fields { op: op::QSEED, rd: 0, rs1: *rs, rs2: 0, aux: 0, imm: 0 },
+        Instruction::QAmp { rd, rs } => Fields { op: op::QAMP, rd: *rd, rs1: *rs, rs2: 0, aux: 0, imm: 0 },
         Instruction::CAdd { rd, rs1, rs2 } => Fields { op: op::CADD, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
         Instruction::CSub { rd, rs1, rs2 } => Fields { op: op::CSUB, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
         Instruction::CMul { rd, rs1, rs2 } => Fields { op: op::CMUL, rd: *rd, rs1: *rs1, rs2: *rs2, aux: 0, imm: 0 },
@@ -428,6 +447,22 @@ pub fn decode_instruction(bytes: &[u8]) -> Result<Instruction, String> {
         op::CSRW => Instruction::CsrW { csr: f.aux as u16, rs1: f.rs1 },
         op::MV => Instruction::Mv { rd: f.rd, rs1: f.rs1 },
         op::LI => Instruction::Li { rd: f.rd, imm: f.imm },
+        op::QALLOC => Instruction::QAlloc { n: f.aux as u8 },
+        op::QG1 => Instruction::QG1 {
+            gate: crate::qpu::QGate::from_code(f.aux as u8).ok_or_else(|| format!("invalid gate code {}", f.aux))?,
+            q: f.rs1,
+        },
+        op::QROT => Instruction::QRot {
+            axis: crate::qpu::QAxis::from_code(f.aux as u8).ok_or_else(|| format!("invalid axis code {}", f.aux))?,
+            q: f.rs1,
+            rs: f.rs2,
+        },
+        op::QCX => Instruction::QCx { c: f.rs1, t: f.rs2 },
+        op::QCZ => Instruction::QCz { a: f.rs1, b: f.rs2 },
+        op::QMEAS => Instruction::QMeas { rd: f.rd, q: f.rs1 },
+        op::QRESET => Instruction::QReset { q: f.rs1 },
+        op::QSEED => Instruction::QSeed { rs: f.rs1 },
+        op::QAMP => Instruction::QAmp { rd: f.rd, rs: f.rs1 },
         other => return Err(format!("unknown opcode 0x{:02x}", other)),
     })
 }

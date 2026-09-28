@@ -1,0 +1,49 @@
+; ============================================================================
+; Unibit — quantum teleportation with feed-forward, on the U-QPU (ADR-0003 F5)
+; ============================================================================
+;
+; A qubit state moves from qubit 0 to qubit 2 using one Bell pair and two
+; classical bits. The two bits are measured mid-circuit with QMEAS and the
+; corrections on qubit 2 are ordinary branches: this is what a dynamic circuit
+; is, and it is why the classical side of a QPU is a latency problem (phase 2).
+;
+; Inputs (set by the caller in registers):
+;   a0 = theta, a1 = phi (f64 bits): the state Ry(theta) then Rz(phi) on q0
+;   a2 = measurement seed
+;   a3 = address to write the 8 final amplitudes to (32 B each, re/im in lanes 0/1)
+;
+; Expected: qubit 2 carries the input state exactly, whatever the two
+; measurement outcomes were.
+
+        .text
+        .global _start
+_start:
+        qseed   a2
+        qalloc  3
+
+        qrot.y  0, a0              ; the state to send
+        qrot.z  0, a1
+
+        qg1.h   1                  ; Bell pair on 1-2
+        qcx     1, 2
+
+        qcx     0, 1               ; rotate the Bell basis onto Z
+        qg1.h   0
+        qmeas   t0, 0              ; two classical bits, mid-circuit
+        qmeas   t1, 1
+
+        beq     t1, zero, no_x     ; feed-forward: X if the second bit is 1
+        qg1.x   2
+no_x:
+        beq     t0, zero, no_z     ; Z if the first bit is 1
+        qg1.z   2
+no_z:
+        li      t0, 0              ; read the whole state back through the ISA
+        li      t1, 8
+readout:
+        qamp    t2, t0
+        sq      t2, 0(a3)
+        addi    a3, a3, 32
+        addi    t0, t0, 1
+        blt     t0, t1, readout
+        halt

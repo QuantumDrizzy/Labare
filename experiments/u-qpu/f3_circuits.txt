@@ -1,0 +1,8200 @@
+circuit 7 40
+rx 5 3ffd376ace360f34
+tdg 1
+t 1
+ry 2 40083ea97e42ad1e
+x 4
+h 2
+rx 4 400dc58f55e3a3a7
+tdg 3
+rx 3 4010e786ab7bea0a
+cz 5 0
+y 3
+t 1
+y 2
+rz 2 4008c4469dc120af
+y 6
+h 1
+rx 6 400b586fd223663e
+tdg 5
+cx 5 2
+cx 2 1
+t 3
+z 5
+h 4
+sdg 0
+t 2
+cz 4 6
+z 2
+t 5
+cz 5 3
+cx 3 1
+h 1
+y 1
+cx 4 1
+x 0
+ry 3 3fdd7790228353fe
+y 2
+sdg 1
+rz 6 40181b3258add0b5
+y 1
+s 5
+circuit 7 40
+rx 4 3ffe8e7292f9f34c
+cz 4 6
+y 4
+h 0
+cx 4 3
+y 5
+cz 6 2
+rx 3 401314000f25a827
+rx 0 400db2fb0db0047b
+y 6
+h 2
+rx 1 3fe9162588006eb1
+cx 3 2
+s 3
+rz 6 3ff9710c9df77586
+sdg 6
+y 3
+x 5
+t 6
+x 0
+h 0
+cz 1 4
+sdg 0
+rx 6 401385283473fa0d
+x 5
+sdg 2
+tdg 1
+t 6
+s 3
+z 1
+cz 2 1
+sdg 1
+ry 0 3f80d3091602f539
+cz 2 1
+z 4
+ry 5 3ff1c2bcc18a2c44
+z 1
+sdg 6
+rz 2 400bdc4bbf136530
+y 5
+circuit 2 40
+y 0
+cx 1 0
+h 0
+z 0
+tdg 0
+y 1
+y 0
+cz 0 1
+rx 0 400fd2db33d4c291
+x 1
+cx 1 0
+rz 1 4001d327d69296d4
+sdg 1
+h 0
+x 1
+h 0
+s 0
+cz 0 1
+cx 1 0
+cz 0 1
+y 0
+tdg 1
+tdg 1
+z 0
+tdg 1
+y 1
+y 0
+sdg 0
+x 0
+s 0
+s 1
+cx 1 0
+ry 1 3fb6c92fc5aa2fe4
+t 0
+cz 1 0
+cx 1 0
+sdg 1
+z 1
+rz 1 4016d028fc191177
+h 1
+circuit 4 40
+h 3
+sdg 2
+x 3
+h 3
+ry 1 3ffeb87b0504374b
+s 3
+x 0
+s 3
+y 2
+y 3
+cz 3 2
+sdg 3
+h 3
+t 1
+rz 0 400d4973d73cb471
+cx 3 0
+h 2
+ry 3 40020ddae13ace1f
+rx 0 401585ffb89fb490
+x 0
+h 3
+cz 1 2
+ry 2 3fec6b2da055d368
+cx 0 3
+x 1
+sdg 2
+h 1
+z 1
+cz 1 2
+rz 0 401106e558e3bb02
+cx 0 2
+ry 1 400b5d1dbe485ffb
+rx 3 4004336ef76f4b30
+cx 3 0
+sdg 1
+rz 3 4015a6f656bba760
+tdg 2
+x 1
+x 1
+cx 2 1
+circuit 1 40
+tdg 0
+rz 0 4018bf91f3d7e41b
+t 0
+t 0
+t 0
+ry 0 40156e5822624f73
+x 0
+y 0
+rz 0 3ffdf21aa71c091b
+rz 0 40104aca2107b91c
+ry 0 3ff71ca0e604770d
+rz 0 4018d04d41216ce1
+rx 0 3ffc5e0d6c1bfbe0
+z 0
+ry 0 401174565c1efdce
+h 0
+sdg 0
+tdg 0
+t 0
+y 0
+x 0
+rx 0 400dd10f8a3473fd
+sdg 0
+rx 0 4005909864082074
+tdg 0
+y 0
+y 0
+rx 0 3fe8b0b822e4e361
+tdg 0
+s 0
+sdg 0
+tdg 0
+y 0
+ry 0 3ff2137cf02cb71e
+y 0
+sdg 0
+rx 0 4018d1a2ea8942da
+y 0
+s 0
+s 0
+circuit 10 40
+y 7
+z 0
+t 5
+t 8
+y 2
+cx 0 6
+z 2
+sdg 2
+cx 7 2
+y 7
+s 0
+x 9
+cz 9 0
+cz 7 8
+cz 7 3
+rz 7 400d3c754f4cd6e2
+x 3
+rx 0 40169a8f63feec39
+rx 9 400f8100b7b57521
+sdg 4
+h 7
+t 1
+cx 3 5
+x 7
+t 3
+tdg 8
+y 7
+rx 5 40187238980dd34f
+sdg 9
+ry 8 401659fd6fe74855
+rx 1 400f90bb98d4fa80
+z 6
+cx 2 5
+rx 2 3fff2196929e19c3
+z 8
+x 4
+h 7
+cz 1 9
+ry 8 3fbf0647e94dfe85
+rx 5 4001ca23997953b8
+circuit 5 40
+x 2
+sdg 1
+x 3
+t 2
+cz 1 4
+x 1
+y 2
+h 1
+rz 2 40129020ef76a10f
+ry 0 40048bf02bbb8a6b
+s 3
+rz 1 4010ddcee6b8f799
+tdg 3
+t 1
+tdg 4
+x 4
+x 2
+ry 3 3feb0c7cc1cf8ecd
+t 4
+y 2
+cz 0 2
+z 3
+rx 0 40139e31f8948ad9
+h 0
+sdg 1
+sdg 0
+s 1
+tdg 1
+cz 1 3
+tdg 0
+sdg 1
+h 4
+x 3
+rz 0 3f948c8eb562cfbd
+ry 2 40095090c1254ce1
+cx 3 1
+z 3
+ry 4 40173987c887cfcd
+sdg 4
+z 2
+circuit 10 40
+rx 7 40083526584367e0
+t 2
+cz 2 5
+s 9
+rz 3 4000732db9a484e5
+cz 7 9
+x 3
+ry 1 4014f9445db25646
+t 1
+s 5
+ry 6 4002438e90c65282
+ry 4 400303141dea3a5a
+t 3
+rz 1 40065918d2e6a90f
+s 7
+h 3
+y 2
+x 0
+ry 3 401659c6b5ad8533
+h 7
+h 4
+h 8
+x 8
+y 8
+ry 2 40183b06934306e8
+z 0
+s 6
+ry 0 401837a705fe7cba
+rx 7 4015fc9020f753ab
+s 4
+z 5
+cx 3 2
+z 2
+tdg 2
+cx 7 9
+cz 7 5
+s 0
+rx 4 3ff94afd28e62715
+t 0
+cz 7 8
+circuit 6 40
+y 4
+cx 1 3
+rz 1 400e48911f7445cc
+z 2
+ry 0 4013bdd09ff2383b
+rz 0 3fd0a150fca40c8c
+y 5
+tdg 1
+ry 0 4008fcdd1af312f8
+ry 2 40059dddcfd39426
+y 5
+rz 1 3ffb6c4e0f7ceb34
+s 4
+ry 3 4001bc5f3ba8df80
+cz 1 2
+h 0
+cz 3 5
+ry 1 3ff7ce342fe2c27f
+z 0
+y 4
+sdg 5
+h 2
+cx 1 3
+rx 4 3fc641ab1e9a15f2
+h 1
+rx 3 3fe38f2ef2cfbde6
+x 4
+rx 5 3ffd80b1deebc700
+x 1
+cz 4 1
+z 2
+z 1
+y 3
+h 1
+cx 0 3
+sdg 2
+sdg 5
+y 3
+y 3
+sdg 2
+circuit 4 40
+tdg 2
+sdg 3
+tdg 0
+z 1
+tdg 1
+ry 3 40019aa46874d63e
+rx 2 400ca8a1e821caf2
+h 2
+cx 0 1
+ry 1 400237f51380381a
+rz 1 4009c10d3203202b
+rz 3 3ff4cdb975f5a0f7
+cz 3 0
+s 3
+t 3
+cx 1 3
+x 0
+cz 0 1
+rx 0 40187c8ebbc04e47
+t 1
+ry 3 4000c3cffc869afa
+ry 3 40156d6becdfb472
+cz 3 1
+t 0
+t 1
+cz 1 0
+s 2
+tdg 2
+cz 3 0
+h 0
+tdg 0
+rx 2 40157e551dfcba43
+y 1
+cz 1 0
+rz 2 4002e59a99839655
+t 1
+rz 3 4011c55e71fdfbba
+h 0
+z 3
+t 2
+circuit 8 40
+t 7
+rz 3 4005d92205034f8c
+tdg 1
+ry 6 3ff6719561c58964
+rx 4 3ff73560ff186f21
+y 5
+rz 7 4011e11d9246dc11
+s 0
+cz 7 2
+cz 1 6
+x 2
+rx 2 400681efbaf51479
+rz 7 3fcdacc5e721a8f4
+y 4
+ry 6 4017edfe19073113
+rz 0 4016f058793fbddc
+x 2
+z 1
+ry 2 3ff74a37fc7b85d4
+s 5
+y 7
+z 3
+y 5
+z 0
+t 7
+cz 6 3
+h 0
+s 5
+s 5
+rx 1 3ff623df4abad27e
+x 3
+y 1
+z 5
+y 2
+y 0
+cz 7 5
+sdg 1
+s 0
+cz 6 0
+x 1
+circuit 3 40
+z 2
+rz 2 400412fb259d7d1b
+cx 1 0
+h 0
+ry 2 3ff8f3931c141ec7
+x 1
+t 2
+tdg 2
+tdg 1
+z 0
+rz 2 4011aabd811cc677
+ry 0 40183cfa15a9953f
+tdg 2
+tdg 2
+t 2
+x 0
+tdg 1
+t 1
+tdg 1
+s 0
+ry 0 3fe61f51306023e1
+h 1
+rx 0 400e6187158c3bc1
+rx 0 40160fe59e01df69
+s 2
+rz 1 4003b2e8ba887c4f
+rz 0 4007117c4623d59a
+ry 1 401599b7cb278372
+sdg 1
+rz 2 400d1ca11072811a
+tdg 2
+z 2
+h 2
+cx 0 2
+y 2
+sdg 1
+sdg 1
+cz 1 0
+x 1
+s 0
+circuit 12 40
+y 8
+t 4
+h 5
+t 5
+ry 4 3fef835ff25f81b6
+z 5
+t 3
+rx 0 40117506c4797abd
+cz 10 4
+sdg 7
+rz 11 401078e8afdcc76e
+z 11
+tdg 6
+tdg 6
+x 6
+tdg 0
+s 0
+z 7
+y 9
+rx 3 4014f26366727ca5
+y 10
+ry 6 3ff91cedccea52ad
+x 9
+tdg 5
+s 10
+z 6
+y 7
+h 9
+z 3
+y 4
+cz 1 2
+sdg 5
+rz 2 4017d625da198888
+cz 5 9
+s 6
+h 11
+rx 6 3ff53727c506d173
+tdg 10
+x 0
+ry 7 3feb14da73516965
+circuit 6 40
+ry 0 40074855a4d39461
+rx 4 3f93e51b2b205e4e
+tdg 0
+tdg 5
+x 3
+tdg 2
+sdg 0
+y 1
+y 1
+t 2
+rx 5 3ff4eac2535922f5
+rx 5 4000a70f046b7afa
+cx 3 5
+rz 1 40111a4e5808a959
+sdg 5
+sdg 4
+cx 4 1
+z 4
+rx 1 40156fb3b5ed04ae
+s 1
+s 1
+x 2
+rx 2 400d2c8f29a5d84c
+z 1
+y 5
+h 0
+rx 2 40161671b5bbc2e5
+sdg 3
+cx 4 0
+sdg 3
+t 0
+rz 5 3face646357f80ef
+tdg 4
+z 5
+z 4
+t 3
+x 4
+cx 3 1
+sdg 0
+s 0
+circuit 12 40
+sdg 11
+ry 7 400b59e7ca31df40
+cx 4 9
+sdg 3
+rx 2 4011d8dbebf8f578
+t 5
+h 3
+cx 2 3
+sdg 4
+cx 5 7
+x 0
+ry 10 4009c75b81e14428
+tdg 3
+y 0
+z 6
+rz 5 4003329567d8d6cc
+t 1
+cx 10 0
+h 0
+s 11
+sdg 10
+sdg 6
+s 5
+sdg 9
+rz 8 400a165c34500a73
+z 2
+rx 2 4018fadc91af0dea
+y 2
+tdg 3
+cz 9 2
+h 6
+t 11
+ry 6 40123d9b73157d57
+t 4
+s 6
+rx 11 4017c5c69416482b
+cx 8 5
+h 1
+rz 10 400e62c90446202f
+tdg 2
+circuit 10 40
+s 7
+cx 0 6
+y 0
+sdg 8
+s 2
+ry 6 4001df845e575080
+rx 8 400fbad8a746611b
+cx 4 5
+tdg 4
+sdg 3
+rz 1 40182a91c42c07fa
+h 2
+cz 2 0
+h 0
+y 4
+rx 9 40078c4430d692d9
+x 9
+rz 1 4018971a3b3fde69
+z 7
+y 8
+tdg 3
+t 0
+t 4
+tdg 6
+h 4
+cz 1 4
+h 3
+ry 4 3fee547f3e3a7ece
+h 8
+z 5
+tdg 8
+x 6
+ry 8 40116fccbbcc2270
+rx 9 40100010dcc369ec
+cz 8 7
+rz 1 3ff54074792b25a5
+rz 9 40095882a550bbe1
+ry 2 3fe69c8f75b637cd
+rx 5 4009ba93d8eb0998
+z 8
+circuit 2 40
+tdg 1
+rx 0 3feabf427d08ea3e
+rz 0 400b076ffb0b3b2e
+rx 1 3fcfcc276ef67a91
+sdg 1
+ry 0 40056ebc7805a893
+ry 0 3fe726dc3e4b76e7
+z 1
+ry 0 3ff726c67f90e939
+sdg 0
+y 0
+tdg 1
+tdg 0
+rz 1 3fe6f1788de788de
+ry 0 3ff106462f83fc4c
+z 1
+y 1
+s 0
+cx 0 1
+cz 1 0
+s 0
+y 0
+s 0
+x 0
+tdg 0
+rx 1 4003285e9415ee20
+z 0
+cx 0 1
+x 1
+rx 1 400b6a66af1da595
+y 1
+h 0
+x 0
+sdg 0
+tdg 1
+z 1
+y 0
+z 0
+x 1
+h 1
+circuit 5 40
+ry 4 3ffd110f0d9e4793
+z 0
+s 4
+ry 4 40037ce0d082aea6
+x 4
+rx 3 401858f85a8d8f34
+t 3
+rz 1 3fdc0b526641fcb9
+x 2
+cz 1 0
+h 4
+rz 3 400e7c206b62b564
+ry 0 40056c669b39564f
+z 0
+z 1
+rx 2 400b0bba159d84a3
+y 0
+rz 2 3ff03be9f73e0bee
+t 0
+rz 3 4000a33aa8a0e7ee
+rx 1 401810d07effc4f6
+rx 1 3fe5f51ba8ca61c6
+cx 3 1
+cz 0 1
+x 1
+tdg 0
+rx 3 3fe51aa91ba805a9
+tdg 4
+rx 3 40157043975c1790
+ry 4 4007881ebc37460a
+s 0
+z 2
+ry 0 3ff1342acd029ec5
+t 4
+y 2
+x 0
+rx 1 3fd9f0cf5b94d137
+t 0
+s 0
+ry 0 4008ee1db9f8dd89
+circuit 3 40
+ry 0 401712b7c6cc31ea
+t 2
+ry 1 400214339fa7aedb
+cx 0 1
+h 2
+y 2
+ry 1 3fc10e2859fea447
+rx 0 4008a274ad0eeb15
+y 0
+y 2
+ry 0 3fd46f274fcff703
+cz 1 2
+rz 1 3fffcef025d29173
+cx 0 2
+y 2
+s 2
+tdg 0
+tdg 2
+s 2
+tdg 2
+x 1
+cz 1 2
+tdg 2
+rx 1 3fde05d8994d9b09
+ry 0 401869342aa2a25c
+rz 2 400130fee12a7023
+y 0
+tdg 2
+tdg 2
+sdg 0
+tdg 1
+ry 0 400e7957e77c231d
+y 1
+cz 2 1
+cx 1 2
+s 2
+z 0
+sdg 2
+sdg 0
+x 1
+circuit 8 40
+x 3
+y 0
+rx 3 4013d33eb7a1d368
+cx 1 6
+z 5
+t 3
+t 7
+sdg 7
+s 5
+h 4
+rz 2 4006bb109aa5fc61
+cx 7 2
+ry 0 40119a2498180c7f
+t 0
+cz 7 6
+z 2
+h 4
+cx 1 6
+x 3
+t 4
+rz 7 400edd50334446da
+h 3
+tdg 1
+tdg 2
+cx 1 4
+t 7
+y 5
+tdg 3
+ry 5 40060ca030637d4e
+x 2
+z 4
+z 6
+rx 5 4014cba36b6a196c
+z 4
+t 2
+rz 6 401622bd5a53c60b
+h 0
+y 7
+h 0
+ry 5 3ff8bd6bd23670b9
+circuit 7 40
+t 3
+rx 2 3febf454de60e4cc
+rz 6 400aaa66215c5125
+z 2
+cx 2 5
+sdg 1
+rz 0 401917d3b1e08758
+h 5
+z 0
+tdg 1
+t 5
+ry 5 400f819173016339
+h 4
+tdg 0
+t 1
+t 4
+z 2
+cz 5 6
+z 3
+sdg 5
+rx 6 40073e26dd90d28d
+z 5
+y 4
+z 5
+rz 2 400e2fc954eb0e1c
+x 4
+cz 0 5
+rx 1 400123dddde8a809
+z 3
+ry 6 4012985dc6c274b9
+rz 1 4013f6cced85557b
+tdg 1
+rz 6 3fe8ac462bf7da27
+cz 5 2
+cx 6 5
+ry 4 400b133e7e88dd63
+sdg 5
+t 1
+ry 6 4018d10236473bd6
+z 5
+circuit 4 40
+rz 1 4009e8335336500e
+t 0
+ry 3 4005f0b439a42859
+rz 0 40109892cf13993a
+cz 0 2
+rz 3 3ff895ea007a1840
+ry 2 3fe4e69acbca7361
+s 0
+z 1
+rx 2 400d03c2fa35ad2a
+rx 2 40111178c7b04207
+t 3
+rz 2 4011e69ffbf7b6b0
+tdg 0
+sdg 1
+s 3
+ry 3 3fd8dc50059b6da8
+rz 0 3ff460426130c9e1
+s 1
+rx 2 3ffac9b8cbc8088c
+s 3
+y 3
+rx 0 4017f5db59bd5638
+h 1
+t 0
+rx 3 4001d503ab81c624
+s 3
+s 3
+y 2
+cx 3 0
+h 2
+cz 1 3
+tdg 1
+ry 2 40061a678fbf6c33
+rx 3 400f2464d5f2046d
+cz 2 0
+tdg 3
+ry 1 4005d3c0629b422e
+y 1
+x 2
+circuit 4 40
+s 1
+cz 3 0
+ry 0 4015edc83d895a2e
+x 3
+y 2
+tdg 1
+cz 0 2
+cz 3 1
+x 1
+tdg 1
+tdg 1
+sdg 2
+tdg 1
+y 2
+x 2
+sdg 0
+z 2
+cz 3 0
+cx 1 0
+rz 1 400f3c912acd166d
+cz 3 1
+cz 0 2
+cx 3 0
+s 2
+z 3
+tdg 3
+tdg 0
+h 3
+rz 2 3ff51bede6a00eaf
+tdg 0
+t 2
+tdg 3
+sdg 1
+s 2
+t 0
+rz 1 400918ac27c73350
+s 3
+t 0
+ry 1 3ff8b09ac29e51b4
+ry 3 3ff7e7bdb5e2553a
+circuit 5 40
+cz 0 4
+tdg 0
+x 1
+y 0
+z 2
+x 1
+z 2
+x 4
+z 2
+ry 4 40170ed1ce2aabfa
+rz 4 40191d72906e319d
+h 3
+s 3
+z 4
+tdg 2
+y 2
+t 3
+sdg 3
+cx 4 3
+z 1
+t 3
+x 0
+tdg 0
+z 0
+rx 3 4012fa5fbc7fd9ad
+s 1
+rx 0 3ffd110867c2864a
+t 2
+tdg 3
+ry 1 401311c96c3b4304
+h 0
+rz 1 4004fc747d8acbad
+ry 0 400e62e0a368b432
+sdg 1
+cx 0 1
+z 4
+t 4
+tdg 4
+s 4
+z 0
+circuit 2 40
+cz 0 1
+h 0
+rz 1 400c300f4923814d
+h 0
+ry 1 40140b22ab9cfc27
+s 1
+y 1
+z 1
+ry 0 401537e917c63930
+rx 1 401383859ee71860
+cz 0 1
+rx 0 4008132dc2f3c51c
+rx 0 4002d3557cb3645a
+rx 1 3ff245297f4a3b1a
+tdg 1
+z 1
+h 0
+y 1
+cx 0 1
+sdg 0
+rz 0 4002275266513230
+tdg 0
+ry 0 400d881baf5af064
+cz 1 0
+s 0
+s 1
+rx 0 401425648c6a888b
+cx 0 1
+ry 1 3fe6047e0ebe794a
+tdg 1
+ry 0 401258434f72b132
+y 0
+x 1
+y 1
+z 0
+rz 0 3ff747e94319ed21
+h 0
+cx 1 0
+h 0
+rz 0 401581016cce275f
+circuit 9 40
+t 3
+rz 4 400a3c5695df7930
+rx 3 3feebab83007d40f
+y 7
+s 4
+sdg 3
+cz 7 3
+rz 5 3fd7b51752bbde03
+cx 6 8
+rz 8 400f1b05fe38cf3e
+t 7
+x 7
+x 2
+rz 4 40173f6128cf8ce5
+t 5
+ry 7 401846ece03df174
+x 2
+ry 3 4017c169afa4b6b1
+rx 7 400e710a2e97d744
+ry 0 3ff09b6cf2e63f14
+t 2
+sdg 5
+z 7
+ry 5 40158d6342bd362f
+s 2
+cx 1 6
+h 3
+rz 6 40109e9a102b8f0c
+sdg 7
+t 5
+s 5
+z 8
+t 1
+cz 8 3
+y 5
+tdg 7
+t 5
+t 7
+cx 6 8
+s 2
+circuit 1 40
+rx 0 3fed1807903f71bf
+ry 0 3fd9039f9bdb14bf
+y 0
+z 0
+t 0
+y 0
+s 0
+t 0
+x 0
+rz 0 40018f33ad834eea
+h 0
+x 0
+t 0
+y 0
+sdg 0
+h 0
+y 0
+h 0
+rz 0 3fe61dadafa39931
+h 0
+h 0
+tdg 0
+tdg 0
+rx 0 4014475544933157
+x 0
+x 0
+sdg 0
+rz 0 4001d39776d2756f
+x 0
+x 0
+t 0
+s 0
+t 0
+z 0
+ry 0 3fb8a0e24e0961ca
+x 0
+rz 0 4005137af628304c
+tdg 0
+h 0
+ry 0 3facb27891bf6bb7
+circuit 3 40
+h 0
+tdg 0
+ry 2 3fc8907fd896ae02
+sdg 0
+rx 1 4014fe49cef0090a
+ry 1 3ff71be264a75cb0
+cx 1 2
+tdg 0
+cx 2 1
+cz 2 1
+s 2
+cz 1 0
+cx 1 0
+rx 0 3fffefdb06ae4189
+x 1
+z 2
+cz 1 0
+ry 0 4006995c481d1ac4
+x 0
+t 2
+cz 0 2
+t 2
+s 1
+h 1
+y 1
+rz 1 3ffdd6015f096c99
+y 0
+rx 0 3ff1405faedac0c0
+cx 2 0
+y 2
+tdg 1
+tdg 0
+s 2
+y 1
+h 1
+y 2
+sdg 2
+tdg 1
+z 0
+rx 2 4017789694ad0721
+circuit 12 40
+sdg 3
+rx 8 3fbe1b3b85d28a70
+sdg 0
+h 7
+y 2
+ry 2 3fc552a708e96cc6
+z 3
+t 3
+cz 7 3
+rx 10 3fda9c51a96163bd
+s 5
+h 11
+cx 10 0
+h 7
+y 9
+x 6
+t 3
+t 10
+s 7
+ry 0 400ffbde4e57b587
+ry 9 400152eed4df37c2
+cx 5 2
+z 10
+y 6
+cx 9 5
+z 6
+rx 5 4011155e01ae9b0e
+t 10
+rz 6 400477e2a2f39eae
+ry 3 4011ba50c8d87269
+x 3
+t 7
+sdg 7
+y 8
+cx 6 4
+tdg 6
+h 9
+h 4
+s 7
+z 3
+circuit 8 40
+s 6
+ry 4 3fcb46092b888a94
+cz 0 7
+rx 6 4014c72db884d284
+cz 7 4
+t 6
+h 6
+t 4
+s 1
+x 6
+tdg 4
+z 1
+sdg 6
+rx 1 4008ced20f2ad1c0
+rx 2 4001cef75486c2ad
+rz 6 3feb6537ca2157a4
+rx 7 401625150502e024
+s 2
+y 3
+y 2
+rz 6 400ecd5979b2acd8
+rx 5 4010aa5541f8621f
+tdg 5
+tdg 0
+z 0
+z 5
+h 5
+ry 2 4014dcf581870cb3
+cx 4 5
+cz 4 3
+tdg 5
+tdg 1
+rx 0 3fe85374e826febe
+x 5
+x 1
+ry 2 3fde865aff57c35e
+cz 1 5
+sdg 3
+x 0
+ry 5 3fdb40487d8c2bbf
+circuit 3 40
+cz 1 0
+rx 1 4013699b1bba2bb6
+tdg 1
+h 2
+s 0
+h 2
+cx 0 1
+cx 2 0
+rz 1 4010a56cfe0fcc9a
+sdg 1
+x 0
+t 0
+t 1
+z 0
+sdg 2
+rz 0 3fec5b6537892693
+sdg 2
+h 2
+s 1
+h 1
+cz 1 2
+x 2
+rz 1 4004d67d9ded4d80
+sdg 2
+cz 2 0
+s 1
+rx 2 3ff740fe5c71a580
+x 1
+z 2
+h 0
+y 2
+t 2
+cx 1 0
+y 1
+sdg 2
+s 0
+sdg 0
+cz 1 2
+cx 1 2
+ry 1 3ffbccfe6c676225
+circuit 4 40
+z 1
+cx 1 0
+ry 1 40134e94d7fd7527
+rx 3 3fe840bcf89ce868
+rz 3 3fd2da88fd46db09
+h 0
+tdg 0
+h 3
+t 2
+y 1
+x 2
+ry 1 401519f42e08d3bb
+sdg 2
+x 2
+s 3
+rz 2 3ffa74d11f7d16ef
+t 2
+z 1
+cz 3 2
+sdg 0
+sdg 3
+z 2
+y 2
+cx 2 0
+h 0
+x 2
+rz 0 4016807c845b3875
+t 3
+sdg 3
+cx 1 3
+t 0
+s 1
+x 2
+h 1
+rx 1 40156a2ca7d11107
+s 3
+x 3
+sdg 2
+t 1
+x 2
+circuit 2 40
+t 0
+h 0
+tdg 1
+t 1
+rz 1 40129de217f81452
+cz 1 0
+ry 1 400d46e52518854e
+rz 0 40033a9949a19f81
+s 1
+z 1
+z 0
+sdg 0
+t 0
+t 1
+t 0
+h 1
+t 1
+cz 1 0
+ry 1 40187cbff642f500
+h 1
+s 1
+t 0
+cz 1 0
+h 1
+s 0
+tdg 1
+x 0
+t 0
+ry 0 400c61de77130135
+cx 1 0
+sdg 1
+sdg 0
+rz 1 3fdff5aa8daedb9c
+sdg 0
+t 1
+x 0
+rz 0 400d4c52d877b630
+cz 0 1
+y 0
+cx 1 0
+circuit 3 40
+t 2
+y 2
+y 1
+z 0
+h 0
+cx 2 1
+tdg 1
+ry 0 401789f9a4d02770
+rx 2 4007d96b11546a5f
+rz 1 400c44081f10d198
+x 0
+z 0
+s 1
+t 0
+y 2
+x 1
+sdg 2
+cx 0 2
+t 2
+y 2
+z 0
+x 1
+t 0
+x 2
+rx 1 40091077e9f722d5
+x 1
+x 2
+sdg 0
+y 0
+s 2
+ry 2 400a909c48d3d9dd
+cx 0 2
+rz 0 40043ac97093c604
+sdg 1
+rx 0 4015da8d3a350f0f
+h 2
+h 2
+z 1
+x 1
+sdg 0
+circuit 4 40
+x 0
+y 0
+y 2
+y 1
+rz 2 3ffb764b3792ac68
+z 2
+s 0
+sdg 2
+ry 1 400aeef570ec86d8
+ry 3 400905a38260d817
+cz 0 1
+y 2
+tdg 2
+x 0
+cz 0 3
+h 3
+rz 2 3fd883d8a241c7e4
+x 1
+ry 3 3fd5114f9bd75ce6
+z 1
+rx 2 400d4e897ad954b6
+t 3
+z 0
+rz 0 400823eeb004d279
+s 1
+cx 1 2
+ry 1 40167845e1ebf3d7
+h 0
+t 3
+z 0
+rz 0 401263a0adb71017
+s 3
+h 0
+rz 1 3ff3e0dcf78d68ce
+rz 0 400658e78a83bf24
+tdg 2
+s 1
+cz 2 3
+y 1
+cz 0 3
+circuit 6 40
+t 1
+cx 3 0
+tdg 2
+x 1
+s 3
+h 0
+cz 5 4
+z 2
+y 5
+z 5
+tdg 5
+x 2
+y 4
+x 0
+t 1
+h 3
+x 0
+x 2
+rz 3 3fb796d108bd84f8
+t 5
+y 0
+rz 0 40179249b12a2748
+z 2
+y 2
+z 4
+sdg 1
+sdg 5
+x 4
+z 3
+ry 2 40171ee2f53b09e6
+cx 4 1
+y 0
+z 3
+sdg 1
+y 5
+cx 4 0
+x 1
+t 0
+ry 2 3fe864c5caac5a9d
+ry 5 4004987a4b195ea0
+circuit 8 40
+rz 7 4011d884cdfc6355
+cz 3 7
+ry 6 4016ee0bebf71b4e
+tdg 6
+sdg 2
+h 5
+y 7
+sdg 5
+t 5
+z 4
+x 4
+h 5
+z 7
+ry 6 40115c3a59985516
+h 2
+tdg 5
+t 4
+cx 2 0
+tdg 1
+cz 0 2
+y 3
+rx 2 4017501aa7924db9
+rz 2 4015432337af86a6
+x 2
+sdg 6
+ry 6 400be1bcef9074ba
+y 7
+rz 0 4013ce53931d6823
+tdg 6
+h 0
+cz 3 4
+tdg 2
+s 1
+rz 1 4018ed700ed19c54
+z 5
+cz 7 5
+y 5
+tdg 4
+cz 5 7
+t 3
+circuit 7 40
+tdg 2
+z 1
+tdg 3
+h 3
+cz 4 6
+h 4
+cz 0 5
+x 5
+sdg 4
+x 6
+x 6
+t 4
+z 6
+s 1
+tdg 2
+s 4
+rz 3 401781bee162ebc9
+ry 6 40176b392da42405
+s 6
+t 0
+t 4
+rz 6 4015b4255198cfec
+z 4
+ry 4 40116131db21c4a4
+s 3
+h 5
+s 0
+cz 3 5
+x 6
+y 5
+tdg 4
+tdg 1
+rx 2 40058d7845e4adec
+z 4
+z 0
+z 0
+cz 2 5
+cx 4 0
+rx 5 3fecde90731d0c0d
+cz 4 0
+circuit 4 40
+h 3
+rx 0 40134f9d278d13a5
+cz 2 0
+tdg 2
+t 3
+ry 2 40012c5dd9067385
+sdg 3
+tdg 1
+y 2
+ry 0 400e6ebebe742433
+z 0
+cz 1 3
+tdg 2
+rz 3 40176eb7522251c9
+rz 0 3fe60e567984eed1
+x 2
+t 2
+t 3
+cx 2 1
+y 2
+rx 2 4004a16309efa5f9
+ry 0 4000e958cb1c972d
+t 0
+rx 2 4009c89f48c9e848
+ry 1 3fe733d89f026183
+rx 0 40151856a7de97c6
+s 1
+cx 0 3
+rz 3 3ff7eec6b2573469
+x 2
+rz 1 40166f259c2c64dd
+ry 3 3fd342c85a910ab2
+s 3
+cz 0 2
+rx 2 3ff59b3e53757fd3
+rz 3 4006705d6cdc4efd
+y 1
+y 2
+cx 2 0
+ry 3 3feeb16c7b7427b3
+circuit 4 40
+t 3
+y 3
+s 2
+tdg 0
+cz 3 2
+z 3
+z 0
+sdg 1
+ry 2 400f4e6ac1c5bff0
+z 2
+x 0
+ry 1 4002f5735d6c527f
+y 1
+rx 1 3ffa04610d891a12
+tdg 2
+rx 2 4002321ec798b748
+z 0
+z 2
+cz 1 3
+cz 1 2
+h 2
+y 2
+rz 1 400da2122db5f41a
+rz 2 40086ebb9afe7b95
+h 0
+cx 1 2
+rz 3 40182a5c84e0e89a
+cx 0 2
+cz 1 0
+cz 2 3
+rx 1 3fb1b8ee1f938d59
+rx 3 400b50f2a56214c7
+ry 2 4014b479655b22c5
+tdg 2
+y 1
+sdg 3
+x 3
+cx 2 1
+rx 0 4016e4b9bc72ac9b
+cx 3 2
+circuit 5 40
+x 2
+z 2
+s 0
+t 1
+x 3
+x 1
+s 4
+rx 2 4011bb7e28a30640
+cz 3 0
+s 3
+tdg 2
+cz 3 4
+sdg 4
+z 2
+rx 2 400321ea0250b161
+cz 2 4
+t 2
+t 4
+rz 4 4014c3eb22943cc4
+tdg 4
+x 4
+x 0
+z 2
+sdg 4
+cx 1 4
+sdg 4
+rz 2 401161ca7509f292
+s 0
+rx 2 40017cf41ef1dd8d
+y 1
+tdg 4
+sdg 4
+rx 0 3ffb5c40dd858a57
+cz 0 2
+rx 4 3fe1684ce60219f7
+cz 1 2
+h 4
+z 4
+t 3
+rx 3 3fad490e620a8a09
+circuit 11 40
+t 8
+x 0
+cx 9 0
+rz 10 401242002af85b51
+z 0
+cz 9 7
+cx 5 10
+rz 5 40088c27c15ddde1
+rx 8 400495d90c223e6a
+cx 0 9
+sdg 4
+y 6
+sdg 10
+h 2
+h 5
+t 6
+cz 8 10
+y 2
+y 9
+h 9
+tdg 2
+cx 9 7
+cx 7 1
+y 6
+y 10
+cx 4 6
+ry 0 40143c2ac2ff8103
+tdg 8
+tdg 10
+rx 3 4009f3423fb3f27c
+x 3
+y 4
+y 6
+s 1
+cz 2 1
+s 8
+cx 5 8
+cx 7 5
+t 8
+sdg 8
+circuit 6 40
+tdg 0
+s 0
+y 2
+h 1
+rx 0 3fdc8e694072099b
+x 1
+rx 2 401583b3e2605fc5
+rz 3 4000ca0df7426c81
+sdg 5
+z 5
+rz 3 4005234d9bc9e484
+y 2
+sdg 0
+ry 2 4018fa65de2cb47f
+cx 3 5
+z 1
+s 2
+rz 3 400cdc163abe7ca3
+cz 5 0
+t 2
+tdg 5
+h 0
+h 5
+x 4
+y 3
+h 0
+tdg 1
+y 2
+x 4
+z 5
+tdg 3
+s 3
+cx 3 5
+s 3
+s 3
+cx 2 0
+rx 4 3ff10ef79eba0198
+x 5
+rx 2 4010bcdbb056d48d
+sdg 3
+circuit 12 40
+s 9
+cz 11 9
+tdg 7
+rx 2 3ffd33154df36e00
+t 7
+rx 0 4006cb70e379afac
+cz 0 4
+rz 2 3fe51f77ec0cf2f2
+cz 2 8
+t 6
+rx 2 3fff2e955cbd6344
+sdg 5
+z 0
+h 8
+s 1
+y 7
+x 3
+h 9
+s 7
+cx 10 7
+x 2
+rx 11 400adc8bb3b0fde9
+t 7
+z 6
+x 8
+cx 10 6
+s 7
+s 1
+s 8
+cx 4 7
+sdg 5
+z 11
+sdg 2
+h 4
+x 6
+x 3
+rx 2 3ff4300b19859ad4
+cz 0 2
+cz 11 3
+z 6
+circuit 7 40
+sdg 3
+sdg 4
+sdg 1
+cz 2 0
+sdg 3
+sdg 0
+x 3
+sdg 6
+z 4
+sdg 1
+rx 0 3ff7cc2e2962fbdc
+y 0
+ry 6 4018535738e1d300
+cz 2 0
+sdg 4
+tdg 4
+rx 3 4005202b50f50436
+sdg 2
+s 5
+t 3
+rz 6 3fe0ebc30aebb2be
+cz 5 3
+rz 6 4005a5808fec4768
+x 1
+rz 3 3ffec8c3d94ab306
+z 4
+cz 0 3
+cx 4 1
+rx 2 40177a2c04e1b68a
+sdg 0
+s 6
+x 0
+rz 6 400482271e6aad0b
+x 6
+cx 1 0
+y 0
+z 2
+s 0
+cz 0 1
+tdg 1
+circuit 9 40
+x 4
+cz 0 6
+rz 0 401534ffb0a18383
+rz 6 40181d7b7c5e7767
+y 7
+tdg 6
+ry 8 3fd9465ce9110d18
+rz 6 401565edaee6c35e
+tdg 5
+t 8
+t 2
+tdg 2
+y 1
+cx 3 0
+s 1
+rz 0 400ba9bd09e5371c
+ry 0 400db31b60283a02
+h 7
+sdg 2
+y 8
+s 5
+cz 7 4
+s 0
+z 4
+cx 2 0
+y 0
+y 6
+s 4
+tdg 4
+t 3
+rx 0 3ffc50f366b80457
+h 2
+ry 4 4014fc20077f96c0
+rx 5 4016c10d76e8bed0
+sdg 5
+ry 3 3fe23447e4d6aeea
+x 7
+z 5
+rx 5 3fcc7898716abf50
+s 7
+circuit 7 40
+cz 1 5
+cx 6 5
+s 4
+t 5
+x 6
+z 0
+tdg 3
+sdg 5
+rx 3 40191b2641484b1b
+rz 3 40152d8a5de828c9
+s 6
+rx 5 4007c089af0d9dbe
+s 5
+z 2
+sdg 2
+tdg 2
+rx 3 40166d5477f2f164
+y 1
+h 0
+cx 4 3
+tdg 3
+s 0
+rx 4 400c5d36db473fd4
+h 6
+cx 1 5
+t 2
+ry 1 3fe3c5cd863eb468
+rz 0 4016704207311d00
+sdg 0
+t 5
+tdg 3
+rx 3 40124ef4988f8d1d
+ry 1 400957f0650b0e59
+x 4
+z 5
+t 2
+ry 4 401668356595fd8b
+x 2
+cx 0 6
+rz 2 3fdffcdd4f65a027
+circuit 4 40
+h 3
+ry 0 3fc3b05cc8f6b7c4
+rz 0 3ff8fa961820623a
+x 0
+z 0
+cx 0 1
+y 2
+sdg 0
+rz 2 40009447557fe918
+cx 0 2
+cz 2 3
+ry 2 3fd6bdc4df2896d9
+h 0
+x 0
+tdg 0
+x 2
+h 0
+x 2
+sdg 3
+z 0
+rz 2 3fee65d64a50e2fb
+ry 1 40091d2ef02895ae
+cz 0 1
+ry 2 3fd52d3e306eb919
+h 2
+y 1
+sdg 0
+x 2
+ry 2 3fbb14bf9440c04c
+z 1
+ry 2 401332db8dbc5fd5
+tdg 1
+cx 3 0
+ry 2 3ffe88793f7d1c0f
+ry 0 40160012607e3a7e
+rz 2 401391d68df35b3e
+cx 3 1
+tdg 2
+rz 0 400111b58fc43d3a
+sdg 3
+circuit 7 40
+z 2
+x 4
+s 3
+cz 2 5
+t 5
+s 6
+rx 3 400cef473bf6d616
+rx 2 40135706ef4ff02d
+z 2
+z 0
+t 2
+rx 5 401325c2f37202e1
+ry 0 400eced9c2cde915
+z 6
+h 0
+y 0
+tdg 1
+cx 2 4
+cx 4 2
+y 2
+tdg 2
+cx 1 5
+tdg 4
+cx 2 5
+sdg 6
+x 5
+s 4
+tdg 3
+cz 6 3
+ry 1 401611a833cbc7de
+cz 5 4
+sdg 0
+h 4
+y 3
+y 3
+z 6
+rz 6 3fe801ea2eaedf2b
+ry 5 400e68775c842138
+sdg 5
+z 6
+circuit 7 40
+sdg 1
+t 4
+cz 5 1
+y 2
+rz 3 3fe9b3e092d9978c
+rz 4 4011bbc87c7da49b
+tdg 6
+cz 2 0
+h 1
+sdg 0
+h 5
+x 1
+ry 1 401393db81c76af9
+h 4
+t 4
+rz 1 3ffd99303cf414cb
+cz 6 2
+rz 0 4013a60fc07a9e0e
+y 2
+z 5
+s 1
+rx 1 400d30d005fc3ae5
+h 3
+ry 4 4010d6a3f102723d
+x 6
+z 6
+s 3
+s 4
+cx 1 2
+t 1
+t 3
+y 5
+y 3
+rz 0 401776fca1ee0c22
+tdg 0
+x 4
+y 5
+x 4
+ry 4 4014a50da5350cfb
+x 1
+circuit 5 40
+rx 4 4015a549b88e9d33
+t 3
+x 1
+x 4
+s 3
+cx 4 0
+cz 2 3
+tdg 0
+tdg 1
+h 0
+tdg 0
+h 3
+t 4
+cx 3 0
+tdg 4
+ry 2 4000142964c3d9a2
+t 1
+ry 2 401445768298cff4
+s 2
+s 0
+t 4
+s 3
+rz 4 400e4e532ea151e8
+y 4
+h 3
+cx 2 1
+s 3
+s 4
+y 1
+rz 2 4016d77b1ed43fcd
+tdg 2
+cz 3 2
+cz 0 3
+sdg 2
+h 2
+h 2
+sdg 0
+ry 3 3fe9e564574db0fe
+ry 0 4010ef9cda1bbdb5
+t 1
+circuit 2 40
+y 0
+y 1
+tdg 0
+t 0
+sdg 1
+rx 0 400a716be0dbc5c7
+rz 0 3ff56dac1e0206ed
+sdg 0
+x 1
+rz 0 400b2faf0c97a69f
+sdg 1
+rx 1 3fefe1ef1fe27926
+sdg 1
+x 0
+rz 0 3fec03139d236f98
+cx 0 1
+s 1
+ry 1 3ff21c4c4c2b7c76
+ry 0 4018fda95372d5bc
+rx 1 4012e5a6166a292d
+cz 0 1
+ry 1 401640f03765ffbc
+cx 1 0
+tdg 0
+z 1
+y 1
+cx 0 1
+h 1
+sdg 1
+rz 1 3fc7d15ea24a6cae
+rx 0 400894f4d0c35cf9
+y 1
+rx 1 40153d55db381992
+z 0
+z 1
+rx 0 4007792271fa29e6
+sdg 1
+x 0
+cz 1 0
+ry 1 40153040dac1ef50
+circuit 1 40
+t 0
+rx 0 3fbb0d486496bd22
+ry 0 3feff7da350be34d
+t 0
+s 0
+rx 0 400ae47baf260858
+s 0
+tdg 0
+s 0
+rx 0 400c9207b90d6b4b
+ry 0 400e7d2da27353e6
+x 0
+y 0
+ry 0 40122c713e6cd726
+ry 0 3ffdfed1e3d81c5d
+z 0
+z 0
+x 0
+z 0
+t 0
+tdg 0
+rz 0 3feafc754c02b5d4
+rz 0 40079681940cad32
+s 0
+t 0
+t 0
+sdg 0
+x 0
+t 0
+t 0
+x 0
+y 0
+z 0
+tdg 0
+sdg 0
+s 0
+ry 0 3fe8994c42fdc9d0
+ry 0 40143828b014ad91
+x 0
+ry 0 3ffd92d10de72d72
+circuit 6 40
+z 3
+z 1
+y 0
+t 2
+cx 4 3
+ry 5 400245ff7a4ade6d
+rz 3 4015be6f906b4e2b
+ry 4 4014671a0144c063
+cz 4 0
+rx 5 3fbe65c6dec133a1
+h 1
+rx 4 3fb33581da1dfe9f
+sdg 1
+tdg 2
+x 4
+cx 1 0
+y 4
+cx 2 1
+x 2
+x 3
+tdg 0
+sdg 3
+s 4
+y 1
+sdg 2
+x 3
+t 1
+sdg 5
+cz 1 4
+cx 3 0
+t 4
+y 2
+ry 0 400bc8a8f08225dd
+tdg 5
+sdg 0
+z 2
+tdg 2
+rx 4 40174bc37d6259c5
+cz 4 0
+cx 0 1
+circuit 7 40
+t 2
+tdg 5
+sdg 0
+z 2
+tdg 1
+tdg 5
+s 2
+h 4
+x 3
+h 4
+h 5
+sdg 1
+cx 0 1
+z 4
+h 6
+tdg 5
+y 3
+ry 4 40114dad11b70c0c
+cz 2 1
+z 1
+sdg 4
+tdg 1
+y 5
+ry 0 40151fe439a17010
+cx 4 1
+ry 3 4004c5dc2a4234bb
+tdg 5
+tdg 4
+y 2
+h 4
+sdg 2
+cx 5 2
+cz 3 4
+y 5
+rx 5 3fd9177c34738e9e
+tdg 3
+ry 1 400c5aeb81902119
+rx 3 400d9bf30e0398e6
+sdg 3
+x 6
+circuit 12 40
+z 8
+s 3
+sdg 0
+cx 4 9
+cx 0 6
+rz 8 4017ddde4dd1eb82
+y 8
+rx 3 4010abe95b70c3d1
+h 2
+tdg 11
+ry 10 4017475e78d20c63
+cx 9 6
+h 0
+s 1
+sdg 2
+s 10
+tdg 10
+h 9
+s 10
+x 2
+tdg 3
+tdg 3
+rx 8 3ff5b1faca45431f
+cz 9 8
+rz 7 40082b190799bbcb
+s 3
+cx 4 9
+s 3
+cz 2 5
+h 7
+s 5
+h 7
+z 11
+tdg 11
+rx 5 40139eb310310710
+t 1
+rx 1 40101707766b7ac3
+t 0
+tdg 4
+y 10
+circuit 8 40
+z 4
+cz 0 5
+sdg 3
+cx 6 7
+s 6
+s 5
+cz 0 6
+sdg 0
+t 3
+sdg 7
+rx 3 4003959030266edf
+cx 6 7
+h 4
+cx 7 3
+rz 6 40177429e254cc19
+z 6
+rz 7 400e25f165be9e1a
+t 4
+tdg 3
+y 3
+cx 6 7
+h 0
+s 4
+cz 5 7
+y 2
+cx 1 7
+y 5
+tdg 2
+s 3
+tdg 2
+z 7
+cx 4 6
+y 0
+cx 4 6
+cx 3 1
+z 0
+x 5
+rx 1 40114c9b56ae26e7
+cz 4 1
+y 0
+circuit 10 40
+h 0
+sdg 0
+cx 9 8
+tdg 9
+z 1
+cz 8 5
+z 1
+rx 7 4016294cc832b70d
+x 8
+z 0
+cz 0 9
+rz 8 3fd129cc8b792413
+t 6
+s 9
+ry 4 3ffaf014349b4ad0
+h 5
+rz 9 400c763cbf3baaaf
+x 7
+h 9
+y 6
+sdg 3
+t 2
+t 8
+ry 5 401141c07ad5d55c
+cz 0 3
+rz 1 4009879837dcd683
+ry 7 3fe3af1fdd5599e9
+ry 4 4015037ec3279234
+t 6
+h 2
+sdg 6
+sdg 6
+cz 4 0
+t 4
+tdg 2
+ry 3 3f92a21e3ecc29c7
+rx 0 3fe7d4e3d22c601c
+ry 2 4009192fd4cdb225
+t 6
+z 1
+circuit 9 40
+z 5
+ry 8 40163d289b587767
+cx 7 3
+x 1
+x 7
+z 8
+ry 1 400b6de0c63910c9
+x 0
+ry 8 3ff087e4598700af
+z 3
+tdg 6
+tdg 2
+x 6
+ry 3 401773d77d97c215
+cx 4 8
+cz 0 2
+ry 5 4005f5196bbd0cb4
+z 0
+t 0
+cx 4 8
+rx 6 40186adaddc418d1
+s 2
+rx 3 3fe9e955ad0cbb81
+s 2
+y 6
+cx 1 2
+s 5
+t 8
+s 2
+ry 4 4018a5797e8d54fb
+cz 0 8
+ry 3 3ff86c6ef158de95
+s 3
+h 3
+y 2
+sdg 0
+cz 6 1
+tdg 0
+sdg 1
+sdg 3
+circuit 4 40
+cz 2 3
+cx 1 0
+rx 2 4012a54e1cfcdb27
+rz 2 400013244b66c4fe
+tdg 0
+h 0
+ry 0 3fb6b1d3f605a79a
+h 0
+sdg 1
+h 1
+ry 3 3fdcd3b2550158ec
+ry 2 40081064114dd317
+tdg 0
+cz 0 2
+cx 2 1
+z 2
+rx 0 400e47232958bb32
+y 1
+t 2
+s 3
+z 2
+rx 2 3fe2eb23e17b806e
+t 3
+t 3
+rx 1 400e96acc015dab6
+ry 3 400616f62c94f5fc
+h 2
+rz 2 400f9ebebb95b498
+z 3
+t 0
+x 0
+z 1
+rz 1 4011f99d0544e6f8
+z 0
+s 2
+s 0
+rz 2 40166a20db64ab35
+tdg 2
+h 3
+x 2
+circuit 11 40
+sdg 0
+rz 9 400e31ec7a6499cb
+h 5
+s 7
+ry 4 4015000db09b044f
+tdg 8
+tdg 0
+tdg 7
+t 8
+rz 0 4002b0e8f3a31cc1
+cz 0 6
+ry 10 3ff8def0fe454212
+ry 3 4011d1faf3e86a38
+s 8
+z 1
+tdg 10
+sdg 3
+sdg 9
+cx 1 6
+cx 0 5
+tdg 4
+t 2
+x 3
+tdg 7
+ry 3 40120dc1fdb46306
+cz 9 2
+cz 6 0
+z 4
+z 8
+z 0
+cx 5 10
+t 7
+cz 7 5
+y 10
+ry 3 401876e5c81320b8
+sdg 6
+rx 0 4009def4a33650a1
+z 4
+t 3
+y 0
+circuit 4 40
+h 0
+t 3
+y 3
+ry 1 400aff60dc27dca8
+x 0
+s 1
+h 1
+t 3
+cx 3 2
+h 3
+s 3
+rx 0 4006c67e0dcdcd7b
+t 0
+sdg 3
+z 3
+cz 1 0
+tdg 1
+z 3
+sdg 2
+s 0
+sdg 2
+rz 2 40124c5a5c5727e0
+tdg 0
+h 0
+y 0
+cx 1 3
+sdg 3
+t 0
+t 2
+ry 1 4014d367b43f0e2f
+y 0
+x 1
+cz 3 2
+cx 0 3
+cx 3 1
+cz 2 1
+y 1
+rz 3 3fd4b008da5dd487
+s 2
+sdg 0
+circuit 1 40
+h 0
+t 0
+y 0
+tdg 0
+y 0
+sdg 0
+y 0
+x 0
+h 0
+rz 0 3ff61da01299039c
+z 0
+x 0
+ry 0 400e2d92c1e81631
+sdg 0
+x 0
+x 0
+rx 0 400d4adc25b2cbc2
+s 0
+rx 0 3ffead335345c32a
+h 0
+ry 0 3fe7326322b0c417
+s 0
+s 0
+t 0
+x 0
+z 0
+sdg 0
+x 0
+x 0
+tdg 0
+y 0
+h 0
+h 0
+x 0
+sdg 0
+ry 0 400522f6b4392ab2
+y 0
+h 0
+h 0
+x 0
+circuit 8 40
+z 4
+tdg 7
+s 0
+cx 7 6
+cx 4 0
+rx 7 400a53a648f183c0
+cz 2 4
+sdg 1
+cx 1 3
+s 0
+cz 1 7
+x 0
+rx 5 3ffc5bf94c471346
+s 2
+sdg 0
+z 0
+z 4
+t 6
+cz 0 3
+x 6
+ry 1 4014317fa860315e
+cx 0 1
+cz 7 2
+sdg 3
+rz 2 400218dfa8cd9f5a
+x 0
+ry 3 4008e52807f21219
+cz 4 7
+s 7
+tdg 6
+cz 4 6
+s 5
+x 6
+h 2
+cz 4 3
+cx 0 3
+cx 4 5
+tdg 7
+ry 5 3fd3791b189bf208
+h 0
+circuit 4 40
+z 0
+sdg 3
+rz 2 3ff53bcf5b81a7be
+tdg 2
+z 1
+x 1
+rz 0 3fef11a8fb7c9a9e
+tdg 0
+s 0
+t 1
+y 2
+z 0
+y 2
+ry 2 4010303c0d0e72cf
+s 1
+y 0
+cx 2 1
+t 2
+rx 0 401121f9947c4456
+sdg 2
+s 3
+s 0
+t 3
+rx 3 4000b0d37d874193
+z 3
+sdg 2
+x 1
+x 0
+h 0
+tdg 1
+rz 2 400a0e83a4226d91
+ry 1 400793f709bd3e45
+y 2
+rx 0 40090e9c607ad419
+y 0
+cx 0 1
+rz 2 401785f042ccb9e8
+x 3
+z 0
+h 0
+circuit 3 40
+x 1
+ry 0 3ffc9cbd60445124
+y 0
+rx 2 4004e5152bf7e7b1
+rx 0 3fa21c3f2dfdf19c
+ry 0 3fef021da6929e8c
+ry 2 400f4b78dfb6e0c6
+y 0
+t 2
+x 2
+h 1
+tdg 0
+t 1
+t 2
+x 2
+t 1
+h 2
+x 0
+t 1
+cx 1 0
+h 1
+s 0
+rz 0 3fe62c243b9ba05c
+s 0
+cz 1 2
+tdg 1
+t 0
+cz 0 1
+cx 2 1
+sdg 0
+s 0
+z 1
+s 2
+t 0
+ry 2 3fffabdd5272dd50
+s 2
+tdg 0
+cx 2 1
+x 1
+s 0
+circuit 11 40
+tdg 8
+sdg 0
+cx 2 7
+cz 4 1
+tdg 0
+z 4
+rx 4 4002a3af2f62aa75
+tdg 7
+rz 8 4003fd6acab4f14f
+tdg 5
+h 8
+y 4
+rx 6 40139c1104fd1164
+tdg 4
+t 9
+cx 4 9
+t 6
+x 7
+z 3
+tdg 8
+ry 4 3ff6d84aaf69544d
+sdg 8
+rx 4 400a3160af2eb42c
+rx 0 4011de46fde49203
+y 10
+cx 0 7
+cz 6 10
+t 3
+x 1
+h 6
+cx 2 1
+s 8
+tdg 7
+tdg 8
+sdg 2
+z 3
+sdg 9
+y 7
+rz 8 4013d1770ff091d3
+sdg 5
+circuit 10 40
+cz 7 6
+sdg 0
+s 5
+sdg 5
+cz 1 2
+x 9
+tdg 7
+cx 0 5
+s 7
+cz 6 4
+rz 0 4004bc1a4d8fe010
+y 9
+t 5
+tdg 3
+cz 5 0
+rz 1 3ffef1e9ea8cf099
+ry 4 4007885482e0cac9
+s 3
+x 8
+s 7
+t 0
+sdg 3
+rx 7 3ff4b5e0f7d20fc2
+y 1
+y 1
+z 4
+h 6
+rz 5 3ff5f4e72aaac25b
+y 9
+sdg 9
+cx 9 5
+rx 3 3fb1726b9052ee0c
+rz 6 40110f6598d94fc2
+rx 8 401129929e4578d2
+ry 0 400d8ed5a5ccc6e0
+z 9
+rz 1 3fc6da35303cab48
+s 7
+rz 0 3ff06c32701479ff
+z 1
+circuit 12 40
+t 4
+ry 3 4004d8abf3d32a6a
+rx 7 40115629bdbd20f4
+h 0
+tdg 3
+z 0
+rz 2 400f4599810d3af1
+cx 5 4
+cx 4 3
+z 4
+t 3
+rz 0 400899c1e18dd6a8
+z 8
+rx 2 4014f53795611812
+ry 4 3fb8fbf441f8b7a3
+y 3
+rx 1 40143a94f3598dbf
+z 3
+sdg 5
+z 3
+ry 6 3fede97562f31d99
+z 0
+rx 11 3fdb6a7286d1535e
+rz 0 40183e8c5d826b77
+z 1
+s 10
+s 6
+rx 9 400003796f427bd6
+h 10
+h 6
+cx 6 7
+rx 2 3ffe620dcb236f67
+ry 2 40169faca6b2eaab
+ry 5 3ffbea0113fc060e
+rz 1 400492d74293965e
+t 10
+ry 5 4018c938310a46f3
+x 6
+s 9
+rz 9 3fefd34ecc32d4cb
+circuit 6 40
+z 1
+s 5
+rz 3 40111b1de3649e8d
+rx 0 4008ea53e11ca558
+s 4
+ry 3 401359807a693c2b
+sdg 2
+ry 0 4011e524eb0360e7
+rz 5 4009afc46f6d0dd5
+ry 0 400e399bd4f94e1f
+x 2
+y 0
+ry 5 4010a01d71ae4eab
+cz 2 1
+cz 0 2
+s 2
+y 5
+rx 3 3ff9ca5e67a32383
+rx 1 4010cf7031e2a187
+h 5
+z 0
+s 2
+cx 5 3
+sdg 3
+t 0
+z 2
+t 4
+t 0
+y 5
+cx 3 0
+rz 2 4011b534f6217f98
+z 5
+x 2
+x 0
+h 1
+tdg 2
+ry 5 4013f75558236121
+sdg 5
+cz 4 1
+tdg 3
+circuit 11 40
+cx 4 3
+z 4
+sdg 3
+t 1
+rx 9 3fdcc5d2e07599d3
+rx 0 3ff2c56507312edf
+cz 4 5
+sdg 1
+s 3
+y 4
+rx 2 3ff8972928e8d20d
+h 0
+rx 1 3fec2ac4329865dc
+rz 6 3ffabd99c7bbd20a
+s 3
+z 8
+h 8
+t 7
+ry 7 4003736041a2c152
+h 1
+h 10
+cx 4 1
+x 0
+t 2
+rx 5 4013d94281cc4d42
+tdg 10
+sdg 7
+t 6
+cz 7 10
+x 6
+sdg 10
+x 8
+ry 10 4001c0a34f3d1674
+y 8
+tdg 10
+tdg 2
+rx 10 4018ce544ce54e92
+rx 2 3ffe1e04d004eaf2
+cx 2 3
+t 9
+circuit 7 40
+y 3
+ry 2 40033e3b8119f0cb
+rz 3 40032d34f39c0ec9
+cz 6 2
+z 3
+y 5
+t 3
+s 4
+s 6
+ry 1 400fdbcc5def7e71
+rx 0 3ff599213da7fd07
+rz 6 3ff23d74ba2aaa79
+y 2
+y 3
+y 5
+s 1
+rx 4 3fe55909c38a2049
+ry 1 3ff87e8d9546eadf
+rx 4 401497b7d1399398
+cz 0 4
+ry 5 4014d3c01a96a0ef
+sdg 2
+t 2
+ry 3 3fd460197dc8674d
+s 5
+z 2
+s 2
+sdg 0
+rx 4 401779bf5b32e4c0
+tdg 1
+h 4
+cx 2 0
+cz 0 3
+tdg 3
+z 5
+rx 5 400f76fb74b2cbf2
+rx 2 3ff1a36b93f81076
+rz 2 3ffd8faa17ad5dd6
+x 3
+cz 2 1
+circuit 8 40
+s 2
+t 5
+ry 0 3ff97c5e9263df22
+s 1
+t 3
+t 7
+rx 4 40102915b515c2c7
+x 4
+rz 7 401537e70261ad0d
+rx 4 400cb33bbe96b5e8
+cz 3 7
+rz 1 400f1133b186cf51
+rz 7 4010aff55e05ec27
+sdg 0
+sdg 6
+s 7
+t 6
+tdg 2
+tdg 6
+z 6
+rz 4 4017ab15cd27fd1d
+ry 5 3fee319de7fe3401
+z 0
+z 7
+t 7
+cz 1 3
+tdg 7
+rx 5 40184c051704ad3d
+x 5
+y 3
+ry 3 401786b35cd5f06d
+t 1
+t 4
+h 4
+x 7
+t 5
+s 7
+cx 1 6
+y 1
+y 7
+circuit 6 40
+x 0
+sdg 1
+h 2
+h 4
+cz 0 1
+rx 4 3feaf1cc2d366b7c
+rx 1 40172a1cce1ac3e9
+rz 5 401450e59c7e0244
+s 5
+x 5
+x 3
+y 1
+ry 1 4018fb9d26b0b641
+h 3
+y 5
+x 5
+cz 2 5
+rx 5 40023a3efb76fa06
+t 3
+ry 4 3ff96a1a3a0fdd3d
+z 4
+t 5
+ry 5 3fe2bc6fd9f9d561
+z 5
+rz 1 3ff6135c9b3da54b
+cz 3 0
+t 0
+rx 4 3ffcd24563ba859a
+z 1
+t 2
+x 4
+t 0
+z 3
+cx 2 4
+cz 2 1
+z 1
+y 5
+tdg 3
+s 2
+tdg 1
+circuit 7 40
+h 0
+x 2
+ry 1 400b4a8f8399d7cf
+tdg 4
+y 6
+rz 2 3ff1ce0c199ab15f
+tdg 2
+cx 4 0
+cz 2 3
+t 6
+sdg 4
+sdg 6
+ry 4 400b30c6a4ae19e2
+cx 4 0
+cx 2 6
+y 5
+y 2
+sdg 3
+x 6
+h 3
+cx 6 1
+rx 4 4000a995db7c19f3
+h 0
+rz 6 3fda32c9b18c2354
+s 2
+rz 6 3fe9c8aebad15ae4
+sdg 4
+y 4
+cx 3 4
+cz 2 5
+cz 4 2
+cx 3 4
+rz 2 4015f99eee96b84c
+cx 1 4
+ry 2 400c2abdd196f76c
+h 3
+rz 0 3ff009cc79d23855
+s 1
+sdg 4
+cz 6 5
+circuit 10 40
+sdg 8
+z 5
+tdg 3
+rx 2 401107086e68fca4
+z 2
+ry 3 4014d2113b72a4d0
+cx 3 7
+h 5
+z 1
+cz 3 0
+h 3
+s 8
+x 5
+z 4
+cz 4 8
+t 9
+x 6
+t 5
+cx 8 0
+z 2
+cx 1 9
+rz 4 4011233cd14bbb3c
+sdg 3
+tdg 2
+t 4
+rx 5 4012f21f31eecc88
+y 9
+rx 6 3ffe853a830d2c2f
+s 4
+rx 7 3fe3b9fe940fbb6f
+rz 1 3ff7068051694068
+cx 0 5
+cx 5 1
+t 7
+t 3
+h 4
+x 3
+s 9
+cz 3 4
+sdg 2
+circuit 1 40
+tdg 0
+x 0
+s 0
+sdg 0
+z 0
+sdg 0
+h 0
+tdg 0
+sdg 0
+sdg 0
+y 0
+s 0
+x 0
+x 0
+ry 0 4004de2d8ef38243
+h 0
+rx 0 4018644bea9a3aa6
+tdg 0
+t 0
+y 0
+y 0
+tdg 0
+sdg 0
+y 0
+h 0
+z 0
+tdg 0
+s 0
+s 0
+rz 0 4009991a09b8db37
+z 0
+sdg 0
+y 0
+s 0
+x 0
+y 0
+s 0
+tdg 0
+tdg 0
+s 0
+circuit 9 40
+t 8
+y 5
+rx 6 3fc9c3ff91aca6a4
+t 7
+z 5
+x 6
+cx 1 7
+cz 4 1
+rx 7 3ff87da1db4bad3c
+rx 8 3ffbb8ec1e40e799
+x 3
+ry 5 4006a40a99f2b2bf
+h 8
+y 5
+sdg 2
+tdg 0
+cz 7 5
+y 1
+sdg 1
+cz 1 3
+cz 1 4
+z 2
+x 2
+s 4
+h 1
+sdg 0
+t 6
+rz 6 3ffec72d46b96c0e
+rx 5 4017768de9737259
+cx 6 3
+y 5
+ry 8 40120151aa559471
+x 1
+rx 1 3ffade6f6fa7c6c0
+tdg 8
+y 2
+x 8
+rz 8 400fe5b710ddace1
+cx 6 5
+rx 0 3fe729aebdc0182e
+circuit 8 40
+cx 3 2
+rz 4 4018e8c9243bb718
+rz 7 4016c18a98cd2f42
+ry 4 4010cfa5450db8fc
+s 6
+cx 5 3
+cz 0 2
+rz 0 40123428aad1c08d
+tdg 7
+ry 4 3ffd66f1e085c972
+z 7
+ry 1 40014f4061fbf911
+z 0
+s 3
+ry 5 40059da7f9179c02
+sdg 5
+sdg 4
+rx 0 3fee3bb4a3df48a0
+sdg 5
+ry 3 3ffed92014fe3c30
+tdg 1
+sdg 6
+ry 1 3fef4d309b65c68e
+y 3
+y 2
+ry 5 3fec1e23cab474ad
+cx 0 4
+rz 3 400ddafdc1ec8f64
+s 5
+y 1
+cz 6 7
+cz 0 4
+tdg 0
+rz 4 400baa4900556f6b
+sdg 4
+x 0
+sdg 1
+y 7
+x 3
+s 3
+circuit 3 40
+sdg 2
+rz 0 3ffdd9a6525bd3bd
+rz 1 4007eba3a8f0ed4f
+rz 1 3ffa7d342dc03d71
+cx 0 2
+sdg 2
+sdg 0
+s 1
+t 1
+x 1
+t 2
+rz 1 4016b169a83a4239
+sdg 1
+sdg 2
+rz 2 400c60702b9901b6
+sdg 2
+ry 2 3ff9564936504013
+ry 0 4001486660481a14
+sdg 2
+cx 1 0
+sdg 1
+s 2
+tdg 1
+sdg 2
+t 2
+cz 1 2
+tdg 2
+rx 2 400eacf3eac92565
+z 2
+rz 0 400aa79d53d0acde
+ry 0 3fedb7be02ca2295
+sdg 1
+tdg 2
+x 0
+t 1
+z 0
+cx 0 1
+cz 0 2
+cx 2 1
+t 0
+circuit 12 40
+z 4
+rz 8 400f1875a9a82b3f
+ry 1 3ffe78deebc98f51
+rz 10 4014f1e22bc04cc8
+t 3
+z 0
+h 11
+z 8
+cz 4 8
+cz 4 8
+rx 11 40110a40c6ae88e5
+sdg 1
+rx 4 3fdc72e466e22b1c
+sdg 5
+z 11
+rx 1 400542375be57bf0
+z 11
+y 9
+z 3
+s 3
+cx 7 2
+tdg 3
+rx 11 4015baf0684f62f8
+rz 9 401494c469cedbcf
+t 11
+tdg 6
+x 0
+ry 2 3fb244ffff50ba31
+tdg 8
+ry 10 4015b5256d8f318d
+ry 5 401634963c20ec2e
+tdg 7
+sdg 4
+y 4
+cx 3 2
+y 3
+tdg 10
+h 11
+ry 4 4015485853db8684
+ry 9 400af5fbb0d9d62f
+circuit 3 40
+s 2
+rx 0 400e76b4c87426c8
+ry 0 401434db124b565a
+y 2
+ry 1 40130c13cd9b719a
+h 2
+ry 1 4000fed2a25775b7
+cz 0 2
+cx 2 0
+rz 1 40059489c3afdfc5
+sdg 0
+z 1
+x 2
+y 0
+sdg 0
+cz 1 0
+rz 1 40140cd6dd684105
+cx 0 2
+z 0
+x 0
+ry 2 4001c76285fd38e3
+x 2
+x 0
+t 1
+rz 1 3fbff0e988c07671
+t 0
+tdg 1
+x 2
+x 1
+t 0
+z 2
+h 2
+tdg 1
+z 0
+z 0
+cx 2 1
+tdg 1
+tdg 1
+h 1
+z 0
+circuit 11 40
+cz 10 6
+y 10
+cz 3 6
+rz 5 3fe612209173387a
+y 0
+sdg 4
+rz 8 40091ccae17a8ea1
+z 10
+tdg 1
+rx 10 40147eb0ade243ae
+rz 10 4015046aa095da00
+y 4
+t 5
+sdg 8
+h 5
+ry 4 400bd843246bbab9
+y 2
+cx 6 3
+tdg 2
+sdg 6
+y 8
+x 9
+cz 4 0
+cz 0 3
+ry 0 4006905ed67e45da
+h 1
+h 2
+cx 10 4
+y 8
+sdg 0
+y 4
+t 9
+t 2
+sdg 5
+rz 9 4018f1adc9c4ca2a
+y 3
+s 3
+cz 1 6
+cx 0 9
+t 9
+circuit 11 40
+z 3
+sdg 4
+t 9
+tdg 5
+tdg 4
+rx 8 40111644c1da579f
+rx 4 3ff9cf5416d4af94
+cx 10 4
+cz 6 9
+rx 5 4014883b5a460167
+rx 10 3ff2e65cfa718798
+t 2
+cz 7 2
+sdg 6
+y 0
+rx 0 4016882f195b9bac
+rx 4 4009033c0a117f0f
+rx 0 4015d0e214b99ada
+ry 7 4006757c78bcec16
+x 6
+t 9
+tdg 3
+y 10
+y 7
+sdg 1
+sdg 8
+t 10
+ry 0 3ff94668fb61e106
+x 5
+rz 2 3fe2c3215a30bfa2
+y 9
+cx 2 0
+h 5
+sdg 10
+s 6
+rz 6 4007677e5e01e093
+rz 8 3fd4323e87fe685a
+cz 8 0
+rx 10 4004158cf4b73e8c
+tdg 10
+circuit 9 40
+h 5
+tdg 3
+s 1
+rz 3 40118f4c22b16f5c
+tdg 7
+cx 1 6
+s 0
+h 1
+s 5
+s 0
+cz 0 3
+z 6
+t 6
+sdg 7
+y 3
+cx 7 2
+y 5
+rx 4 3fb3957175008944
+tdg 6
+s 4
+s 8
+s 4
+cz 6 7
+z 0
+z 2
+s 7
+tdg 3
+y 1
+tdg 3
+rx 5 4015718b419db875
+cx 1 7
+rz 7 401449bb9322209c
+z 2
+sdg 8
+t 4
+sdg 2
+h 1
+cx 3 0
+rx 4 401255043392f007
+t 1
+circuit 10 40
+h 0
+ry 6 4002d1328f053be2
+s 0
+z 0
+s 8
+y 8
+cz 8 0
+sdg 1
+cz 5 4
+s 1
+rz 4 4015e20ae0101f76
+ry 2 3ff0de7f0d6e3f71
+h 2
+s 7
+t 6
+s 3
+t 2
+t 8
+rz 3 40158a90b2cb2fa2
+t 9
+h 8
+h 7
+rx 4 4005f43a4265f735
+rz 0 3ff67d49ed0c35ac
+sdg 8
+t 8
+sdg 9
+rz 5 400217c906f52497
+rx 8 40159527f7f2e243
+cx 4 5
+cz 2 1
+cx 9 7
+rz 5 4018b0bcb9d635d5
+cz 6 2
+x 2
+rz 9 401387fcf68b9223
+rz 4 4001612112f865c8
+ry 3 3fce23a8615e9b0a
+z 9
+cz 3 8
+circuit 1 40
+rx 0 40038623393adee1
+ry 0 4016746a5f1f81a2
+y 0
+y 0
+h 0
+t 0
+rx 0 3ffd8d7d49f59eff
+s 0
+y 0
+h 0
+rz 0 40156ce185d58ccb
+ry 0 40145ac9bcf85553
+s 0
+s 0
+x 0
+rz 0 400e7fe1fa5fceda
+rz 0 40147e613e2896bd
+rx 0 4011716959608342
+rx 0 3fc81ae6bb06b577
+s 0
+ry 0 3fc198d7cb83d2ed
+rz 0 4000b0d49f413b72
+s 0
+rz 0 4003ec9ae2630e2d
+tdg 0
+rx 0 401914fa8467c0ed
+s 0
+ry 0 4018854646268287
+t 0
+s 0
+rx 0 40128685989f1fb0
+h 0
+tdg 0
+sdg 0
+ry 0 3fff763c949501fa
+x 0
+h 0
+y 0
+z 0
+ry 0 401252fbbb92dfd7
+circuit 9 40
+ry 0 3feb2df7d6c934d1
+z 7
+tdg 8
+cz 5 1
+h 4
+tdg 0
+sdg 0
+sdg 7
+z 5
+cz 4 5
+tdg 7
+t 8
+y 7
+y 7
+ry 5 3fe577f11d345cea
+s 0
+x 5
+x 0
+rz 8 4014439f5ccedcb9
+s 4
+cx 4 5
+s 6
+sdg 2
+t 5
+rx 1 3ff013601a5d18cd
+s 4
+sdg 4
+rx 3 400555687e579cbf
+h 1
+y 5
+cz 7 0
+z 4
+cx 5 1
+z 5
+s 1
+rx 5 4010ce18800b6307
+s 7
+cx 7 5
+rz 2 40127e2f8ec4f707
+rx 1 3ff00e4f554a3db9
+circuit 2 40
+tdg 1
+rx 1 40191f01655cfc17
+tdg 1
+z 1
+cz 0 1
+y 0
+ry 1 40077408de543acb
+z 1
+y 0
+rx 0 4014d6eba1ee4816
+rz 0 4013757664d951d8
+t 0
+ry 0 400fbbe80129d959
+h 1
+ry 1 40115765eb7f186b
+rz 0 3fd0c3dac2f421d1
+t 0
+y 0
+ry 0 400a689271af041c
+rx 1 401862bed946d913
+rz 0 401305ce120cfb82
+x 0
+h 1
+z 0
+cx 1 0
+rz 1 400a77176caade09
+ry 1 40013e7926f9ca03
+tdg 1
+s 1
+z 1
+x 1
+z 0
+z 1
+t 0
+s 0
+rz 0 4017446dfe949810
+tdg 1
+x 1
+rz 0 400bc6ec2d237d3b
+sdg 1
+circuit 8 40
+sdg 0
+z 6
+cx 0 2
+h 5
+rz 1 4016ef892ada887b
+cx 4 2
+rz 7 400d3bd930538f64
+rx 6 40133140e5b491b4
+s 1
+y 1
+cx 5 4
+tdg 2
+sdg 3
+sdg 1
+t 5
+ry 6 4012ce49cb31c0bf
+cz 3 2
+cz 7 6
+y 1
+rz 0 3fdda51426b0562d
+y 4
+rz 0 400b553f9bfdcf1b
+t 1
+cz 2 0
+s 3
+x 0
+rz 4 40174e20a4056e7f
+rx 3 4004b9a7199776c8
+x 1
+cx 3 0
+sdg 3
+t 6
+t 5
+rz 0 3fe8495708195ece
+ry 1 4010d37af2c7c147
+z 2
+rz 1 3fe01a177f27e02e
+cz 3 6
+ry 5 4011b847490d21b3
+sdg 4
+circuit 6 40
+rz 1 4004e55ea71e279f
+ry 5 40140439bed94bb4
+z 2
+sdg 2
+t 0
+t 0
+rx 4 401230757da25da7
+t 2
+rx 5 3ffccdf1be4c2e06
+ry 5 400bbe41b4ed76e8
+cx 5 4
+cz 5 3
+cx 4 0
+cx 4 2
+sdg 3
+cx 3 0
+y 5
+sdg 5
+y 4
+s 4
+h 3
+cx 2 0
+ry 0 4014e6a5ebcf306e
+cx 5 3
+tdg 4
+z 5
+z 5
+t 5
+x 4
+x 0
+cz 4 3
+tdg 2
+rx 1 3fd97cc5a5819bbd
+rz 2 400a182cf8659b77
+y 0
+cx 2 5
+y 5
+cx 3 5
+t 1
+h 3
+circuit 11 40
+t 7
+s 1
+ry 6 4010b4c815ab20aa
+ry 6 3fb3e3afa67230c8
+rz 9 4003255062d5b397
+x 2
+z 3
+y 1
+y 9
+h 6
+rz 7 3fc3cf6d60832ff9
+t 10
+cz 10 7
+t 2
+x 6
+rx 4 40015a8797d3496e
+cx 8 4
+s 6
+rz 3 400bdb33a3ab1044
+h 10
+ry 9 3fe09c4d7c5ecbfb
+y 5
+z 2
+s 8
+tdg 7
+y 8
+z 1
+sdg 0
+sdg 3
+z 4
+rx 0 400adb6045ba7145
+x 1
+tdg 0
+s 1
+cz 6 1
+cz 4 3
+rx 6 400e2b78272b05eb
+s 8
+h 7
+sdg 5
+circuit 10 40
+cz 9 4
+h 3
+y 8
+cx 3 6
+sdg 5
+sdg 9
+ry 3 40168b4d0a2c013a
+cz 9 3
+y 9
+ry 0 401321146a658e5a
+x 2
+x 4
+z 7
+ry 5 3fffac3a0743c405
+h 6
+s 0
+h 0
+x 5
+tdg 7
+cz 5 6
+t 1
+sdg 4
+t 6
+cx 8 4
+tdg 6
+cz 2 7
+h 8
+cx 2 8
+cz 3 1
+cx 6 1
+h 3
+y 0
+rz 7 40061919f5e38f7e
+x 1
+rz 9 401188f2fe4a5104
+x 5
+x 2
+y 7
+rz 7 3ff98cac7ab9c7bf
+sdg 0
+circuit 7 40
+tdg 3
+h 5
+cz 0 2
+rz 6 4012e2f298abe4ac
+ry 0 400bc64cb9a704ca
+x 1
+z 4
+z 2
+s 4
+ry 1 3fe83a959b37038f
+t 4
+z 2
+h 1
+t 2
+rz 5 3fcb6bd23f678c81
+sdg 2
+ry 6 3fe4a93eb3d3f670
+ry 2 3ff35f32d67687b8
+rz 0 40101a2675bb48a1
+tdg 0
+rz 1 400655d6944571a0
+cz 2 6
+y 1
+h 5
+ry 2 40160907210c917a
+t 2
+z 3
+rx 5 40146933680b5154
+z 3
+t 6
+y 5
+y 6
+sdg 5
+z 4
+rx 3 4010947773cfb1d6
+s 2
+rx 6 40108a31fcfe5321
+y 4
+sdg 5
+ry 0 3ff46e3c2e0121af
+circuit 8 40
+t 6
+ry 4 3ffbbb89db60dfa6
+tdg 4
+cx 2 0
+rx 2 40036ce3e750a20a
+rz 5 4014c425aaf6fb58
+s 7
+cx 1 4
+h 3
+t 1
+cx 4 3
+sdg 4
+tdg 5
+rx 0 4003133faf19e34f
+ry 7 3fdfefbf0194a891
+z 3
+ry 4 400d93cb35b2912a
+cx 7 5
+cx 6 3
+h 5
+ry 5 4011afe2dc71d55a
+tdg 0
+y 5
+ry 7 4016dfec5ea4b9ae
+cx 1 0
+ry 0 3fd49ebb7b4e9e82
+rz 5 3fd16f7112340a4c
+h 5
+z 4
+cz 4 0
+x 2
+sdg 3
+z 6
+rz 3 401600dcb5a7e717
+y 0
+s 4
+sdg 1
+rz 1 3fc34fb31affd1d8
+h 7
+rx 6 4016afc5a5ca734e
+circuit 12 40
+cx 8 4
+s 0
+h 10
+y 10
+h 0
+cz 6 9
+rz 5 3ff9af78dcb0029f
+sdg 9
+s 6
+h 2
+cx 5 1
+s 4
+cx 9 6
+sdg 8
+cz 0 4
+rz 1 3fff4ba325f90b40
+tdg 6
+ry 1 4014cf1c5aa3007e
+rz 9 4018a0b0df6d5c6d
+cx 8 6
+h 4
+t 1
+h 11
+rz 10 3ff87b432c9fe935
+sdg 8
+tdg 0
+ry 8 3fec62aa1bee4312
+x 11
+x 0
+rx 2 401476ac996a0def
+cz 6 8
+y 7
+sdg 7
+z 3
+h 3
+y 1
+z 3
+s 1
+x 5
+rx 4 3feec6defebf336c
+circuit 8 40
+ry 2 4010ec9a1c3d3a6c
+rx 1 3ffde6ec7c4275c7
+z 1
+cx 3 5
+sdg 3
+h 3
+x 3
+tdg 2
+h 2
+ry 3 4016a5b7b7315f31
+rx 5 400b108dad6eea1c
+ry 7 3ff4160dbc51c1f3
+y 3
+rz 5 3fea0ee046a45247
+rz 2 4016d427ff7ce536
+x 5
+sdg 3
+cx 2 5
+s 0
+h 5
+ry 1 400dfb17ce490fab
+cx 1 0
+h 4
+y 7
+ry 2 3ff3839aafb6dee2
+ry 0 3ff1110bec710bce
+rx 7 3ff813994a8b65b8
+h 4
+rx 6 40157b0b15d7c704
+sdg 0
+t 1
+s 2
+z 5
+cz 7 3
+t 1
+cz 5 4
+s 1
+cz 1 4
+rx 3 40056a67a26af2a5
+y 6
+circuit 12 40
+y 2
+sdg 2
+sdg 4
+z 11
+cx 0 2
+cz 5 9
+t 1
+ry 3 4003c18aa37f0aee
+cz 10 4
+x 2
+sdg 7
+t 5
+cz 7 9
+ry 5 3fe8eb16707503c3
+cz 3 2
+rx 10 3f8217f9fe36d3d5
+rx 3 400150cb4dd782dd
+cz 10 2
+rz 10 400351ab4df1cc63
+z 1
+x 5
+rz 4 3ff17d4c1435a015
+z 9
+cx 3 8
+z 1
+cx 9 2
+x 1
+rx 1 3ffe53b27c74b243
+h 11
+cx 3 9
+rz 4 4003f3cdc544b0fb
+rz 8 4016a949c609ba52
+cx 9 5
+sdg 2
+tdg 6
+h 2
+h 4
+t 10
+t 5
+cx 2 8
+circuit 2 40
+s 0
+t 1
+rx 0 3fe74a9ee9d93152
+cx 0 1
+s 1
+t 1
+s 0
+rx 0 40187a905acfedb6
+s 1
+x 1
+tdg 0
+rz 1 401370af95c1f27f
+y 1
+rx 1 400225bc4b132806
+t 1
+x 0
+h 0
+y 0
+sdg 1
+y 1
+z 1
+rz 0 3ff84f62ba8a514d
+sdg 0
+sdg 0
+z 1
+ry 0 4007f00a6c24586d
+s 1
+rz 0 40135275298ebec0
+h 0
+t 1
+tdg 1
+rx 0 40001b6017903674
+x 0
+y 0
+ry 0 400c0dc55b6eb3e5
+cx 1 0
+tdg 0
+rz 0 40189b5e357c0823
+rx 0 40109bf79f524bdc
+t 1
+circuit 12 40
+rz 6 3fe7653c1a762985
+z 5
+tdg 8
+tdg 8
+cx 10 3
+rz 11 3ffc6a4bf13dde5c
+rx 5 400fb95433584f3a
+tdg 1
+s 0
+rx 0 4015249d15ca040f
+rx 9 40011e11f1c3f7b6
+cz 2 7
+h 4
+ry 6 400bbc83d2d4f031
+t 5
+rz 5 3fff3f604bb72cc6
+sdg 3
+y 5
+y 0
+rz 9 4017bb63d1891df0
+s 8
+y 4
+z 4
+z 6
+h 1
+h 10
+tdg 8
+sdg 0
+t 11
+rx 10 3fe0a8de0f3b3449
+h 9
+cz 3 8
+rz 5 40151bc8dcaed37c
+rz 0 4011d1db814d6bf3
+s 10
+rz 1 3feb6ca9f84950d5
+t 2
+cx 5 11
+rz 8 4006dc4818699a5b
+z 3
+circuit 7 40
+tdg 3
+rz 1 401154cb78c4b220
+s 6
+ry 6 4018256aaf6d22b1
+t 6
+sdg 2
+cx 5 0
+cx 6 3
+ry 6 401672ac05b8396c
+x 0
+t 1
+z 1
+t 0
+z 5
+z 6
+cx 4 0
+rz 4 4013a31b6dc1bc05
+rx 0 3ff06c41b33219bf
+y 1
+y 6
+y 0
+tdg 4
+x 4
+y 2
+cz 0 1
+sdg 2
+cx 1 5
+s 0
+rx 3 4006ec2dbe0edf9c
+cz 5 3
+cz 6 2
+tdg 2
+cx 0 4
+h 1
+z 5
+t 0
+ry 6 400a36263ef2f069
+cx 2 0
+cx 6 2
+rz 5 400142d5809ade10
+circuit 10 40
+ry 2 400b4b18d5ba1cb0
+ry 7 4018f62a2ddaf4aa
+x 5
+h 9
+t 9
+z 1
+ry 9 4005565b00d10e73
+rz 8 3fffe13fc21b0c8d
+h 3
+sdg 3
+rx 3 400b0473bcc55f56
+cz 1 2
+cx 9 2
+sdg 9
+h 0
+cx 5 6
+h 0
+rx 0 3ffc4d79b181f454
+ry 1 4005fb0c6d33684c
+ry 9 40077f72f3aa6a61
+y 8
+rz 9 4016a8b6e25e8a2b
+t 2
+sdg 0
+ry 9 400787d30e66ca8e
+h 0
+sdg 9
+rx 7 3fe261a5bf5f75c1
+tdg 6
+h 5
+s 8
+z 2
+x 9
+cx 9 7
+rz 0 3ffca333fc0a68fa
+x 8
+x 0
+t 0
+tdg 3
+t 5
+circuit 7 40
+sdg 5
+tdg 2
+sdg 4
+y 2
+tdg 4
+sdg 1
+rz 5 40173d860b999e31
+y 2
+y 4
+y 3
+rz 1 3fdf4258703b61d4
+cx 5 1
+y 0
+s 3
+h 5
+rz 3 3fe9e699e3323088
+cx 2 0
+s 0
+cx 4 1
+y 0
+rx 5 3fe36a7d60c4dfc4
+cz 0 1
+x 5
+y 1
+h 5
+x 6
+ry 1 4017828371193b98
+sdg 5
+t 2
+x 5
+s 3
+rz 6 4017acadec58d17d
+x 0
+x 4
+ry 6 3ff50ed2fabc9299
+rz 0 3ff57358e40dce42
+x 1
+t 2
+cx 2 4
+tdg 0
+circuit 1 40
+ry 0 4015bceda2bc1f30
+rz 0 400f62fb20b745a1
+rx 0 4017573c0c5b6510
+x 0
+sdg 0
+z 0
+x 0
+sdg 0
+h 0
+s 0
+ry 0 4013ab4625d73abc
+ry 0 3fcc384365e66cbd
+t 0
+rz 0 40135a15066a9931
+z 0
+sdg 0
+y 0
+sdg 0
+t 0
+sdg 0
+rz 0 4008d61d72e882ad
+h 0
+z 0
+sdg 0
+rz 0 400d3495272e72fb
+y 0
+y 0
+rx 0 3fe8ee6b8f1ca895
+tdg 0
+t 0
+z 0
+z 0
+sdg 0
+t 0
+x 0
+rz 0 3ff4698e0c908971
+s 0
+z 0
+rx 0 40053243c0bc596a
+z 0
+circuit 5 40
+rz 3 400a4262e6805f33
+tdg 4
+cx 1 2
+cz 3 1
+rz 1 400746b8fc10b648
+cz 2 4
+tdg 2
+tdg 1
+cz 4 2
+y 3
+rz 4 401390a23ab8b1fc
+tdg 4
+s 3
+tdg 4
+rx 4 3f98bd8fee36f0f5
+sdg 2
+t 4
+cz 3 2
+s 4
+ry 0 40180f69386205fa
+rx 3 40168e21437dad3f
+y 1
+tdg 2
+cz 4 2
+s 2
+tdg 1
+sdg 3
+rz 3 40080ebff880752e
+ry 2 40177d3b34b0a38e
+cz 4 1
+t 4
+y 3
+y 1
+cz 1 2
+h 2
+rx 0 40148b2d95f1916e
+rz 0 3fe77d327d8d7084
+y 0
+rz 1 4008b2af54c0eec6
+cx 0 2
+circuit 11 40
+ry 10 400ce074e2f81a0f
+tdg 7
+z 4
+sdg 4
+x 6
+x 5
+rz 4 3ff7d5e9fda63347
+rx 1 3ff9b554faaf970a
+rz 10 400f6d2aac31799c
+h 7
+t 0
+tdg 7
+t 3
+z 1
+cx 0 4
+t 2
+cz 2 5
+x 1
+h 6
+rx 2 3fc39b31b07d09ec
+t 4
+y 4
+ry 4 4011fc801bc404e6
+y 2
+t 6
+cz 5 9
+tdg 0
+rx 2 400cb9dc08c5e699
+tdg 0
+z 1
+s 8
+z 10
+cx 2 1
+cx 7 4
+h 1
+rz 3 4003118d07ad457a
+x 4
+cx 8 5
+tdg 7
+y 4
+circuit 11 40
+rz 2 4001d14e4e22aa75
+z 8
+h 9
+ry 1 4004b63d6e0b92c7
+x 3
+y 9
+z 8
+sdg 10
+rx 2 400ac3478eb52d94
+z 8
+sdg 0
+t 1
+cx 7 4
+t 3
+z 8
+cz 3 8
+rz 3 3ff6dd4071260e88
+y 8
+tdg 6
+h 8
+z 0
+sdg 10
+s 7
+cx 8 10
+cx 9 1
+sdg 4
+x 6
+cz 10 4
+z 1
+y 10
+s 2
+x 5
+y 7
+tdg 10
+x 5
+rz 1 4010cfbf6e25d82d
+cx 1 4
+s 2
+rz 10 3fc32d008c6051c6
+rx 3 4013f1b09d4843c4
+circuit 4 40
+ry 3 40165fae21e7a26a
+cz 3 1
+tdg 1
+s 2
+rz 2 4007daddb3a76bba
+t 2
+y 0
+s 3
+sdg 2
+t 3
+h 2
+z 3
+cz 2 3
+sdg 1
+tdg 1
+tdg 2
+rx 3 4008357d885fabbf
+cz 0 3
+rx 2 4010fdb353ef2e76
+z 1
+sdg 1
+ry 2 3f54bfe812ae9923
+ry 0 4009354b97842658
+t 0
+t 0
+tdg 1
+t 1
+cz 2 0
+x 2
+cx 0 3
+s 0
+s 2
+rz 0 401202d7aa0cf8f7
+x 1
+cz 1 2
+y 3
+y 0
+y 0
+h 3
+h 1
+circuit 4 40
+cz 2 3
+tdg 0
+s 1
+s 1
+t 2
+cx 2 0
+h 2
+rx 0 400a95ac6b478830
+rz 3 4017a362ef957d90
+s 3
+x 3
+rx 1 3ff7551243d3eb28
+tdg 2
+sdg 1
+t 2
+y 2
+s 3
+tdg 1
+rx 1 40039e341dc63030
+cx 2 3
+ry 0 4002b6f3790ce316
+y 0
+rx 1 4008b9c2cff2ee10
+t 3
+cx 3 0
+t 3
+s 3
+cx 3 2
+ry 2 4018d6308e3348d8
+s 2
+s 2
+x 0
+tdg 2
+sdg 0
+h 0
+t 3
+rx 1 40086fb4ee93b922
+cz 2 1
+t 3
+tdg 2
+circuit 3 40
+h 2
+rx 1 401281303dc755e9
+y 2
+rx 1 40105653ecacb150
+cz 2 0
+rx 0 4011eb6549950274
+cx 0 2
+tdg 2
+cx 2 0
+cz 0 2
+z 2
+cx 2 1
+s 1
+h 1
+sdg 0
+z 2
+sdg 2
+sdg 1
+tdg 0
+sdg 1
+cx 0 1
+t 1
+rx 1 400af6bfb5ed180f
+x 2
+z 1
+cx 1 2
+h 2
+y 2
+rx 0 4013a388b1c424d4
+h 0
+t 2
+t 2
+z 2
+rz 0 40129c410c1f4539
+rz 1 400d740ce8ec57f0
+cx 1 2
+h 2
+t 2
+x 0
+tdg 2
+circuit 8 40
+rz 6 40118cff44e9e888
+ry 5 3fee96ed233a23f3
+z 6
+t 2
+x 3
+rx 3 400a7b05a1208658
+rz 0 40157d47c78195e9
+cx 6 0
+x 6
+rz 7 4012631f4f8bcea4
+ry 5 4017be3f7781003f
+x 1
+ry 5 400ae418a4083bb8
+h 2
+tdg 6
+tdg 2
+t 2
+x 7
+x 7
+sdg 5
+rz 4 40167349d55efd03
+rz 6 40113ec461f62be5
+sdg 5
+rz 7 400a3fad5458cba6
+x 2
+t 3
+cz 7 6
+rz 4 4012976347b99180
+tdg 1
+sdg 6
+s 0
+ry 3 4017484f51b42b45
+cx 6 4
+rx 6 4003974900a6058a
+sdg 6
+ry 0 40181dffa077e4ae
+rx 2 4001f2146e2cb9cf
+sdg 2
+sdg 1
+ry 5 400157f23f2584fc
+circuit 6 40
+t 3
+t 1
+s 1
+ry 0 400b12205d953608
+sdg 0
+tdg 1
+h 5
+rx 3 4014087b87bf649f
+h 2
+cx 1 4
+cx 2 4
+rz 0 400ec862916e4e91
+rx 3 4004d6f8d9b3f9de
+t 4
+sdg 5
+s 4
+rx 5 40085af9bde6a160
+h 2
+x 2
+s 3
+t 1
+x 2
+rz 3 400a3e6f726e75c5
+rz 0 400779fd2558dc46
+sdg 2
+t 1
+tdg 5
+y 2
+x 3
+t 4
+h 2
+tdg 5
+sdg 2
+t 2
+h 4
+rx 2 3f911b29d5e822b0
+tdg 2
+tdg 4
+y 4
+rz 5 40125fb5344304fb
+circuit 3 40
+sdg 2
+cz 2 1
+t 0
+tdg 0
+ry 0 40178cb98b14d4f6
+z 0
+y 0
+s 0
+x 0
+z 1
+tdg 1
+ry 2 4016378e6b4131d9
+cx 2 1
+ry 2 3ff751d22f7e5ef9
+cz 0 2
+tdg 2
+rx 1 400a437e059f1608
+sdg 2
+cx 1 0
+cx 2 1
+sdg 2
+cz 1 0
+h 1
+ry 2 401546bc8ca147b5
+s 1
+sdg 2
+cx 1 2
+t 1
+cz 2 1
+z 1
+sdg 1
+rz 1 400f46869434d070
+y 2
+rz 2 400036047a1edbcf
+x 2
+t 2
+tdg 0
+cx 0 1
+rz 0 4012c8f75349d42b
+cz 0 1
+circuit 1 40
+h 0
+t 0
+t 0
+sdg 0
+ry 0 3fd45f84b843ca47
+h 0
+t 0
+z 0
+rx 0 3ff4bc1a969e2923
+y 0
+z 0
+ry 0 4012b126e3778dab
+ry 0 3f6c53dc41afdb0b
+x 0
+h 0
+tdg 0
+tdg 0
+y 0
+h 0
+t 0
+y 0
+s 0
+sdg 0
+x 0
+rz 0 401170c58271af25
+s 0
+ry 0 400ecc8c875b1d1e
+x 0
+y 0
+s 0
+t 0
+t 0
+tdg 0
+h 0
+tdg 0
+z 0
+s 0
+sdg 0
+h 0
+ry 0 4018d484de8b8cff
+circuit 11 40
+h 0
+h 10
+tdg 5
+sdg 10
+cx 9 5
+y 2
+rz 0 3ffa298df01bce0a
+s 9
+tdg 9
+x 4
+rx 9 4013e914973a09dc
+s 6
+s 2
+h 5
+y 1
+s 4
+x 8
+s 2
+x 10
+y 1
+z 10
+s 3
+h 2
+sdg 0
+s 4
+rz 2 4018fe503f00bdfe
+y 5
+cz 1 9
+rz 2 3ffcdb87bba8712c
+t 0
+h 6
+rz 0 4010c03700336973
+cz 3 1
+h 6
+y 2
+t 10
+t 2
+cx 7 4
+h 8
+cx 5 0
+circuit 7 40
+rx 1 4016cb4435fcf27b
+rx 0 3fe99dc6bed480dc
+rz 5 4014e3cf4de2a740
+s 1
+ry 2 401360c9f7591133
+cx 0 4
+h 5
+z 2
+ry 4 3fcfffb432ada24d
+ry 2 3fbe8507a8af334a
+s 5
+z 4
+tdg 3
+rx 5 401341651541642e
+h 2
+z 6
+t 6
+s 5
+s 5
+cx 1 6
+x 5
+s 5
+cx 5 0
+ry 1 4004637c8617eb38
+h 3
+cx 3 4
+rz 0 400559041e67f1f3
+y 4
+z 3
+cz 3 0
+cx 3 5
+x 5
+ry 2 4006af5b20b12995
+x 2
+tdg 5
+ry 1 401215ad5598b7fe
+cz 1 3
+y 1
+tdg 2
+rx 5 3ffcfd018e56b2cb
+circuit 3 40
+ry 0 400bf87d9be7324f
+t 0
+s 1
+x 1
+cz 0 2
+y 2
+cz 0 2
+s 2
+h 0
+y 0
+ry 1 4002e897839892a5
+tdg 2
+s 1
+h 0
+t 0
+h 1
+t 2
+ry 2 4011b1cdd2f20652
+rx 1 400ae9e69e7774aa
+tdg 2
+x 1
+h 0
+t 1
+ry 2 3ff93566d1171657
+s 2
+x 1
+rx 0 3ffb9f6b34790283
+y 0
+t 2
+s 2
+y 0
+y 1
+t 1
+cz 0 2
+h 0
+tdg 0
+rz 0 4016f803f98a5932
+z 0
+ry 2 400b1d03987b5c19
+rz 2 401312130536554b
+circuit 6 40
+z 1
+z 2
+x 0
+rz 2 3fdfbdec6fd66488
+rx 2 4011fe5bbaa20547
+rx 3 3fbde951258b58a3
+cz 5 2
+ry 1 401220472e27e153
+h 5
+cz 4 5
+h 4
+tdg 3
+cz 4 2
+tdg 0
+z 4
+sdg 4
+s 4
+s 2
+tdg 1
+rz 4 3fd469edcc67758d
+rx 0 40152a0e53aca253
+s 2
+ry 2 4009f59314fa8a37
+tdg 3
+t 4
+cz 4 5
+t 3
+rz 5 400fffe7b07485f9
+z 5
+tdg 4
+z 4
+y 1
+x 4
+tdg 5
+rz 2 3fd44c5dc69ef4f4
+sdg 2
+cz 4 3
+x 1
+s 4
+s 0
+circuit 5 40
+y 4
+s 1
+s 3
+rz 0 400cdd4abe5913ae
+ry 0 4015733bf94b7d24
+cz 1 0
+h 1
+cz 2 3
+x 2
+z 4
+cx 2 0
+y 1
+z 4
+t 4
+s 3
+y 2
+h 2
+rz 2 3fef5f80fb8854df
+y 0
+rx 0 4012177b7654f716
+z 2
+z 0
+h 4
+ry 4 40150ef8e925636a
+ry 4 3fd2d9b06cec7e4f
+ry 2 400bc6e1d7dca4c2
+z 1
+rx 0 401281c99f18c04a
+rx 1 3fba466bf92295c8
+cx 4 3
+rx 4 400289df72bb4d5c
+x 2
+y 1
+rz 1 3fd73de67b0e2469
+cx 0 2
+x 4
+t 3
+rz 3 40149fa0aa7d66cb
+t 2
+sdg 1
+circuit 5 40
+x 1
+tdg 0
+rz 0 400facb763e4b680
+rz 2 400004d432b8aa50
+sdg 1
+t 0
+t 4
+cz 0 1
+z 4
+tdg 2
+sdg 0
+cz 2 0
+tdg 3
+s 3
+sdg 2
+rz 4 400d158685342755
+ry 4 3ff30ab19ca6bab9
+rx 4 400d48d950373a80
+sdg 3
+ry 1 3fddd6f2321fe074
+y 0
+z 3
+x 2
+rz 2 400b3f35e7ade003
+z 0
+x 3
+ry 3 40049605900b2210
+y 1
+rx 2 3fee9e187241fa95
+t 1
+rz 3 3ff9a3c628cfdba0
+y 3
+y 0
+t 1
+cx 0 3
+y 4
+rx 2 3ff956e605611736
+cz 4 1
+y 4
+t 3
+circuit 4 40
+tdg 0
+cz 3 2
+x 1
+h 0
+cx 1 2
+t 0
+s 2
+tdg 1
+rz 0 3feb0bede02efc30
+rz 1 3ffcec964dfaa2a1
+rx 0 3ffb377dce56aa7e
+rz 0 4013a72027006f23
+ry 1 4017fa7f242a527f
+t 0
+rz 0 3fe2a3a271e9a076
+ry 2 4001b43ff1da40ff
+z 1
+y 2
+y 3
+rx 1 3ffc00b9f9eb0bb0
+cx 0 1
+rx 2 400d519e53a8295e
+ry 2 401793d9d61f969b
+t 0
+rx 3 3ff16d0d52c66552
+sdg 1
+x 2
+x 0
+ry 1 4012489664bb1b35
+ry 2 4011bdd669207af0
+sdg 0
+rx 1 3fe633855a685782
+tdg 2
+cz 3 0
+x 2
+ry 1 3ff0a23a374df07b
+rz 1 4001cb1c7c8deced
+y 2
+rx 2 4012d60d22928b79
+t 1
+circuit 1 40
+ry 0 40018fc0afb9e55a
+ry 0 4014461f64c463b1
+ry 0 4003d6beae31b422
+rx 0 3fd3bee51854f1f1
+tdg 0
+h 0
+x 0
+ry 0 3fdb5ef634cf52d2
+tdg 0
+ry 0 4014588809fd2ba3
+sdg 0
+s 0
+t 0
+x 0
+ry 0 401901365d205dc1
+h 0
+s 0
+sdg 0
+h 0
+h 0
+ry 0 3f9c65d1d10dc23a
+h 0
+rx 0 400f7965fec2f213
+z 0
+tdg 0
+y 0
+h 0
+sdg 0
+rz 0 4011fe5f6b55f0a6
+rx 0 400951f5fce76963
+y 0
+h 0
+z 0
+rz 0 40191842b79dbb8d
+s 0
+tdg 0
+rx 0 3fccc54d9479d9ea
+h 0
+z 0
+z 0
+circuit 11 40
+tdg 7
+cz 7 1
+sdg 6
+x 3
+sdg 6
+cx 7 8
+t 8
+h 9
+rz 4 401072f492c5b3ef
+s 7
+rx 6 400297a080efbd84
+rz 2 3fff0b62d49636a9
+h 3
+h 1
+rz 2 3fc4bd425ed36646
+tdg 2
+z 0
+rx 3 3f8a25b921f1a86d
+rx 3 4000f56650f9baa6
+t 3
+rx 7 3fc5dc5de3d49ae1
+rx 2 400d72dbcaafd48a
+rz 10 4016a27dda570f13
+tdg 0
+ry 10 4003f738342ba76a
+y 9
+y 3
+ry 10 400dfd8cbe25d240
+z 6
+cz 0 5
+h 3
+rx 8 401793f562a7cf78
+t 1
+tdg 3
+ry 6 4010d07489786af6
+rx 8 401730192dc2d33f
+cz 5 7
+y 3
+ry 10 3ffa5a5de370043d
+sdg 0
+circuit 9 40
+y 8
+tdg 5
+rz 8 3ffed2adb5dba200
+z 5
+rx 3 3fd3a39246294153
+cz 4 6
+sdg 3
+ry 6 400b5eb512b3b18f
+t 3
+z 0
+tdg 6
+y 7
+x 0
+sdg 3
+z 5
+sdg 6
+cx 7 6
+s 3
+x 4
+cx 1 7
+rz 3 3ff6197169880f9d
+cz 2 4
+z 8
+cx 4 3
+rz 7 3ffd39f67a7565d7
+z 1
+x 1
+cx 1 3
+h 1
+cz 6 0
+sdg 0
+cz 3 5
+sdg 7
+y 7
+x 4
+h 8
+rz 3 4011bb2d3d3b5ee0
+x 2
+cz 5 7
+cz 5 0
+circuit 12 40
+z 1
+x 8
+x 9
+t 10
+ry 5 3feaa7e1d6368724
+y 7
+rx 7 4018ec887118cd1d
+cx 3 4
+cz 8 11
+x 11
+x 2
+z 11
+sdg 9
+y 5
+cx 6 1
+ry 2 3ff8263a182bf2ba
+sdg 8
+t 9
+cz 11 3
+x 4
+y 6
+sdg 9
+rx 1 4007f128079d81a4
+h 0
+z 6
+rz 3 40182edc21699578
+s 7
+s 7
+s 4
+rz 3 3fdcb803764336ae
+z 5
+s 6
+ry 0 3ff49ca549f8130d
+rx 10 3ff52b8df99d82ab
+t 1
+x 4
+rz 9 3fffb7b85f7285c6
+y 2
+rz 0 3ff59e7f2a960e49
+rz 7 3fe62cdade545c66
+circuit 9 40
+t 3
+ry 4 400ad0c15d770acb
+tdg 4
+z 2
+rz 0 400c7cf13ed6ebd1
+sdg 6
+s 1
+t 4
+rx 0 4006f48ca946a1d0
+tdg 0
+tdg 6
+h 0
+s 0
+h 4
+cz 5 4
+ry 4 40147e7070b196e4
+cx 0 1
+cx 6 0
+ry 4 40019d1f3eea7d8b
+cz 4 0
+h 3
+rx 6 401890726aeb0ba0
+tdg 0
+z 8
+ry 4 40124c657cb14c31
+t 1
+ry 0 4005ac1539eefbaf
+tdg 4
+sdg 3
+ry 5 4007a2acf8660e78
+sdg 2
+rx 2 4013d1dc252ab586
+y 3
+x 6
+h 6
+ry 4 3ff76d324c9b44b9
+cz 3 7
+y 5
+rz 1 400a733cbc94cf1f
+rx 6 4015ff8d6a09a5dd
+circuit 1 40
+rz 0 4014ea250c4b9dc3
+z 0
+rz 0 40052b573b0540e5
+y 0
+rz 0 400932396141de7b
+z 0
+sdg 0
+rz 0 4014013c41f7e920
+x 0
+h 0
+y 0
+x 0
+tdg 0
+x 0
+x 0
+t 0
+tdg 0
+sdg 0
+z 0
+ry 0 401760d2a33aeb65
+z 0
+y 0
+rx 0 401148542824a179
+x 0
+z 0
+z 0
+t 0
+x 0
+x 0
+x 0
+s 0
+z 0
+rz 0 40149f66c17812dd
+s 0
+x 0
+rx 0 3ff8e9bddc8bcc52
+tdg 0
+sdg 0
+ry 0 3ffe6c5bf7ff9d0d
+t 0
+circuit 4 40
+ry 0 40159479e3614233
+tdg 0
+ry 3 40085c1ebd50dcf5
+sdg 1
+rx 3 3fe417eeb2b7635d
+ry 3 4017e5a0c6fc464d
+ry 3 3ff7d4d28d65cf24
+z 3
+rx 1 4012d099bdaa3ded
+tdg 3
+cx 3 0
+cx 1 0
+t 1
+x 0
+rx 2 3ff4a5d55bd1b8b8
+x 0
+cz 1 2
+ry 2 3fe9503ac93c02d6
+tdg 2
+rz 0 3ff3bd37cf8628a8
+ry 3 4000c1fb23aa05f7
+sdg 0
+tdg 3
+z 3
+sdg 1
+tdg 2
+rx 1 4018cd5275981926
+x 2
+y 2
+cx 2 3
+y 3
+s 1
+h 1
+h 2
+h 0
+x 2
+ry 1 400d15c2a60f290f
+h 2
+s 1
+y 0
+circuit 9 40
+ry 6 400036e9b31fc0a3
+cx 2 7
+h 0
+tdg 2
+rx 6 400de9f9179e327f
+x 7
+x 7
+cz 8 7
+ry 4 3fe9b160709ff611
+z 8
+rx 8 40170e4b9ebdc274
+s 8
+cz 1 8
+z 6
+tdg 2
+rz 7 4015cd3da4d5180b
+z 5
+tdg 1
+cz 6 5
+y 7
+cz 1 8
+t 3
+cx 2 8
+sdg 2
+rz 1 400ebcbc258e577c
+t 0
+s 7
+y 6
+sdg 7
+y 3
+tdg 3
+t 0
+rx 6 401167dcc90053e0
+t 3
+t 0
+tdg 3
+cz 1 5
+sdg 2
+sdg 0
+rx 0 4004ec99e860e23c
+circuit 1 40
+t 0
+sdg 0
+rz 0 3fda127cf93740a2
+ry 0 3fc4eabf2d4e60d8
+h 0
+rz 0 4004af12c4396461
+tdg 0
+z 0
+tdg 0
+s 0
+h 0
+y 0
+rz 0 401338967f28902e
+y 0
+z 0
+rx 0 3fe5c2a7bc78caa6
+s 0
+t 0
+y 0
+rz 0 401117d7cc708d13
+rx 0 3ff5d22785097dba
+x 0
+rz 0 3ffaafbc63205600
+x 0
+rx 0 3ff26f83aee840ff
+rx 0 3ff8d2d0084532b0
+ry 0 3ff8d67366dfba08
+s 0
+s 0
+s 0
+z 0
+h 0
+rx 0 3ff7452587e88339
+rz 0 3ff1f6efad047f2a
+tdg 0
+z 0
+rx 0 401596cc4c7ddd23
+y 0
+rx 0 3f960eba63a5cf78
+rx 0 4018a4f49df4daab
+circuit 9 40
+cx 7 4
+cx 0 2
+ry 4 400929b18cc9622a
+rz 7 3fdfee9eb9e8feb7
+t 5
+t 2
+ry 4 401122544fd3a5a0
+ry 0 3feadec957d54f9c
+h 1
+sdg 1
+x 4
+tdg 1
+tdg 7
+tdg 5
+z 6
+s 6
+cz 3 2
+x 4
+h 7
+t 1
+s 3
+ry 8 401467ed4d149d54
+t 3
+z 8
+rx 4 400c3a974742ce85
+cx 3 1
+tdg 8
+z 5
+cz 8 2
+rx 3 3fed24e56220dec7
+sdg 0
+y 6
+ry 6 4013f122eb4467ff
+ry 0 401182dd4b518f9e
+h 6
+tdg 7
+rx 7 3fe659eeec5cd603
+cx 8 7
+tdg 6
+h 2
+circuit 8 40
+cz 5 6
+x 7
+cz 3 0
+tdg 0
+y 1
+t 0
+x 3
+tdg 3
+cz 2 3
+h 3
+cx 3 4
+rx 4 4010a943ed98cdd0
+cz 0 4
+y 4
+tdg 6
+y 5
+cx 7 3
+rz 5 400b0a3c97fec996
+s 0
+ry 3 4010554c9548ab38
+t 6
+sdg 4
+x 1
+ry 3 40099474adf96ca9
+s 1
+x 2
+h 1
+tdg 4
+sdg 6
+z 0
+y 7
+y 6
+rz 3 401488778f847750
+y 6
+z 2
+ry 2 3ffc08052ed03590
+ry 1 400c7c710b2380d6
+h 7
+x 0
+tdg 6
+circuit 1 40
+tdg 0
+rx 0 3ffa00fb3b80744b
+t 0
+ry 0 40123be8b827086e
+x 0
+ry 0 4013c37a8c676f02
+z 0
+sdg 0
+rx 0 401841ed6518bd5a
+y 0
+rz 0 400bf41018a37763
+rz 0 3ffee7be056d49f3
+x 0
+x 0
+t 0
+ry 0 401060fa68773c3a
+x 0
+t 0
+rz 0 4002096182fbd7ed
+s 0
+s 0
+ry 0 40096e518cd99679
+x 0
+sdg 0
+rz 0 3fbf527d13fd3ba9
+z 0
+z 0
+x 0
+ry 0 3ffd48c488db1974
+sdg 0
+tdg 0
+rz 0 3fe6351b5ffde34b
+y 0
+y 0
+rz 0 4015cf5c446a0384
+s 0
+tdg 0
+x 0
+z 0
+tdg 0
+circuit 9 40
+y 6
+t 5
+y 4
+tdg 3
+h 0
+s 4
+sdg 6
+tdg 4
+h 3
+sdg 0
+y 7
+cz 7 1
+t 4
+cx 1 5
+h 0
+cx 3 1
+sdg 7
+z 1
+z 6
+s 5
+x 4
+y 1
+x 6
+cz 8 7
+ry 2 4015efcf51eb8aa0
+cz 3 8
+cz 4 8
+ry 0 40114caba62dde52
+s 4
+rx 6 3ff5d7d9ff316849
+x 3
+tdg 1
+tdg 6
+h 7
+ry 8 3ff216829ace599d
+h 3
+t 0
+rz 3 3fff056b2ebaa2bc
+h 1
+cx 4 3
+circuit 12 40
+cx 4 8
+rx 2 400321184f8a4b36
+s 7
+t 3
+s 6
+t 0
+rx 11 400931faaf4da412
+y 3
+cx 2 9
+rx 5 40022131f200c4fa
+y 9
+tdg 4
+z 5
+x 4
+rz 2 4012bd93112e52b1
+tdg 6
+ry 9 4015010d819345fb
+y 8
+s 7
+y 4
+z 0
+s 11
+cx 4 8
+x 9
+sdg 1
+rx 3 3fc6b585e54f6aea
+ry 6 4002508490137330
+cx 5 4
+tdg 2
+rz 7 3fcdd67267706231
+cx 10 6
+h 10
+tdg 0
+rz 10 4005f77aedfd0e26
+y 5
+z 10
+cx 10 5
+z 9
+sdg 7
+cx 2 8
+circuit 5 40
+sdg 4
+cz 3 1
+x 3
+rx 0 400d3cf8f87648e2
+z 0
+t 3
+cz 1 2
+ry 2 401899ba0e9518cf
+x 3
+cx 0 1
+tdg 1
+tdg 3
+sdg 3
+ry 4 3ffbe0bf15c60cba
+x 1
+t 3
+h 4
+h 0
+rz 3 3ff305c16f1f1a79
+rx 0 3f90aa51adbdcfe1
+h 1
+ry 1 401126dda5f513b8
+s 3
+y 3
+cx 4 1
+rz 2 400298c420973aa8
+x 3
+tdg 1
+cx 3 2
+y 0
+s 0
+cx 4 3
+y 0
+h 0
+rx 0 4012064e0383a9c7
+z 2
+tdg 3
+s 1
+s 0
+t 4
+circuit 6 40
+t 3
+h 3
+rz 0 3fd2f3628dcfb84e
+h 4
+s 3
+x 1
+cz 4 1
+x 2
+cx 5 2
+rx 3 3ffbe873b5eb33fc
+h 1
+rz 2 400f79e91a8be650
+rx 1 4017a3b0e489c33f
+h 3
+y 1
+rx 1 4008630adeffad89
+sdg 5
+z 5
+cx 2 5
+ry 1 3fc14a7c304bf8f7
+y 5
+t 1
+s 0
+t 1
+z 3
+x 2
+x 5
+cx 3 1
+rx 4 4014e00ee179f723
+rz 5 3ffceeecde64769a
+y 0
+cz 1 4
+ry 3 3fdbe70d7830987d
+tdg 3
+h 0
+z 5
+s 3
+h 3
+y 0
+s 3
+circuit 7 40
+rx 3 40028b5e6835c99a
+z 6
+x 1
+ry 0 3fda385a4469deb4
+z 6
+tdg 6
+t 6
+z 2
+rz 3 3ff92169a3c872cf
+t 6
+cz 2 0
+cx 1 4
+rx 1 40140d15b9477842
+x 2
+s 3
+sdg 5
+s 3
+y 1
+cx 3 5
+z 6
+rx 3 4001a1f716077769
+z 5
+y 4
+cx 5 2
+tdg 1
+y 5
+rz 3 40180a8a7319ecf2
+tdg 3
+z 3
+tdg 1
+sdg 6
+y 3
+z 2
+s 5
+s 6
+rx 3 4006de798899aa15
+rx 6 3fe80934f9e1ddf1
+tdg 3
+s 0
+ry 1 40053798a15886d9
+circuit 2 40
+tdg 0
+tdg 0
+rz 0 3fd599ad9de463ec
+h 0
+sdg 1
+tdg 1
+sdg 0
+x 0
+z 0
+rx 1 40083945f41b5422
+sdg 1
+y 0
+t 1
+x 0
+tdg 1
+h 0
+rz 1 400b1bf900ed554d
+s 0
+tdg 0
+cx 1 0
+tdg 1
+cx 0 1
+rz 1 40004986fc8511b9
+cx 0 1
+y 1
+t 1
+tdg 1
+x 1
+z 0
+rx 1 400ff678a432c7f0
+x 0
+t 0
+ry 1 3ffde732d0b44613
+y 1
+rx 0 3f555b782c375f56
+s 0
+y 1
+ry 1 4018004857b28872
+tdg 1
+z 1
+circuit 8 40
+s 6
+tdg 4
+rx 7 4016313c94873aae
+t 5
+cx 2 7
+h 4
+z 6
+z 5
+t 5
+t 1
+ry 5 40084c506491ff6d
+t 7
+s 5
+x 1
+rx 4 3fd65277532ac03c
+s 4
+s 6
+x 5
+cx 5 4
+y 1
+ry 3 3ff072e55c02e22e
+t 1
+sdg 5
+rz 5 4017210ca90e4ff4
+sdg 2
+sdg 1
+tdg 5
+cz 1 5
+ry 2 3fecedfca79a0473
+ry 2 4012a3a6b03d5eb8
+h 6
+y 3
+h 3
+cx 1 4
+h 5
+t 7
+y 3
+tdg 5
+ry 0 400c8856f623e4b0
+ry 1 40172be1a9270143
+circuit 12 40
+cz 4 10
+rx 3 401430b20667ecb2
+h 7
+s 6
+h 4
+h 1
+rz 4 3fedfe51e130c62e
+ry 5 3fe1df2b5bfe50db
+z 11
+t 3
+cz 11 8
+h 2
+cz 5 11
+cz 11 5
+tdg 11
+sdg 7
+x 11
+h 7
+cx 9 10
+ry 4 4012d39ce07e1403
+cz 6 8
+rz 0 4017c25a4d7041d8
+x 8
+x 11
+cx 1 10
+rz 10 4015ca9434e34727
+tdg 8
+y 9
+cx 9 8
+sdg 1
+tdg 9
+z 5
+s 7
+h 4
+rz 2 40190cf6ce8c9b9b
+h 7
+rz 3 4013701638c74095
+cz 6 11
+h 10
+ry 2 4014b36f2d918521
+circuit 12 40
+y 7
+z 7
+sdg 9
+s 7
+y 10
+s 7
+t 6
+tdg 4
+cz 9 2
+cz 1 0
+h 7
+t 7
+cx 2 5
+cz 8 5
+y 10
+y 2
+tdg 4
+y 2
+z 3
+x 0
+rx 8 400f18820d2cb6c7
+rz 4 40116d62a357856e
+t 5
+cz 7 11
+s 4
+ry 0 400d118f6ee91b1e
+y 3
+ry 4 400d6ce22ccff068
+cz 3 11
+s 2
+rz 3 40181edd552d07b0
+rz 7 40176f314bc5ca5e
+t 6
+cx 6 2
+x 6
+t 4
+sdg 7
+z 10
+cx 11 1
+cz 1 8
+circuit 7 40
+t 5
+s 5
+ry 2 400a33cf93c5a4b1
+s 5
+rz 4 40006eb6456d0308
+cx 3 6
+cz 6 5
+sdg 0
+cx 6 5
+cz 6 0
+cz 3 2
+rz 6 4012101bbb2ffedf
+rx 3 40121c28f47b4699
+sdg 2
+ry 4 4002692c1f0b1b28
+sdg 1
+z 4
+rx 0 4003b28bd4fe8bf9
+cx 6 1
+y 5
+h 6
+y 3
+h 6
+ry 5 3fec45394f1c8e22
+h 6
+cz 3 0
+y 5
+rz 4 3fe94e39b74cbf69
+tdg 0
+cz 6 0
+y 3
+rz 0 401393149b3a2cd1
+h 5
+rz 0 3fcfad5e44c45dd2
+s 0
+sdg 0
+sdg 0
+s 6
+cx 6 5
+rx 2 3fe4c383741b8cf3
+circuit 12 40
+tdg 7
+z 3
+ry 5 3fefda5d3f43aa99
+cx 8 1
+y 8
+z 3
+tdg 3
+t 9
+rx 4 400aab6608f199cf
+rz 4 3ff00d4a78c24f87
+h 8
+cx 5 1
+s 8
+s 3
+tdg 7
+rx 0 400bc54fa7880f6a
+rx 0 4017921944bafdbd
+y 2
+sdg 6
+cx 2 11
+tdg 1
+ry 7 4018fba6136493e7
+sdg 11
+h 3
+z 1
+h 9
+y 4
+s 11
+tdg 10
+y 7
+tdg 6
+ry 5 4015ef5f179c45c3
+x 10
+x 11
+cz 5 1
+sdg 4
+tdg 9
+s 5
+z 7
+rz 9 4002bb3d0a9d2e9f
+circuit 6 40
+s 1
+x 5
+x 0
+z 2
+cz 5 4
+s 0
+rx 5 4001e3348a9b7fec
+z 0
+rx 0 400c7a276ca42664
+x 5
+t 4
+z 5
+tdg 5
+h 3
+ry 5 3fb8032c45279b33
+sdg 0
+h 0
+tdg 0
+tdg 2
+s 1
+x 3
+s 2
+t 0
+s 0
+cz 1 5
+sdg 0
+rx 4 400ebe830d3e7597
+y 5
+y 3
+ry 1 3ffbf39382a97c22
+rx 1 401225703c3c1889
+z 2
+h 2
+rz 4 4005826f002a7c0e
+sdg 0
+s 3
+x 2
+rz 0 3fda64886fb24194
+sdg 0
+t 5
+circuit 4 40
+z 2
+cx 2 0
+rz 0 3ffe412b992ec896
+cx 0 1
+sdg 1
+cz 3 0
+h 0
+z 3
+cz 3 0
+y 0
+tdg 3
+cz 0 1
+h 3
+rz 2 4002a3d753a9831b
+cx 1 2
+cx 1 2
+h 1
+x 3
+s 0
+rz 3 3fe8c32dedd539b5
+t 3
+cx 3 2
+y 3
+t 0
+cx 0 1
+y 0
+cz 3 0
+rx 1 4004c55bfd04274e
+cz 2 1
+y 1
+t 2
+s 0
+x 2
+h 2
+s 0
+rz 3 40114f858e6cef48
+sdg 1
+tdg 2
+s 2
+y 2
+circuit 5 40
+ry 3 3fd85f13490519c7
+rx 0 4005bb0a14ea22eb
+cz 3 2
+s 4
+s 2
+cx 3 4
+s 2
+y 1
+s 3
+sdg 3
+x 1
+z 0
+x 1
+y 3
+z 1
+h 1
+ry 3 40142c90b32ae03b
+tdg 1
+y 3
+y 4
+t 3
+ry 3 3feb2ca7d2e6d809
+h 2
+ry 4 3ff2b96382e9442c
+y 1
+tdg 2
+t 1
+cx 3 0
+tdg 4
+s 1
+rz 0 3ff0cc2f456c04d5
+tdg 0
+s 3
+s 4
+sdg 1
+x 1
+sdg 4
+h 1
+rz 0 3ffffdbec709a595
+cx 2 1
+circuit 11 40
+sdg 3
+y 2
+z 5
+cz 1 3
+tdg 6
+t 1
+t 8
+z 9
+y 5
+cz 1 4
+rz 4 4003f5f6f4b8fc28
+cz 4 3
+rz 4 4006b5b3f5cca647
+cz 6 0
+cx 10 2
+sdg 8
+tdg 0
+cx 8 3
+rx 3 4002fa2f0bce804c
+y 10
+t 3
+y 10
+tdg 8
+t 6
+z 7
+rz 7 4012ce36315ba072
+z 1
+t 10
+s 8
+y 1
+sdg 10
+rx 0 4014823392d2cbc3
+rx 5 40182dedf1ac5a44
+cz 10 3
+rz 9 400f55735394f6ad
+tdg 3
+ry 7 4011cee8df6166b0
+h 1
+cz 10 3
+rz 6 40019b25b64bcb3f
+circuit 5 40
+rx 1 40129e644a615908
+sdg 4
+z 2
+cx 0 2
+z 1
+rx 3 4011b041a5fc42b1
+tdg 1
+sdg 4
+s 1
+sdg 1
+tdg 4
+t 3
+s 0
+h 4
+s 2
+sdg 0
+x 3
+tdg 4
+cz 3 1
+t 4
+x 0
+cx 1 2
+rz 1 40141dd16c1692d9
+ry 3 4015bf47ce003730
+h 2
+tdg 2
+t 0
+t 4
+rx 3 40174894656ea1ee
+tdg 4
+cx 1 0
+t 2
+rx 2 4014ba2baf1fb05f
+x 1
+rx 4 401441beda28fee2
+s 1
+rz 4 3fb2f287a0243390
+y 1
+rx 4 40086736372bb414
+rz 0 4016935f3350940f
+circuit 3 40
+t 2
+t 1
+t 1
+ry 2 4016e65b83ce6598
+sdg 1
+sdg 1
+sdg 2
+rz 1 40051ea56ac85da3
+z 1
+x 2
+x 1
+t 2
+ry 0 4010f4bca552fd05
+y 0
+h 0
+z 0
+x 1
+ry 2 3ff622e88518ef0a
+t 0
+y 2
+s 1
+ry 2 3ff3b6d8b0f31f00
+h 1
+ry 1 4003ea1c537cf880
+x 2
+tdg 0
+t 2
+y 1
+z 0
+s 2
+cz 2 0
+y 1
+ry 0 40137592743cafdf
+t 2
+rx 0 4009eeffaa82d96e
+cx 2 0
+sdg 0
+cz 1 0
+rx 2 3ffbfdbe2e3fa0e7
+tdg 0
+circuit 6 40
+h 4
+sdg 5
+rx 1 400c9fa56e86e76a
+ry 4 4016e06a5e510f4e
+cz 4 0
+z 2
+z 4
+x 0
+y 3
+h 0
+x 0
+ry 1 401499a1157b0a67
+y 3
+ry 0 3ffa89cf2cbaa27a
+rx 4 4013f8528e8f28e9
+rx 2 4014e81afde5f4fc
+t 5
+s 1
+rz 2 400a5a185186738d
+sdg 4
+h 1
+tdg 0
+sdg 5
+rx 5 400ad8f8876f408d
+sdg 0
+rz 1 3ffb1b14f31611d4
+tdg 1
+z 1
+x 4
+cx 0 4
+z 2
+rx 0 4002fb0090535be6
+tdg 5
+rz 4 3ffe61307c3fdf5f
+t 1
+y 1
+t 1
+t 0
+cx 4 5
+s 3
+circuit 7 40
+cx 6 5
+cx 1 4
+rz 4 400059a6b6a31afc
+z 0
+t 0
+rz 0 4012a62b980ed71e
+x 4
+cx 2 5
+x 4
+x 5
+cz 6 0
+rz 2 4006b8699d776eb9
+s 3
+h 0
+tdg 2
+t 6
+ry 1 401499f310d6c360
+x 4
+cz 1 4
+t 1
+rz 6 40102124d9bcdd88
+z 4
+rx 2 40109bc39758853c
+cz 3 5
+h 1
+z 3
+z 2
+sdg 3
+s 1
+s 2
+rz 2 4018697e2b79f1bb
+cx 1 4
+ry 0 3fe41e421d2657c6
+z 1
+s 5
+x 3
+rx 6 4017997f3cca4681
+rx 6 40061e26fe5c286f
+sdg 6
+s 3
+circuit 1 40
+rz 0 3ff63f9843def132
+rz 0 4010f95b7e54bba8
+sdg 0
+x 0
+h 0
+y 0
+t 0
+y 0
+x 0
+rz 0 40165a7a269b3964
+y 0
+t 0
+z 0
+x 0
+ry 0 3ff0ba0a51c659c2
+ry 0 4011e1f3b07f1253
+y 0
+tdg 0
+h 0
+y 0
+tdg 0
+z 0
+y 0
+z 0
+rx 0 400bdea2aa62c0a2
+ry 0 400e1b7707e539c8
+rz 0 4007055b313aabf9
+z 0
+x 0
+rx 0 400419beac814303
+z 0
+h 0
+h 0
+t 0
+y 0
+s 0
+ry 0 3fd7bff9b4e1053c
+rx 0 4010c9d321b65787
+x 0
+x 0
+circuit 11 40
+t 6
+h 4
+h 0
+rz 3 3ffdec87bb0ba012
+h 8
+cx 10 5
+z 8
+tdg 7
+h 4
+cx 4 10
+ry 8 3fd8cb1b5a698c25
+y 10
+cx 10 8
+t 7
+h 8
+t 5
+rx 3 400b12021c18e404
+sdg 9
+cz 8 0
+s 2
+cz 1 6
+z 5
+tdg 0
+y 7
+ry 4 4016df3a976389ed
+ry 9 4011b9dfe644ecca
+rx 10 40100a18437e2b10
+x 1
+t 2
+y 7
+rz 10 40134546d17e8729
+rz 7 4012d3b9ea13c288
+tdg 5
+t 2
+sdg 8
+x 8
+cx 6 9
+ry 2 3fd3517b1e23641c
+cz 4 6
+sdg 6
+circuit 4 40
+rx 2 400189058a302fb7
+s 0
+rx 0 3fff386274d634eb
+ry 1 4002ae7807acd24e
+cz 2 1
+sdg 1
+ry 1 4003c117f2953410
+sdg 2
+tdg 0
+tdg 1
+y 2
+h 2
+s 1
+tdg 3
+sdg 2
+rz 1 40188d91c9605b9c
+x 0
+x 2
+y 3
+z 1
+t 1
+cx 1 2
+t 0
+rx 0 4002980e10dcf3a3
+cx 3 2
+s 0
+tdg 2
+ry 1 3febf74632ebdbbf
+y 3
+h 3
+s 3
+tdg 3
+rx 2 4013b8280da7f6fb
+h 0
+z 3
+rz 3 40183e6fdddfb45f
+y 0
+y 3
+y 1
+cx 2 1
+circuit 10 40
+ry 6 400c03fd20886a41
+t 0
+rx 2 401315c3f09a9106
+h 4
+s 6
+z 7
+t 9
+sdg 4
+x 8
+tdg 7
+x 3
+s 4
+rz 7 401879f8fa918752
+z 5
+ry 8 40157d2f04b11a9c
+rz 6 4007e3295c651211
+rx 5 4005d1d7350a1013
+ry 9 3ffc287f710212bc
+x 0
+s 7
+rz 1 40174270dd2923ba
+h 8
+cx 7 2
+rz 5 4010624a798b8356
+h 7
+cx 1 8
+s 5
+rx 8 400298f53e45c14b
+x 0
+x 4
+cz 7 9
+cx 3 5
+s 5
+sdg 6
+tdg 9
+cx 2 7
+rz 5 400b833b02d48f35
+t 7
+ry 7 40151acf39efaa2d
+t 3
+circuit 3 40
+rx 0 401006c6f9f99e93
+x 0
+tdg 2
+ry 2 400fc6b5d383a610
+x 2
+s 0
+x 0
+cx 0 2
+y 0
+rx 0 4010bbb142164e0c
+cz 0 2
+h 2
+rz 0 4005254fde84a42c
+rx 0 3fddf81ed67251f9
+rz 0 4015673275377906
+ry 1 401268ce3b2975d6
+rz 1 40182fc5aef278a1
+z 1
+z 1
+rz 1 40029601bb1d103c
+rz 0 3fad9fe37da04fb6
+h 1
+cx 1 2
+cz 2 0
+x 1
+t 0
+sdg 2
+sdg 1
+cx 1 2
+rx 2 40026717f43a0799
+ry 1 3fe088a3be207bb7
+tdg 1
+cx 0 2
+cx 0 1
+y 0
+rz 0 4013051d2aeb3348
+ry 0 3f70b57c21ee1486
+y 2
+cz 1 0
+y 2
+circuit 9 40
+x 1
+t 5
+tdg 7
+x 5
+s 0
+rz 8 40123b6968ba2cf1
+tdg 4
+cx 6 8
+rz 2 3ff41ed7cf429eff
+rx 3 4019208b091763bb
+rx 3 3ff03f64cacd5783
+rz 7 40148c8fe3971334
+x 7
+tdg 6
+ry 7 40129251806c0e2b
+rx 4 4004f53c2a4565b0
+h 2
+sdg 8
+x 8
+cx 0 6
+s 0
+t 1
+ry 0 40146e7c75924b4e
+s 2
+cz 0 7
+s 2
+y 4
+tdg 1
+cx 8 3
+rz 0 400da54ac74637af
+h 7
+h 4
+sdg 3
+x 2
+z 2
+h 3
+z 0
+rx 0 400485d73dcbbf1a
+h 1
+z 2
+circuit 3 40
+z 2
+cz 0 1
+cz 0 2
+cx 0 1
+tdg 0
+x 2
+tdg 0
+s 2
+t 2
+s 1
+x 2
+rz 2 401189700b439fac
+x 1
+t 1
+sdg 0
+s 2
+y 1
+rx 2 40088ab519b4fe68
+cx 1 2
+z 0
+rz 2 40132f326eead42e
+rz 2 4013943db777bf50
+ry 0 401568baf8bbf665
+rz 0 401907ba98b2af51
+cx 1 0
+cx 0 1
+h 1
+ry 1 4004c47d9909ced5
+ry 2 401329d1d82ff0e1
+h 0
+ry 2 4005d6e112d9789e
+sdg 1
+rx 1 4001b397f53156e4
+tdg 1
+sdg 0
+y 0
+t 2
+rx 1 400394d7dc3fffff
+rx 1 400f279e2d15d885
+rz 0 4010d2efb3cce36d
+circuit 10 40
+s 7
+s 8
+sdg 6
+ry 8 40149a3086156256
+rz 4 4013dba2555a1b34
+ry 5 4016b390c737bb68
+tdg 4
+ry 7 40040a8e6e025e31
+rx 0 3fe42d0090172783
+t 3
+sdg 8
+rx 8 4018fddd7e09a39d
+tdg 8
+y 8
+x 4
+z 0
+tdg 9
+cz 4 9
+tdg 6
+h 2
+cz 0 5
+z 1
+x 5
+z 7
+tdg 2
+cz 4 6
+cz 7 0
+y 8
+rz 1 400eaaff49a012b8
+rx 1 4007ed6f5277b5c9
+rx 4 3ff828fa8c1550ca
+s 9
+rz 7 4008e4fe7dc867ee
+tdg 3
+tdg 1
+y 5
+sdg 9
+h 0
+tdg 5
+cz 6 2
+circuit 8 40
+t 5
+tdg 6
+cx 3 1
+sdg 4
+cx 4 6
+t 0
+s 7
+x 0
+s 6
+tdg 0
+z 2
+s 1
+sdg 7
+cx 1 4
+ry 5 400496eeb16853ab
+ry 2 4010262b0bd256f0
+x 6
+sdg 7
+y 5
+y 5
+h 7
+tdg 1
+s 6
+rz 7 401091c08e8043d3
+cz 6 4
+y 6
+ry 3 4017fb5f6acc2117
+ry 6 40053e3cb9ba9275
+h 6
+rz 6 401428049ce03322
+h 5
+t 4
+rx 6 3fb7b6a42b6a6c16
+h 1
+h 5
+s 3
+tdg 2
+sdg 1
+y 7
+x 5
+circuit 2 40
+cx 1 0
+s 1
+t 1
+t 0
+y 1
+y 1
+z 0
+h 0
+z 0
+tdg 1
+ry 0 3fe7fbbdcf161d6a
+s 0
+y 0
+sdg 0
+t 0
+rz 0 400664d9c8ca807e
+sdg 0
+tdg 0
+t 1
+s 0
+rx 1 4013b4d4aad66629
+s 0
+s 1
+h 0
+rz 0 401452b1f5ef7d37
+rx 0 3febde605d280714
+tdg 1
+sdg 0
+cx 0 1
+rz 0 3fe4689002351629
+tdg 0
+cx 1 0
+cx 1 0
+y 1
+tdg 0
+y 0
+s 1
+h 1
+sdg 0
+cx 0 1
+circuit 9 40
+sdg 2
+ry 3 4016b951bd4f7c34
+ry 8 4012861379ae7aa9
+cx 6 1
+ry 1 400de47696a1ce24
+sdg 6
+ry 8 40154b7757e51ffe
+ry 0 3ff8fb1e881f468e
+z 8
+t 1
+ry 5 4006f5aaeb4a8c34
+sdg 3
+rx 6 3fd3473f2af7b53f
+cx 3 7
+t 0
+tdg 5
+tdg 8
+z 1
+s 4
+ry 8 4017ba537f54083c
+s 7
+cx 3 1
+x 8
+cz 3 4
+x 5
+y 7
+ry 3 3fef3f59be682e37
+cz 4 3
+x 0
+ry 8 4002010e70debf72
+x 1
+z 0
+cz 7 2
+z 8
+cx 1 6
+y 1
+z 6
+x 7
+rx 2 4010c3d969ba7ad8
+x 2
+circuit 12 40
+x 6
+x 11
+s 8
+cz 1 9
+rx 7 3fe58d6d31c36787
+y 1
+cx 11 1
+cz 6 11
+cx 5 3
+cz 4 9
+rx 1 4001657ac0a801d0
+x 6
+t 2
+cx 1 3
+cx 6 0
+tdg 5
+rz 10 4017f9c74fa0f7e8
+h 5
+h 6
+ry 8 3ff8c4dbed21fd2e
+sdg 1
+rz 10 3ffa3d3ec1ae0240
+rz 9 3ff6bff702589880
+s 3
+s 9
+y 4
+tdg 7
+rx 7 3fdfdeb3358e96a1
+z 7
+rz 5 40087f45a300b12f
+z 10
+rz 4 40133c9140c562d7
+rz 10 3ffa77df7d9b9875
+sdg 8
+z 8
+rx 1 400c0f827a3977f7
+sdg 11
+x 1
+cx 0 11
+s 6
+circuit 9 40
+t 5
+sdg 1
+rx 5 4015209031db5295
+x 8
+z 2
+t 0
+rx 5 3ffec8e71d9e2dab
+sdg 3
+y 3
+tdg 8
+tdg 1
+cz 1 0
+cx 7 0
+h 4
+t 2
+y 6
+cz 0 2
+rx 0 4011073449d2211b
+y 5
+z 5
+s 6
+x 6
+sdg 6
+x 4
+rz 0 3ffe505ac1798e21
+ry 3 40134fe9f3076f5a
+y 5
+s 5
+s 8
+sdg 1
+rx 5 40179386eb3e9b68
+y 7
+rz 8 3f9d2cecdaaeff77
+sdg 0
+tdg 0
+sdg 6
+x 8
+ry 4 3fea4db1bb932406
+cx 7 3
+rz 1 4009a6d5d46f2448
+circuit 9 40
+cx 2 8
+cx 2 7
+rx 8 40096d91d60345c2
+rz 3 400c2beeb73506a1
+z 4
+rz 2 4018e02b86ed6838
+rx 1 40138733a9f49638
+rz 4 3fe608959693eb07
+h 6
+h 6
+y 2
+t 4
+rz 1 400109fc6a5ecdaf
+cz 6 8
+rz 8 3fed9854ce54c6b1
+cx 5 3
+s 7
+rx 3 3fec4bcd525639df
+h 5
+y 0
+t 5
+cx 6 2
+sdg 2
+h 2
+rx 7 4006b473006d61ee
+cx 2 6
+ry 7 4017c9b583ae5336
+x 7
+s 8
+sdg 5
+cz 7 1
+x 0
+h 6
+h 2
+s 0
+t 6
+tdg 0
+h 6
+rx 0 40114e388a22934b
+y 6
+circuit 8 40
+s 5
+z 7
+rz 6 4002b97717f1f775
+rz 3 40151da80ac13b26
+cz 3 1
+tdg 3
+sdg 5
+cz 6 3
+sdg 7
+rx 7 4015c42a115f38a4
+y 5
+y 4
+rz 2 400c5944e7b7614d
+rx 4 3fe332603ea149cc
+z 3
+t 7
+tdg 4
+y 2
+cx 6 3
+s 7
+tdg 2
+z 1
+z 4
+sdg 7
+h 5
+x 7
+x 7
+ry 5 3ffc3510ae926b29
+z 6
+sdg 3
+cz 7 6
+cx 6 3
+ry 0 40127c1b42c3cf55
+s 6
+x 2
+x 1
+rx 5 4010f1bb28704f09
+cz 2 7
+sdg 0
+y 4
+circuit 3 40
+cx 0 2
+cz 1 0
+y 1
+rz 0 3fc3dfa083060ff6
+x 1
+rx 2 400e498047f4e6d8
+x 1
+sdg 2
+cz 2 1
+sdg 2
+tdg 1
+cz 2 0
+sdg 0
+y 0
+tdg 0
+tdg 1
+y 2
+cx 1 2
+z 0
+y 2
+rx 1 4017217047078ce0
+cx 0 2
+tdg 2
+y 1
+cz 0 2
+sdg 0
+x 1
+rx 0 4005d3b634c842d4
+t 1
+tdg 2
+rz 0 4017d3f4d5436100
+tdg 1
+h 1
+ry 1 4012500fbb3c6e17
+t 0
+cx 0 1
+y 1
+y 1
+tdg 1
+cz 0 2
+circuit 8 40
+rx 4 3fe0017d5624f4ea
+cx 4 6
+cx 4 1
+s 7
+tdg 2
+t 0
+cz 3 4
+sdg 2
+ry 5 400de927341c1a64
+tdg 1
+sdg 0
+sdg 7
+x 5
+rx 5 3fdb7f7325ae0ddb
+rx 2 400f67c537f555ba
+rx 2 40170043da445519
+ry 7 3fd400141e11f7ca
+y 1
+sdg 6
+t 4
+h 2
+h 5
+tdg 2
+x 6
+x 5
+ry 1 4012c15e1eca4f3b
+ry 5 40038cfca69632a3
+cz 0 6
+cz 1 3
+ry 2 3fde140c1bb5b9e1
+s 2
+rz 5 3ff73021bc11371d
+s 1
+rz 4 40027d1f4d229435
+y 2
+rx 4 4005b8adbb2e5e1d
+rz 7 3ffdd42bac323e90
+rz 1 40085f5f1140e5e6
+t 6
+rz 0 40041a5c38bf7ca0
+circuit 4 40
+cx 1 2
+sdg 0
+t 1
+y 0
+rx 3 4005ef6dba7debc6
+x 1
+t 3
+cz 2 1
+ry 2 3ffd37e8c9b2182b
+s 2
+x 3
+sdg 2
+cx 0 3
+ry 2 4012a2d783e6ad31
+z 0
+ry 1 4015f5e43f5b07b9
+t 3
+tdg 2
+y 1
+y 2
+rz 0 3ff2e31f3b699dc6
+sdg 3
+y 3
+h 1
+s 1
+s 0
+t 1
+x 1
+cx 2 1
+ry 0 40059588bc265535
+cz 3 0
+rx 2 40133edc28dca955
+rz 3 4009b3a9073d5428
+z 3
+h 0
+tdg 1
+cz 0 2
+y 1
+s 3
+h 2
+circuit 2 40
+s 1
+cz 1 0
+sdg 1
+t 0
+y 0
+y 0
+y 0
+x 0
+z 1
+s 1
+x 1
+s 1
+t 0
+h 1
+s 0
+tdg 1
+t 0
+cz 1 0
+x 1
+t 1
+x 0
+s 1
+rz 0 400921313888ae38
+h 0
+x 1
+h 1
+cx 1 0
+s 0
+sdg 0
+h 1
+rx 1 3fed2b5b37c13201
+cx 0 1
+ry 1 4017f5d2898ba78c
+rx 1 40153bfcb994efc1
+rx 1 400307df1235822e
+tdg 1
+x 0
+cx 1 0
+cz 1 0
+cx 0 1
+circuit 9 40
+x 6
+s 6
+t 0
+cz 4 8
+cx 3 8
+sdg 0
+z 8
+sdg 8
+ry 8 4012530726211baa
+sdg 3
+s 5
+cx 6 2
+cz 6 0
+z 0
+y 0
+z 5
+rz 8 4011598ba4d9c5f5
+x 1
+x 6
+rz 8 3fff5ff2cafea4da
+rz 8 3fe55feffc57e893
+tdg 0
+rx 3 3fe4bf41b0de9451
+rz 3 400dc29b1d137bdc
+s 7
+x 3
+s 0
+ry 0 400db90b950c50b9
+sdg 6
+t 7
+ry 8 40134b1db1557315
+z 4
+tdg 3
+sdg 0
+x 2
+z 8
+y 1
+sdg 3
+z 6
+rx 6 40044ae9ebb46db7
+circuit 1 40
+y 0
+ry 0 40072049b8e5684b
+rx 0 4018976827341d3c
+y 0
+ry 0 3fb45479b69983a2
+rz 0 3fb25d3c344d843b
+t 0
+tdg 0
+s 0
+h 0
+t 0
+ry 0 3ff1ddc28f4c821c
+sdg 0
+rx 0 40121401d504aa56
+rx 0 400231c1faa6f783
+tdg 0
+z 0
+sdg 0
+sdg 0
+rx 0 4003bd1e3502c482
+y 0
+h 0
+tdg 0
+sdg 0
+h 0
+ry 0 400072bfa2e8ddbd
+rx 0 3fc4fdac8383f774
+h 0
+h 0
+h 0
+x 0
+h 0
+sdg 0
+x 0
+s 0
+t 0
+h 0
+tdg 0
+h 0
+t 0
+circuit 8 40
+rx 3 400640f54a22e0a6
+sdg 3
+s 1
+y 5
+y 1
+cx 7 4
+t 2
+t 0
+cz 4 6
+x 5
+h 7
+tdg 6
+h 1
+cz 3 5
+s 4
+ry 4 400c80f5802b17fa
+sdg 1
+sdg 2
+tdg 3
+cx 2 4
+x 2
+z 6
+ry 0 40123d9c15c08377
+tdg 3
+sdg 4
+s 1
+tdg 0
+tdg 3
+cz 3 0
+cz 7 5
+t 6
+rz 6 40113c14b9c0f978
+h 0
+x 2
+rz 5 3fd935474bf85615
+sdg 6
+cz 3 1
+sdg 5
+t 2
+rz 6 4010fae278d6e7c2
+circuit 5 40
+cz 2 3
+x 1
+y 1
+rx 1 401912c362ded405
+rx 2 3ff9543da14c424d
+cz 3 4
+h 1
+ry 4 3fed4eb80aca97e7
+rx 3 3ff90b8cc99c97e7
+rz 0 401873633e9edafe
+tdg 0
+y 4
+cx 4 1
+tdg 3
+y 0
+h 4
+rz 1 40175d625f6f787a
+tdg 4
+t 3
+z 1
+y 0
+rz 3 3ff1b80cedca84c0
+sdg 2
+z 0
+s 1
+h 2
+rz 2 4009b7c752bc4e25
+x 2
+cx 0 3
+h 0
+tdg 1
+cz 1 4
+sdg 3
+ry 4 4008758e33604a81
+cz 1 4
+cx 3 4
+rx 0 4004679a5879ef04
+sdg 1
+tdg 4
+h 0
+circuit 3 40
+tdg 1
+sdg 1
+y 1
+cz 2 1
+tdg 2
+rx 2 3ff7acf56c3703c7
+cx 0 1
+sdg 1
+z 0
+h 1
+x 1
+y 1
+cx 2 1
+sdg 0
+x 1
+tdg 2
+t 0
+h 2
+y 2
+y 1
+cx 1 0
+z 1
+tdg 0
+z 2
+z 0
+tdg 0
+sdg 2
+rx 1 4013765dfd76cd76
+rz 1 3ff513645438489c
+cz 2 1
+tdg 2
+rx 1 3ffebf7a773bcefd
+y 2
+t 0
+ry 1 40167ab441a9bc33
+rx 1 3ffc7c4892b38245
+rx 2 4015440d67d12dc7
+rz 0 4018db9b94461a36
+x 1
+tdg 1
+circuit 8 40
+y 6
+rx 0 4008d1636806e506
+z 5
+s 6
+h 3
+y 1
+t 7
+h 4
+rz 6 3ff299e004e81037
+x 3
+z 4
+z 1
+x 6
+z 4
+ry 6 401377f56e13c64f
+h 0
+rz 1 4012157a6d205616
+tdg 2
+rx 2 3ff30e87cb662a41
+sdg 2
+y 5
+z 6
+cx 1 6
+z 3
+rz 1 4012f48ad225d8b5
+cx 5 0
+h 5
+rx 6 4016d63bae4eb83f
+t 3
+y 2
+rx 7 400401f33bcaaf90
+rz 2 400fb85c070330a3
+t 5
+s 2
+t 1
+cz 0 5
+cz 6 5
+x 3
+t 6
+s 5
+circuit 4 40
+x 2
+rz 3 4015d28812c0fa0e
+h 3
+h 0
+tdg 3
+tdg 1
+h 1
+t 3
+t 3
+rz 3 3ff2ed071a0cb5eb
+y 3
+h 2
+sdg 3
+y 2
+sdg 0
+ry 3 3ff90f55feaea18e
+x 0
+rx 3 400af1076df76f05
+t 3
+tdg 0
+t 3
+tdg 1
+x 1
+z 3
+cx 0 1
+ry 3 3ffbd23548bff04b
+tdg 1
+cz 1 2
+x 3
+x 3
+ry 1 3fe61e3db4ae6266
+s 0
+sdg 0
+t 3
+rz 0 40001cb09692c580
+cx 2 3
+cz 0 3
+s 1
+cz 1 2
+cz 0 1
+circuit 10 40
+rx 6 40068be91699984c
+cx 8 6
+tdg 3
+tdg 4
+ry 1 400cc6fd1f4f6170
+cz 2 9
+cx 6 2
+ry 9 4018bac1bef81aaf
+cx 5 8
+y 8
+y 5
+t 4
+cx 5 1
+t 5
+z 3
+z 1
+rz 5 400c0f62ba1d030c
+cx 1 6
+rx 3 3fc7ed8f12b73c35
+sdg 6
+cx 7 3
+z 0
+rz 0 3fe3123d253aaa59
+cz 2 1
+rz 0 3fd81943cc93dc35
+rx 6 3fb7ae015ee57450
+cx 3 6
+y 0
+rz 3 3ff7e2bdcde804c9
+rz 1 400edb9841fb4d9d
+cz 1 3
+y 8
+h 0
+h 4
+t 9
+h 7
+cx 8 9
+y 8
+cx 2 0
+rz 9 400bf817b69caa52
+circuit 1 40
+h 0
+s 0
+rz 0 4018a7decafd57c2
+t 0
+h 0
+y 0
+z 0
+tdg 0
+tdg 0
+tdg 0
+x 0
+y 0
+ry 0 4015f7bb17f85f91
+ry 0 4016975ed30e5bfe
+s 0
+z 0
+h 0
+x 0
+sdg 0
+y 0
+ry 0 401812dd2c9c6dbc
+h 0
+sdg 0
+s 0
+x 0
+sdg 0
+tdg 0
+h 0
+x 0
+sdg 0
+h 0
+x 0
+h 0
+z 0
+z 0
+sdg 0
+ry 0 4014619e52b56a74
+tdg 0
+rz 0 4014670ecf5ba7ce
+s 0
+circuit 12 40
+s 2
+cz 9 4
+t 8
+t 0
+cx 10 0
+cz 9 2
+z 5
+s 11
+sdg 11
+y 10
+t 9
+t 3
+sdg 7
+cz 6 11
+h 10
+cz 6 4
+cz 6 7
+t 10
+sdg 10
+tdg 5
+s 2
+sdg 3
+ry 7 40186d5e6983f212
+tdg 11
+sdg 1
+y 6
+cx 2 1
+t 7
+h 4
+rz 6 401011106114037c
+z 11
+z 11
+y 1
+z 2
+h 2
+z 7
+x 10
+x 1
+ry 9 3ff068e9af7dc5ec
+s 8
+circuit 4 40
+t 0
+rz 2 40164452e1c6cbd2
+s 3
+rx 0 40183c7fd039798e
+s 1
+cz 1 2
+tdg 0
+x 0
+x 2
+cx 1 0
+t 2
+sdg 3
+ry 3 40137228bee077e5
+z 3
+cz 3 2
+x 2
+rx 1 3ff337262c2c8ce5
+cz 1 3
+ry 3 3fe2cb3da062098d
+tdg 1
+ry 1 4011945cd473c623
+cz 3 0
+x 2
+sdg 0
+tdg 0
+cz 0 2
+t 2
+t 3
+s 2
+rz 1 3ffd9c754120e41a
+rx 1 3fe31b28e7b73167
+cz 1 2
+cx 3 1
+tdg 1
+ry 0 4011a50b750433e5
+y 2
+z 0
+z 1
+rz 2 401712d0e2ecb36f
+z 0
+circuit 4 40
+cx 1 3
+rz 1 3ff73d4936a92bd6
+x 1
+sdg 0
+t 2
+rz 3 3fc567d52dec9b27
+s 3
+rz 0 3fd59f2e05ef1149
+sdg 1
+rz 3 3ff19c9e032cd148
+x 2
+z 3
+cz 2 3
+s 0
+ry 1 3ffd5deaf3bbfb71
+x 3
+cz 0 3
+sdg 1
+rx 1 40166472e1e5f26d
+tdg 0
+x 2
+s 0
+t 2
+s 1
+tdg 1
+cz 2 0
+y 0
+cz 1 3
+sdg 1
+cz 0 2
+t 2
+s 1
+rx 3 4008606ce7536cf5
+t 1
+tdg 3
+rx 0 40116f1a48e72d5c
+ry 0 3fc5c32ab38cd450
+cx 0 3
+s 3
+h 0
+circuit 7 40
+cz 4 6
+rx 1 3ff8849a5ec0becb
+rx 6 400fda123d5779eb
+y 5
+ry 2 400a520b75817bbe
+ry 2 3ff81ca32ab7b9a8
+y 1
+x 1
+t 6
+z 0
+t 3
+rz 2 40131765f93fe7d4
+h 2
+z 1
+h 3
+z 2
+ry 1 3ffc71a0ed4580c0
+t 0
+tdg 5
+sdg 6
+cx 6 0
+h 2
+rx 2 4010add2240f7e9c
+cz 0 6
+rx 0 40157cb844a83416
+h 1
+tdg 3
+rx 4 40142165dbdac216
+rx 0 40053a54f27b3bd1
+s 2
+cx 0 3
+z 2
+sdg 4
+ry 0 4014961dcbecfa6c
+z 3
+tdg 3
+sdg 6
+x 5
+sdg 5
+s 0
+circuit 9 40
+rz 2 3fe8131cf7ccec8a
+y 7
+s 1
+y 2
+h 2
+s 5
+tdg 2
+rz 8 3ff01f1e9eb1ebc0
+z 1
+cz 3 7
+ry 7 3fedddeecec94728
+cz 1 5
+z 1
+cz 8 5
+t 1
+t 7
+ry 4 40118fd7c571eaee
+s 4
+rz 7 4011fde297d6f0e5
+z 4
+y 3
+y 4
+cz 3 0
+rz 4 3ffddc750c75819c
+x 3
+z 2
+y 3
+z 0
+rx 7 400878c1149c8cfb
+x 0
+s 8
+z 4
+rz 0 3ffa1432cf6741fe
+s 7
+sdg 8
+rx 0 3fef6c87bb826307
+y 4
+y 8
+h 6
+sdg 1
+circuit 4 40
+s 3
+s 3
+rx 2 400e7942849e9c8f
+rx 0 3ff34017d7010c3e
+tdg 1
+ry 3 3fe1e0d2e7da51bb
+rx 3 4006370fc80019f4
+t 3
+t 2
+ry 2 3fc4605a906163c6
+x 2
+h 1
+t 0
+ry 1 3feee9e9f84d25ba
+s 1
+y 3
+sdg 1
+z 3
+tdg 0
+tdg 3
+sdg 2
+x 0
+ry 1 40136d24ea752178
+ry 3 400392a7121a9c6a
+cx 3 0
+t 3
+s 2
+rz 3 3ffdd5fd78e87c1f
+s 2
+z 0
+s 0
+y 1
+ry 1 40005eeed0efb281
+z 1
+y 2
+t 1
+rx 0 3ff373672478ea34
+sdg 1
+cx 1 3
+z 0
+circuit 2 40
+x 0
+x 0
+tdg 0
+z 1
+cx 0 1
+y 1
+ry 0 40073f90970fcc83
+cz 1 0
+cx 1 0
+s 1
+h 1
+x 1
+cx 1 0
+cz 1 0
+tdg 1
+z 1
+ry 0 4005da3bdfedefcd
+cz 1 0
+rz 0 4005c802424c10a8
+rx 0 4016fc50b67b5cbb
+cz 0 1
+ry 0 4000af15399b4c1a
+rz 0 4015e4984ff693ee
+ry 1 3ffe9cf76821d68c
+sdg 1
+cx 0 1
+y 1
+x 0
+z 1
+cx 1 0
+h 0
+rx 0 4016036b9b68da4a
+rz 1 3ff3e941124161a3
+ry 0 40094253cb738d74
+rx 0 4010d2a5de75369d
+z 0
+tdg 1
+h 0
+rz 1 40115c3ef948ebcb
+rz 1 3ff6fc8a2fa7d7f7
+circuit 8 40
+rz 7 3ffb1f47f54e7497
+h 6
+sdg 3
+cx 3 4
+cz 0 2
+t 0
+t 1
+h 0
+cx 6 5
+ry 7 4006f14e7686c572
+cx 3 5
+sdg 5
+rz 5 400b72a4dab8608e
+sdg 5
+t 0
+x 6
+cz 5 3
+sdg 5
+sdg 4
+h 1
+sdg 1
+y 5
+y 4
+y 0
+x 5
+y 1
+rz 7 3febb9aee72839d3
+z 2
+t 7
+cx 6 4
+x 4
+tdg 7
+cz 3 1
+cz 0 6
+x 0
+tdg 3
+s 1
+cz 5 3
+z 6
+s 6
+circuit 12 40
+x 8
+rx 11 3ffadfb8646d8f92
+cx 10 7
+x 11
+s 11
+tdg 2
+ry 4 401684377838723d
+cz 8 4
+rz 6 400ccd981a1c89d0
+t 8
+ry 2 3ff621cf2d54ded3
+ry 3 40188ebba5d0fea2
+t 0
+x 0
+z 9
+tdg 3
+rz 7 4002f523a631012d
+z 9
+x 10
+y 8
+z 7
+cz 0 11
+sdg 3
+cx 11 2
+rx 2 400ec1ae20fa8a60
+z 4
+ry 2 4009d4368685d0dc
+x 3
+ry 5 40151eb2c3c28a50
+cx 2 10
+h 9
+y 5
+t 6
+tdg 5
+t 10
+ry 3 400f1209b3da73ab
+cx 4 10
+rz 8 3fe3ef5a72108ace
+z 3
+tdg 4
+circuit 3 40
+s 2
+s 2
+cz 0 2
+x 2
+cz 1 2
+x 0
+sdg 0
+s 2
+rz 0 3fe28424b44644b4
+x 2
+rx 0 400631c42ab94ffb
+sdg 2
+rz 1 3ff0d74be5cd00cd
+rx 1 3fe5d1e778bfde8f
+sdg 1
+cz 1 0
+rx 0 3fec3090e7c164f3
+s 1
+cz 2 0
+rz 2 4002df9f8073fae0
+h 2
+z 0
+cx 0 1
+cx 2 0
+h 2
+rz 2 400d230cbdd30538
+rz 2 4006ebbc5b03355c
+rz 1 3ffeac1b44502f08
+tdg 1
+y 1
+rx 2 3fe5468650be67d9
+t 1
+y 1
+tdg 0
+h 1
+t 0
+z 1
+sdg 1
+h 2
+s 1
+circuit 3 40
+ry 0 3feb13b432298df3
+sdg 2
+cz 1 2
+h 2
+x 2
+t 0
+rx 0 3ffbc6eb4d4e2569
+s 2
+h 2
+s 2
+z 2
+sdg 2
+x 1
+y 2
+h 1
+y 0
+rz 2 4017cbe792843b41
+tdg 0
+h 1
+rz 1 3fe7375f47b0a8e3
+s 0
+z 2
+cz 0 2
+sdg 1
+cx 1 0
+rx 2 400e11e5d602e6ef
+x 2
+y 0
+cx 0 1
+h 2
+z 1
+cz 1 0
+s 2
+y 0
+cx 0 2
+y 1
+rx 0 3fe2275eece15142
+tdg 1
+ry 1 3fe795ad0d737a1f
+h 2
+circuit 6 40
+t 4
+cz 5 2
+cz 0 2
+tdg 0
+tdg 0
+h 0
+ry 3 4016ee7d614e5428
+tdg 4
+sdg 4
+cz 1 2
+sdg 0
+cx 2 1
+h 4
+ry 3 3fd64f9d3fccc2da
+t 2
+sdg 4
+tdg 3
+cx 0 1
+rx 1 3fc6268e19803a9e
+y 2
+z 3
+t 0
+cx 5 2
+z 3
+cx 0 4
+ry 1 400f9a7082766327
+cz 1 2
+t 2
+cz 0 4
+z 3
+t 0
+rx 4 4008fd8eba2abe28
+rz 3 401795c54da42358
+t 5
+sdg 2
+rx 4 3fa29e947236ca99
+cz 1 4
+rz 5 3ffa7501b6aec13c
+s 1
+rx 1 40125fa089241d3e
+circuit 4 40
+y 1
+h 2
+rz 3 40129b33a7109171
+h 1
+h 3
+sdg 2
+y 3
+x 3
+cx 1 3
+ry 0 4010f973b4c7f316
+s 3
+cx 1 2
+sdg 1
+h 2
+t 0
+t 0
+cz 3 1
+h 2
+sdg 2
+cx 1 2
+rx 0 40160396cda8f11b
+t 3
+rx 3 400d6f1ed8120ec2
+s 2
+t 2
+z 1
+y 3
+z 1
+rz 3 4002c62bb60064f5
+y 1
+tdg 2
+rz 1 3ff90b7e33643d04
+tdg 2
+x 0
+z 0
+tdg 3
+z 0
+cx 2 1
+cz 3 0
+h 0
+circuit 7 40
+s 0
+cz 0 1
+x 4
+tdg 6
+z 2
+rz 2 40180d52a177002d
+ry 4 4018949f4179e473
+sdg 3
+y 1
+tdg 4
+cx 2 6
+z 5
+z 2
+cx 1 5
+cz 6 5
+ry 4 4016e7494550b4cd
+h 4
+ry 3 4003dafed0152fd9
+ry 1 3ff7fd445f83de6d
+cz 6 0
+s 3
+s 2
+h 5
+t 6
+s 1
+ry 2 40072f8373e6c136
+s 0
+rz 2 4000e9cdefee3f34
+z 3
+tdg 1
+cx 5 2
+x 3
+x 6
+cx 2 0
+sdg 4
+cx 3 5
+sdg 4
+t 1
+sdg 0
+tdg 0
+circuit 10 40
+h 8
+y 2
+cx 8 0
+sdg 7
+cx 0 6
+s 0
+cx 8 1
+h 1
+rz 4 3fd48a08e0dd8de3
+y 5
+h 8
+h 8
+cz 2 0
+s 3
+y 9
+h 7
+tdg 7
+rz 3 3ffe145db57c37c5
+ry 6 3fea2eb4534217de
+h 2
+ry 8 3fe4cec8273ac0eb
+cx 5 7
+rz 5 4011a2114a4973d1
+s 7
+cz 2 3
+z 9
+sdg 2
+rz 6 4013a57fcf6f207d
+y 5
+z 5
+rz 7 4005e959829c8d36
+h 6
+tdg 2
+s 4
+t 8
+cx 1 3
+tdg 2
+tdg 7
+cz 6 4
+z 8
+circuit 8 40
+cx 0 5
+cz 7 1
+x 3
+z 1
+h 4
+cz 6 5
+ry 5 3ff1476181057516
+x 3
+t 2
+s 6
+s 3
+h 6
+ry 4 4002c0ce81ca7773
+s 2
+sdg 6
+x 5
+s 1
+t 1
+z 2
+rz 4 4015f4d3fd6bc238
+rz 6 4009ca768410d2e1
+x 3
+ry 3 3ff50132489cf5c7
+rz 6 4004a8b1d0f333e7
+cx 4 1
+rz 6 3fe606a644cf545a
+rz 0 40076dd1b5f728e9
+cz 0 7
+ry 0 401837478dd17e55
+ry 5 3ffcf0f5a5456784
+sdg 4
+y 4
+x 3
+ry 7 4015a8adc994a405
+s 4
+cz 2 3
+rx 6 4010079f0d43dd92
+cx 4 1
+t 7
+h 0
+circuit 2 40
+tdg 0
+tdg 0
+tdg 1
+cx 0 1
+cx 0 1
+tdg 1
+rz 0 3fe24c0e87e1ecef
+cz 1 0
+rx 1 4015b565db32c7ed
+y 0
+z 0
+cz 1 0
+cz 1 0
+rx 1 3fec56f0d654717d
+rx 1 40019c734fdd03a1
+ry 0 40139bf444a1b970
+x 1
+h 1
+tdg 1
+s 0
+t 0
+t 1
+y 1
+h 1
+t 1
+x 1
+sdg 1
+rz 0 3fcae42b966927aa
+t 1
+sdg 1
+s 1
+ry 1 400d36a2193a611f
+ry 0 4004059ea44371a6
+t 0
+ry 0 40073e0e171c74d1
+tdg 1
+tdg 1
+cx 1 0
+rz 1 401819f092454470
+t 1
+circuit 12 40
+t 1
+rx 0 3fed84d0ce25833c
+t 11
+h 8
+t 3
+cx 4 10
+sdg 11
+rx 9 4017f8e0e67c8625
+cz 4 7
+sdg 2
+ry 3 401201e713a3acf5
+y 5
+rz 8 4010e9e717cf03e9
+rx 4 4017dccab0f78e54
+s 0
+z 8
+ry 4 40141734be2cce7b
+h 9
+s 8
+h 10
+rz 2 40017fb49bbb8a80
+x 9
+rx 6 3ff1680a4d2f28bc
+cz 2 8
+y 0
+z 5
+z 4
+y 5
+sdg 5
+cz 11 0
+cz 1 3
+h 4
+cz 7 6
+sdg 10
+ry 9 40061807a43a8e8d
+s 10
+rz 7 4017bbec93ce1e94
+x 6
+z 9
+s 5
+circuit 12 40
+s 11
+y 6
+rz 10 40007108cd8d9ede
+rx 0 400c0d07095f9f2c
+x 4
+sdg 4
+y 11
+sdg 1
+tdg 10
+h 2
+z 2
+x 10
+x 7
+h 2
+rx 1 4008aa2c33f89d90
+ry 8 4015b3dd48737445
+z 9
+rz 0 3fece9d5391ad066
+y 3
+cx 4 2
+y 9
+ry 1 40138bcc4b20b5be
+s 2
+tdg 0
+s 7
+cx 10 2
+ry 11 4008b6329f97705e
+ry 4 3fc64d0c2228d09d
+z 9
+rz 9 3fee7aeaa448ab98
+rx 1 3fea7bd95b34ab5d
+s 8
+cz 6 7
+x 0
+t 9
+h 0
+rx 10 400f70eb2667153f
+z 2
+y 2
+cx 1 6
+circuit 7 40
+sdg 5
+cz 0 1
+x 0
+z 1
+y 5
+cz 2 4
+t 4
+rx 5 4003cbf80aff4b55
+cz 6 4
+sdg 4
+s 2
+z 2
+s 6
+s 4
+z 6
+sdg 2
+rx 4 40151d25b26f8954
+z 2
+y 1
+cx 3 5
+t 2
+rx 2 400c2d2616ad4a38
+rz 6 4018f47f76a23a36
+z 0
+y 1
+rx 6 401067ecb01f8a42
+sdg 4
+sdg 1
+sdg 2
+h 6
+z 0
+rz 0 400c3447afa2b99a
+rx 2 400ec0ef95ce4e1d
+cz 4 1
+z 5
+rz 3 400e33bdb5575d54
+z 2
+h 3
+z 6
+z 3

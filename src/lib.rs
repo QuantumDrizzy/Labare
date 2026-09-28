@@ -22,6 +22,7 @@ pub mod cpu;
 pub mod assembler;
 pub mod disasm;
 pub mod binary;
+pub mod qpu;
 
 pub use isa::{Reg256, Instruction, Width, ActivationFn, landauer_energy};
 pub use memory::Memory;

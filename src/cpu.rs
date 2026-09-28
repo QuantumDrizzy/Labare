@@ -96,6 +96,9 @@ pub struct CpuMetrics {
     pub lattice_ops: u64,
     pub tensor_ops: u64,
     pub info_ops: u64,
+    /// Quantum coprocessor instructions (ADR-0003). One dispatch cycle each:
+    /// a count, not a timing model (durations against coherence are phase 2).
+    pub quantum_ops: u64,
 }
 
 impl CpuMetrics {
@@ -135,6 +138,10 @@ pub struct Cpu {
     /// When false the machine predicts statically not-taken, which is the
     /// baseline the BHT/BTB is measured against. See `unibit bench`.
     pub predictor_enabled: bool,
+    /// The quantum coprocessor's register, once `qalloc` has run (ADR-0003).
+    pub qpu: Option<crate::qpu::StateVector>,
+    /// Seed for the next register's measurement RNG (`qseed`).
+    pub qpu_seed: u64,
 }
 
 impl Cpu {
@@ -152,10 +159,17 @@ impl Cpu {
             stdout_buffer: Vec::new(),
             capture_output: false,
             predictor_enabled: true,
+            qpu: None,
+            qpu_seed: 0,
         };
         // Initialize Stack Pointer at high memory address
         cpu.regs[REG_SP as usize] = Reg256::from_u64((mem_size - 256) as u64);
         cpu
+    }
+
+    /// The quantum register, or an error if no `qalloc` has run.
+    fn qpu_mut(&mut self) -> Result<&mut crate::qpu::StateVector, String> {
+        self.qpu.as_mut().ok_or_else(|| "quantum instruction before qalloc".to_string())
     }
 
     /// Read register value (x0 always returns ZERO)
@@ -643,6 +657,63 @@ impl Cpu {
                 let res = InfoUnit::qrand(&mut self.rng_seed);
                 self.set_reg(*rd, res);
                 self.metrics.info_ops += 1;
+                self.pc = next_pc;
+            }
+
+            // ─── Quantum coprocessor (U-QPU phase 1, ADR-0003) ───────────
+            Instruction::QAlloc { n } => {
+                let mut sv = crate::qpu::StateVector::new(*n as u32)?;
+                sv.rng = crate::qpu::QRng::new(self.qpu_seed);
+                self.qpu = Some(sv);
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QG1 { gate, q } => {
+                self.qpu_mut()?.apply1(*q as u32, &gate.matrix())?;
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QRot { axis, q, rs } => {
+                let theta = f64::from_bits(self.get_reg(*rs).as_u64());
+                self.qpu_mut()?.apply1(*q as u32, &axis.matrix(theta))?;
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QCx { c, t } => {
+                self.qpu_mut()?.cx(*c as u32, *t as u32)?;
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QCz { a, b } => {
+                self.qpu_mut()?.cz(*a as u32, *b as u32)?;
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QMeas { rd, q } => {
+                let m = self.qpu_mut()?.measure(*q as u32)?;
+                self.set_reg(*rd, Reg256::from_u64(m as u64));
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QReset { q } => {
+                self.qpu_mut()?.reset(*q as u32)?;
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QSeed { rs } => {
+                self.qpu_seed = self.get_reg(*rs).as_u64();
+                if let Some(sv) = self.qpu.as_mut() {
+                    sv.rng = crate::qpu::QRng::new(self.qpu_seed);
+                }
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
+            Instruction::QAmp { rd, rs } => {
+                let index = self.get_reg(*rs).as_u64();
+                let a = self.qpu_mut()?.amp(index)?;
+                // Complex layout of this ISA: lanes[0:1] = (re, im) of z0.
+                self.set_reg(*rd, Reg256 { lanes: [a.re.to_bits(), a.im.to_bits(), 0, 0] });
+                self.metrics.quantum_ops += 1;
                 self.pc = next_pc;
             }
 
