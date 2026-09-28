@@ -469,6 +469,7 @@ impl Assembler {
                 Ok(Instruction::QMps { n: n as u8, chi: chi as u16 })
             }
             "qtrunc" => Ok(Instruction::QTrunc { rd: parse_reg(0, "qtrunc")? }),
+            "qfest"  => Ok(Instruction::QFEst  { rd: parse_reg(0, "qfest")? }),
 
             // ─── Post-Quantum Lattice Cryptography ───────────────────────────
             "ntt"     => Ok(Instruction::Ntt     { rd: parse_reg(0, "ntt")?, rs1: parse_reg(1, "ntt")? }),

@@ -7,8 +7,11 @@
 // A[q] of shape (chi_left, 2, chi_right), complex f64, little-endian qubits.
 //
 // The refusal: truncation is never hidden. Every SVD adds its discarded weight
-// eps = sum(discarded s^2) / sum(s^2) to a ledger, and the backend reports
-// F_bound = prod(1 - eps). `qtrunc` reads it.
+// eps = sum(discarded s^2) / sum(s^2) to a ledger. `qtrunc` reads the PROVEN
+// bound F >= cos^2(sum theta_k), theta_k = asin(sqrt(eps_k)) (Fubini-Study
+// triangle inequality), and 0 once sum theta >= pi/2: nothing is guaranteed.
+// The product prod(1 - eps) is only an estimate (`qfest`): ADR-0005 measured it
+// over-claiming fidelity in 53 of 100 heavily truncated circuits.
 //
 // The state is kept in mixed canonical form: before any two-site operation the
 // orthogonality centre is moved onto the pair, so the singular values of the
@@ -16,6 +19,9 @@
 //
 // Not claimed: GPU execution (phase 2, through LYTH), speed, noise.
 // ============================================================================
+
+// Linear algebra reads as mathematics with explicit row/column indices.
+#![allow(clippy::needless_range_loop)]
 
 use crate::qpu::{C64, Mat2, QGate, QRng};
 
@@ -172,8 +178,12 @@ pub struct Mps {
     pub chi_max: usize,
     sites: Vec<Site>,
     centre: usize,
-    /// prod(1 - eps_k) over every SVD so far.
+    /// The proven lower bound on fidelity: cos^2(sum theta_k), 0 once sum theta >= pi/2.
     pub fid_bound: f64,
+    /// prod(1 - eps_k): an estimate, NOT a bound (ADR-0005, H2 failed).
+    pub fid_estimate: f64,
+    /// sum of theta_k = asin(sqrt(eps_k)).
+    pub theta_sum: f64,
     /// Every eps_k, in order, for analysis (ADR-0004 G3).
     pub eps_log: Vec<f64>,
     /// SVDs that stopped on the Jacobi sweep cap (reported, ADR-0004 section 3).
@@ -197,6 +207,8 @@ impl Mps {
             sites: vec![site; n as usize],
             centre: 0,
             fid_bound: 1.0,
+            fid_estimate: 1.0,
+            theta_sum: 0.0,
             eps_log: Vec::new(),
             jacobi_capped: 0,
             rng: QRng::new(0),
@@ -242,7 +254,9 @@ impl Mps {
         let kept: f64 = s[..k].iter().map(|x| x * x).sum();
         let eps = if total > 0.0 { ((total - kept) / total).max(0.0) } else { 0.0 };
         if eps > 0.0 {
-            self.fid_bound *= 1.0 - eps;
+            self.fid_estimate *= 1.0 - eps;
+            self.theta_sum += eps.sqrt().min(1.0).asin();
+            self.fid_bound = if self.theta_sum < std::f64::consts::FRAC_PI_2 { self.theta_sum.cos().powi(2) } else { 0.0 };
             self.eps_log.push(eps);
         }
         // Renormalise the kept part to the weight it came from.

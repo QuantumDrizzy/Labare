@@ -94,6 +94,20 @@ as the U-QPU.
 - If G3 finds F < F_bound, the bound is wrong, and QGPU does not claim a fidelity until it is
   replaced.
 
-## 6. Results
+## 6. Results (2026-09-29, first run; sections 1–5 unchanged)
 
-(filled after the run)
+| | result | bound |
+|---|---|---|
+| **G1** exact capacity vs Qiskit | 200 circuits through the ISA with `qmps n, 2^⌈n/2⌉`: worst \|Δ\| = **2.7e-15**, min F_bound = 1 | 1e-10 |
+| **G2** QGPU = QPU | same 200, MPS against state vector, both through the ISA: worst **2.4e-15** | 1e-10 |
+| **G3** the bound does not lie | **FAIL: non-vacuity not met.** 10 of 100 circuits truncated, 80 required. The random gate set has 2 entangling kinds in 13, so the bond rarely passed χ = 4. In the 10 that truncated, F ≥ F_bound held (min gap −2.2e-15). Kept as an ignored, recorded test; re-registered as ADR-0005 | ≥ 80 truncated |
+| **G4** beyond a state vector | GHZ on **100 qubits** at χ = 2: ⟨0…0\|ψ⟩ = ⟨1…1\|ψ⟩ = 0.707106781186548, another basis state 0, F_bound = 1. 1,000 fresh shots measuring all 100 qubits: every shot all-0 or all-1 (464 / 536, 2.28 σ). `qalloc 100` is refused | 1e-12, 4 σ |
+| **G5** feed-forward on the MPS | the teleportation program with `qmps 3, 4`: 1,000 Haar states, worst \|1 − F\| = **8.9e-16**, all four branches | 1e-12 |
+| **G6** no regressions | 84 tests pass, 1 ignored (G3's record); clippy (all targets) clean | — |
+
+**What ADR-0005 then found, and what changed.** Under heavy truncation, the product
+Π(1 − ε) over-claims fidelity in 53 of 100 circuits (ADR-0005 §5). As ADR-0005 pre-registered,
+`qtrunc` now reports the proven bound cos²(Σθ). The product survives only as `qfest`, an
+estimate. A MTLB program that reads `qtrunc` is reading a guarantee.
+
+**Not claimed, again:** the contractions run on the host. The GPU is phase 2, through LYTH.

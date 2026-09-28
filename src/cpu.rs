@@ -713,6 +713,12 @@ impl Cpu {
                 self.metrics.quantum_ops += 1;
                 self.pc = next_pc;
             }
+            Instruction::QFEst { rd } => {
+                let f = self.qpu_mut()?.fid_estimate();
+                self.set_reg(*rd, Reg256::from_u64(f.to_bits()));
+                self.metrics.quantum_ops += 1;
+                self.pc = next_pc;
+            }
             Instruction::QSeed { rs } => {
                 self.qpu_seed = self.get_reg(*rs).as_u64();
                 if let Some(b) = self.qpu.as_mut() {

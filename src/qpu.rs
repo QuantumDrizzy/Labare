@@ -351,11 +351,18 @@ impl Backend {
             Backend::Mps(s) => s.rng = rng,
         }
     }
-    /// The fidelity bound: 1 for the exact backend, prod(1 - eps) for the MPS.
+    /// The proven fidelity lower bound: 1 for the exact backend; cos^2(sum theta) for the MPS.
     pub fn fid_bound(&self) -> f64 {
         match self {
             Backend::StateVector(_) => 1.0,
             Backend::Mps(s) => s.fid_bound,
+        }
+    }
+    /// The product estimate prod(1 - eps): not a bound (ADR-0005).
+    pub fn fid_estimate(&self) -> f64 {
+        match self {
+            Backend::StateVector(_) => 1.0,
+            Backend::Mps(s) => s.fid_estimate,
         }
     }
 }

@@ -46,6 +46,25 @@ bookkeeping is wrong, and QGPU claims nothing until it is fixed.
 
 Nothing about other circuit families or larger n. One family, stated.
 
-## 5. Results
+## 5. Results (2026-09-29; sections 1–4 unchanged)
 
-(filled after the run)
+| | result |
+|---|---|
+| **H1** non-vacuity | **PASS.** 100 / 100 truncated. F ranged from 0.055 to about 0.53 |
+| **H2** the reported product bound | **FAIL.** F < Π(1 − ε) − 1e-9 in **53 of 100** circuits, by up to 0.054 (circuit records in `experiments/qgpu/adr5_result.txt`) |
+| **H3** the proven bound | **PASS.** It applies in 13 circuits (Σθ < π/2), and F ≥ cos²(Σθ) in all 13, min gap +5.3e-15. The bookkeeping is right, and the proven bound is tight |
+
+**What it means.** The standard estimate holds under light truncation: in ADR-0004's 10
+truncated circuits it never over-claimed. Under heavy truncation it over-claims fidelity about
+half the time. A reported fidelity that is wrong half the time where it matters is not a bound.
+
+**What changed, as pre-registered in §3:**
+- `qtrunc` reports the proven bound. When Σθ ≥ π/2 it reports 0: under that much truncation,
+  nothing is guaranteed, and the engine says so.
+- `qfest` reports the product as an estimate, named as one.
+- The test locks H2's 53 as a regression, so a change in the numerics shows up, and asserts
+  that the new `qtrunc` over-claims in 0 of 100.
+
+Reference: Zhou, Stoudenmire & Waintal, "What limits the simulation of quantum computers?",
+PRX 10, 041038 (2020), for the product estimate. The proven bound is the triangle inequality of
+the Fubini–Study angle.
