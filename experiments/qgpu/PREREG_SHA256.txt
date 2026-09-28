@@ -1,0 +1,5 @@
+sha256=6462acde1f9d9384849f7f80e914d4917447e39091cf0891733e2b43cc404e31
+file=experiments/qgpu/ADR-0004.prereg-frozen.md
+frozen_at=2026-09-29T01:37:57+02:00
+git_head=8e0f2b7e06b699a876f48cb39960b4883b795550
+note=frozen before any QGPU phase-1 code was written
