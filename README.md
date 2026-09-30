@@ -1,10 +1,11 @@
-# Unibit
+# Labare
 
-A 256-bit instruction set architecture, written from scratch in Rust with zero
-dependencies: emulator, two-pass assembler, object format, disassembler and a
-cost model.
+**Labare is a processor programme** (CPU → TPU → QPU/QGPU): a 256-bit instruction set
+architecture, written from scratch in Rust with zero dependencies — emulator, two-pass
+assembler, object format, disassembler and a cost model. The repository was called MTLB; the ISA
+and its tools keep their internal name, `unibit` (the crate, the binary, `.uasm` assembly).
 
-The name is the idea. A register is **one 256-bit word**, and the instruction
+The ISA's name is the idea. A register is **one 256-bit word**, and the instruction
 decides what that word *means* — a 64-bit scalar, 32 packed bytes, two complex
 numbers, or four polynomial coefficients over a finite ring. The hardware
 understands types, not just widths.
